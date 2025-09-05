@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . && npx htmlhint '**/*.html' && npx stylelint '**/*.{css,scss,js,ts,tsx,jsx}'",
+    "lint": "eslint imagemaps www --ext .js,.jsx,.ts,.tsx && npx htmlhint 'imagemaps/**/*.html' 'www/**/*.html' && npx stylelint 'imagemaps/**/*.{css,scss,js,ts,tsx,jsx}' 'www/**/*.{css,scss,js,ts,tsx,jsx}'",
     "lint:fix": "eslint . --fix && npx stylelint '**/*.{css,scss,js}' --fix",
     "prepare": "husky"
   },
