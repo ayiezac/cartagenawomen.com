@@ -1,0 +1,146 @@
+<style>
+    #modal-close-btn {
+        font-size: 18px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 1rem;
+        color: #293f48;
+    }
+
+    .x-close {
+        color: #c70e15;
+    }
+
+    .x-close:hover {
+        color: #ed1c24;
+    }
+
+    .mega-dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        top: 15%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 99;
+        padding: 0 11%;
+        min-height: 450px;
+    }
+
+
+ .mega-header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+    @media only screen and (max-width: 991px) {
+
+        .mega-dropdown-content,
+        .mega-dropdown-content2 {
+            display: none !important;
+        }
+    }
+    .mega-dropdown-content2.open-services {
+    width: 100%;
+    left: auto;
+    }
+    .mega-dropdown-content2 {
+        height: 35rem;
+        position: absolute;
+        display: none;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        top: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 99;
+        padding: 0 11%;
+        min-height: 400px;
+        animation-name: slidein;
+        animation-duration: 0.5s;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: translateX(-100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
+    }
+
+</style>
+<!-- for BTM CTA -->
+<div class="mega-dropdown-content for-btm-cta" id="mega-dropdown-content">
+
+    <div class="mega-header">
+        <h2>Our Services</h2>
+        <div class="close-btn-div text-end">
+        <a class="fc-sidemenu mega-menu-header" id="modal-close-btn" href="javascript:;">Close <span
+                aria-hidden="true"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #b9c398;"></i></span></a>
+    </div>
+    </div>
+    
+    <div class="mega-row">
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-location-dot"></i> &nbsp;Book a Tour, Travel & Meet Her</h3>
+            <a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html/">Group Tours</a>
+            <a href="/latin_club/">Club Tours</a>
+            <a href="/order-form/introductions-order-form.html">One-on-one Introductions</a>
+        </div>
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-bookmark"></i> &nbsp;Service Options We Offer</h3>
+            <a href="/phone_translation/">Virtual Phone / Video Translation</a>
+            <a href="/execu/professional-matchmaker-plan.html">Executive Plan Package</a>
+            <a href="/order-form/imbra-order-form.html">IMBRA Request</a>
+            <a href="/visa/visa-kit.shtml">Fiancee Visa Kit</a>
+        </div>
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-bookmark"></i> &nbsp;Media & Client Testimonials</h3>
+            <a href="/cartagena-women-videos/">Tour Videos</a>
+            <a href="/cartagena-women-videos/testimonial-videos.html">Testimonial Videos</a>
+            <a href="/cartagena-women-videos/informational-videos.html">Informational Videos</a>
+            <!-- <a href="#">Client Reviews</a> -->
+            <a href="/blog/">Blogs</a>
+        </div>
+    </div>
+
+</div>
+<!-- for top Header -->
+<div class="mega-dropdown-content2 for-top-header" id="mega-dropdown-content2">
+
+    <div class="mega-header">
+        <h2>Our Services</h2>
+    </div>
+    <div class="close-btn-div text-end">
+        <a class="fc-sidemenu mega-menu-header-close" id="modal-close-btn" href="javascript:;" onclick="closeModal()">Close
+            <span aria-hidden="true"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #b9c398;"></i></span></a>
+    </div>
+    <div class="mega-row">
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-location-dot"></i> &nbsp;Book a Tour, Travel & Meet Her</h3>
+            <a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html/">Group Tours</a>
+            <a href="/latin_club/">Club Tours</a>
+            <a href="/order-form/introductions-order-form.html">One-on-one Introductions</a>
+        </div>
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-bookmark"></i> &nbsp;Service Options We Offer</h3>
+            <a href="/phone_translation/">Virtual Phone / Video Translation</a>
+            <a href="/execu/professional-matchmaker-plan.html">Executive Plan Package</a>
+            <a href="/order-form/imbra-order-form.html">IMBRA Request</a>
+            <a href="/visa/visa-kit.shtml">Fiancee Visa Kit</a>
+        </div>
+        <div class="mega-column">
+            <h3><i class="fa-solid fa-bookmark"></i> &nbsp;Media & Client Testimonials</h3>
+             <a href="/cartagena-women-videos/">Tour Videos</a>
+            <a href="/cartagena-women-videos/testimonial-videos.html">Testimonial Videos</a>
+            <a href="/cartagena-women-videos/informational-videos.html">Informational Videos</a>
+            <!-- <a href="#">Client Reviews</a> -->
+            <a href="/blog/">Blogs</a>
+        </div>
+    </div>
+
+</div>

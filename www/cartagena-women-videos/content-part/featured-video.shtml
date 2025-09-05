@@ -1,0 +1,18 @@
+<section class="row cardcontainer">
+    <div class="card border-0" id="skeletonPlaceholderContainer">
+        <div class="row g-0">
+            <div class="col-md-7 skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="img-fluid rounded-5 loaded w-100" alt="‘It’s Women OVERLOAD!’ Foreigners Dating 100+"
+                    fetchpriority="high" decoding="async" width="661" height="372">
+            </div>
+            <div class="col-md-5">
+                <div class="card-body border rounded-end border-0 placeholder-glow d-grid gap-3">
+                    <span class="placeholder col-6 rounded-pill"></span>
+                    <span class="placeholder w-75 rounded-pill"></span>
+                    <span class="placeholder w-25 rounded-pill"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

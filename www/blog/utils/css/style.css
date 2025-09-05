@@ -1,0 +1,126 @@
+div.midcontarea {
+  width: 100% !important;
+  max-width: 1170px !important;
+}
+
+#readtime {
+  display: none;
+  content-visibility: hidden;
+}
+
+@media (width < 991.98px) {
+  .mobile-inner-rotator {
+    padding-top: unset !important;
+    padding-block: 10px !important;
+  }
+}
+
+[data-id=featured-container] [data-id=highlight-featured] .card .card-body a.card-title {
+  color: #4a0d05;
+}
+
+.cluster-title::after {
+  display: block;
+  content: "";
+  height: 2px;
+  background-color: #414F10;
+  flex: 1;
+}
+
+.cta-link {
+  color: #414F10 !important;
+  border: 0.2rem solid #414F10;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 50rem;
+  font-weight: 600 !important;
+  transition: all 0.2s ease;
+  text-wrap: balance;
+}
+@media (max-width: 1032px) {
+  .cta-link#cta-link-desktop {
+    display: none;
+  }
+}
+.cta-link#cta-link-mobile {
+  display: none;
+}
+@media (max-width: 1032px) {
+  .cta-link#cta-link-mobile {
+    display: block;
+  }
+}
+.cta-link:is(:hover, :focus) {
+  background-color: #526414;
+  color: #edf5cf !important;
+  border: #edf5cf 0.2rem solid;
+  text-decoration: none;
+}
+.cta-link:focus {
+  text-decoration: none !important;
+}
+
+[data-id=dating-container] .card-title {
+  text-wrap: balance;
+}
+
+:is([data-id=success_stories-container], [data-id=travel-container]) {
+  scroll-margin-block-start: 15rem;
+}
+@media (width < 991.98px) {
+  :is([data-id=success_stories-container], [data-id=travel-container]) {
+    scroll-margin-block-start: 1.5rem;
+  }
+}
+@media (max-width: 1032px) {
+  :is([data-id=success_stories-container], [data-id=travel-container]) [data-id=other-posts] div:nth-child(n+4) {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  :is([data-id=success_stories-container], [data-id=travel-container]) [data-id=other-posts] div:nth-child(n+4) {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  :is([data-id=success_stories-container], [data-id=travel-container]) [data-id=other-posts] div:nth-child(n+4) {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  :is([data-id=success_stories-container], [data-id=travel-container]) [data-id=other-posts] div:nth-child(n+3) {
+    display: none;
+  }
+}
+
+:is([data-id=culture-container], [data-id=psychology-container], [data-id=dating-container], [data-id=realities-container]) {
+  scroll-margin-block-start: 15rem;
+}
+@media (width < 991.98px) {
+  :is([data-id=culture-container], [data-id=psychology-container], [data-id=dating-container], [data-id=realities-container]) {
+    scroll-margin-block-start: 1.5rem;
+  }
+}
+:is([data-id=culture-container], [data-id=psychology-container], [data-id=dating-container], [data-id=realities-container]) img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  aspect-ratio: 16/9;
+}
+@media (width < 991.98px) {
+  :is([data-id=culture-container], [data-id=psychology-container], [data-id=dating-container], [data-id=realities-container]) .col:nth-child(n+5) {
+    display: none;
+  }
+}
+@media (width < 767.98px) {
+  :is([data-id=culture-container], [data-id=psychology-container], [data-id=dating-container], [data-id=realities-container]) .col:nth-child(n+4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  #desktop-blog-nav-container menu {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

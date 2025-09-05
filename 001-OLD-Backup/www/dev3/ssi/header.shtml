@@ -1,0 +1,21 @@
+<!--#include virtual="/dev3/ssi/top-navi-all-pages.shtml" -->
+
+	<div class="row bg-cover">
+		<div class="container">
+			<div class="col-lg-4 cus_carousel">
+
+
+				
+			</div>
+                <div class="col-lg-4">
+                    <div class="img-zoom">
+                        <ul class="main-image-rotator text-center">
+                        <!--#include virtual="/dev3/ssi/latin-personals-rotator.php" --> 
+                        </ul>
+                    </div>
+                    <div style="color:#fff; font-size:22px; text-align:center; padding-top: 15px;">
+<!--                         <strong>Find your match among Latin America's most eligible brides.</strong> -->
+                    </div>
+                </div>
+		</div>
+	</div>

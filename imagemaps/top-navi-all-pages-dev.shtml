@@ -1,0 +1,592 @@
+<meta charset="utf-8">
+
+<script defer src="/members/scripts/lp_track.min.js" async></script>
+
+
+<link rel="stylesheet" TYPE="text/css" href="/invar/ssi-common/framework.css">
+<script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+<script src="/invar/ssi-common/jscript/ddaccordion.js"></script>
+<script src="/invar/ssi-common/jscript/framework.min.js"></script>
+<link rel="icon" href="/favicon.ico" />
+<!-- <link rel="stylesheet" href="/imagemap/st_site.css" /> -->
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGXSCLM" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-------------------------floating components---------------------------------------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/masterslider.main.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/style.css">
+<link rel="stylesheet" href="/imagemap/bottom-cta.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="/imagemap/st_site.css">
+
+
+<style>
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 18;
+        /* Stay on top */
+        top: 0px !important;
+        left: 0;
+        background-color: #fbfbfb;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 0px !important;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+        box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+    }
+
+    .left-menu {
+        border: none;
+    }
+
+    .oc-menu .left-menu {
+        border: none;
+    }
+
+
+    .news-top {
+        display: none !important;
+    }
+
+    /* .news-wrapper {
+    margin-bottom: 30px !important;
+} */
+    /* The navigation menu links */
+    /* .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+} */
+
+    /* When you mouse over the navigation links, change their color */
+    /* .sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+} */
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        text-decoration: none;
+    }
+
+    .news {
+        display: none !important;
+    }
+
+
+    /**delete sidebar single tour schedule **/
+
+    .sidenav .tour-date-departs {
+        display: none;
+    }
+
+    /* .heading{
+  border:none !important;
+}
+
+.heading h5{
+    background-color: #959595;
+    border-radius: 0;
+    border:none !important;
+   
+} */
+
+
+/**hide cartagena women-banner**/
+
+.cartagenawomen-banner {
+    display: none;
+}
+
+/**hide  rotator**/
+.main-image-rotator {
+    display: none;
+}
+
+    .main-content p {
+        font-size: 18px !important;
+        color: #000;
+        /* margin:10px 50px 10px 50px; */
+        text-align: left;
+        line-height: 1.8em;
+        padding: 0;
+    }
+
+    .main-content h2 {
+        font-size: 28px;
+        color: #39b54a;
+        /* margin: 50px 50px 10px 50px; */
+    }
+
+    /* .main-content h3{
+  margin: 50px 50px 10px 50px;
+} */
+    /* .cluster-data{
+  margin: 50px 50px 10px 50px;
+} */
+    .ul.ml-20 {
+        margin-left: 80px !important;
+    }
+
+    .main-content ul {
+        text-align: left !important;
+    }
+
+    .footer-bg,
+    .footer {
+        margin: 0px !important;
+
+    }
+
+    /*override*/
+    .header-top2 {
+        display: none;
+    }
+
+    .main-content {
+        margin: 0px auto;
+        width: 1600px;
+        max-width: 100%;
+
+    }
+
+    .banner-bg {
+        margin-top: 100px !important;
+        padding: 20px !important;
+        min-height: unset !important;
+        display: none;
+    }
+
+    .header-caption2 {
+        margin: 0;
+    }
+
+
+
+    .footer-nav {
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    .banner-rotator {
+        width: 80% !important;
+    }
+
+    .medialogos .item img {
+        width: unset !important;
+    }
+
+    .midcontarea {
+        padding: 20px !important;
+        max-width: 100% !important;
+        width: 1600px !important;
+        margin: 200px auto 0px !important;
+    }
+
+    .midcontarea p {
+        font-size: 16px !important;
+    }
+
+    figure.figure.pull-right {
+        display: none;
+    }
+
+   
+    .form-horizontal 
+    .list-group {
+        margin-bottom: 0 !important;
+    }
+
+    .content-area {
+        padding: 0 !important;
+    }
+
+    .main-nav2 .navbar-nav li {
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
+
+  
+    /*end override*/
+
+    /* @media screen and (max-width: 991px){
+  #P_masterslider_mobile{
+    width: 100% !important;
+    left: -50px !important;
+  }
+  } */
+
+  @media screen and (max-width: 1023px) {
+
+    .header-top2 {
+            display: block;
+            position: fixed;
+            width: 100%;
+            z-index: 9999;
+        }
+
+
+           .toprightarea,
+        .ada-icon-link {
+            display: none;
+        }
+
+    .header-top2 .navbar-header {
+
+    /* position: absolute !important; */
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+
+    }
+
+    .header-top2 .navbar-header a {
+        margin-right:auto;
+    }
+    .header-top2 .navbar-inverse {
+        z-index: 5;
+        background: #F5F5F5;
+       
+    }
+
+
+     .header-top2 .navbar-inverse .navbar-toggle {
+        border: 2px solid #84A21B;
+     }
+
+    .header-top2  .navbar-collapse.collapse.in {
+        background: #84A21B;
+    }
+
+
+    .header-caption2 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+    .header-top2 .dropdown-toggle::after {
+        display: none;
+    }
+
+    .header-top2 .navbar-inverse .navbar-nav .active a, .navbar-nav .open .dropdown-toggle {
+        background-color: #414F10 !important;
+      } 
+
+    .header-top2 .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #84A21B;
+    }
+
+   
+ 
+
+         .midcontarea {
+            display: block !important;
+            margin-top: 250px !important;
+        }
+
+        .mobile-sidebar-area {
+            display: block !important;
+        }
+
+        .mobile-sidebar-area .panel-group.mobile-sidebar-panel {
+            margin-top: 280px !important
+        }
+
+        .mobile-sidebar-panel h4 a img  {
+            position: relative;
+        }
+
+        .mobile-sidebar-panel h4 a img {
+            right: 0; 
+        }
+
+        .mobile-sidebar-panel .panel-title {
+                display: flex;
+                justify-content: space-between;
+        }
+
+        .midcontarea {
+            margin-top: 0 !important;
+        }
+
+  }
+
+    /* @media screen and (max-width: 470px) {
+        .row {
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+    } */
+
+
+    /* @media screen and (max-width: 991px) and (min-width: 300px) {
+
+
+        .header-top2 {
+            display: block;
+            position: fixed;
+            width: 100%;
+            z-index: 1;
+        }
+
+        .logo2 a img {
+            margin: 0 !important;
+            float: left !important;
+        }
+
+        .toprightarea,
+        .ada-icon-link {
+            display: none;
+        }
+
+        .navbar-default .navbar-toggle {
+            margin-top: 16px !important;
+        }
+
+        .navbar-header {
+            float: right !important;
+            position: absolute !important;
+            top: -53px !important;
+
+        }
+
+        .midcontarea {
+            display: block !important;
+            margin-top: 250px !important;
+        }
+
+
+    } */
+
+    /* @media screen and (max-width: 767px) and (min-width: 300px) {
+
+        .header,
+        .header-head2 {
+            margin: 0;
+            padding: 15px !important;
+            background-color: #0c0c0c;
+            display: none !important;
+        }
+
+        .main-nav .navbar .container-fluid .navbar-header {
+            background-color: #fff;
+            box-shadow: -1px 9px 11px -1px rgba(0, 0, 0, 0.31);
+            -webkit-box-shadow: -1px 9px 11px -1px rgba(0, 0, 0, 0.31);
+            -moz-box-shadow: -1px 9px 11px -1px rgba(0, 0, 0, 0.31);
+        }
+
+        .has-yt-play-btn {
+            display: none;
+        }
+
+        .bg {
+            display: none;
+        }
+
+        .content .mobile-sidebar-area .mobile-sidebar-panel .panel {
+            padding: 15px;
+            position: relative;
+            background-color: #787878;
+        }
+
+        .main-nav .navbar-default .navbar-toggle {
+            margin: 15px !important;
+        }
+
+        .navbar-header .row a img {
+            height: 78px;
+        }
+    } */
+</style>
+
+
+
+
+
+<div class="container cartagenawomen-banner">
+    <div class="col-lg-4 col-md-12 col-sm-12 logo_cartagena">
+        <a href="/"><img src="/img/cartagena-women-logo.png" width="380" height="53" class="img-responsive"
+                alt="Cartagena Women Logo"></a>
+    </div>
+    <div class="col-lg-8 col-md-12 col-sm-12 contact-head">
+        <!-- <h3>Call Us Now:
+              <small>
+                <a href="tel:602-553-8178">
+                  <mark>602-553-8178</mark>
+                </a>
+              </small>
+            </h3> -->
+
+        <div class="col-lg-4" id="number">
+            <a href="/invar/sendmess/index.php"><img src="/img/contact-number.png" class="img-responsive"></a>
+        </div>
+
+        <a data-toggle="modal" data-target=".cartagenawomen-modal">
+            <button style="color:white; margin: 0px 0px 20px;">Register for FREE Instantly <br><span>No Obligation - No
+                    Credit Card Required</span></button>
+        </a>
+    </div>
+</div>
+
+<div class="container-fluid poltava-main-navigation header-top2 ">
+    <div class="row">
+        <div class="container">
+            <nav class="row navbar navbar-inverse">
+                <div class="ada-icon-link">
+                    <a href="/information/ada/index.html"><img class="ada-icon" src="/information/ada/handicap-icon.png"
+                            width="15" height="19" alt="Link to ADA Handicap Assistance and Information" border="0"></a>
+                    <a href="#main-content"><img src="/information/ada/arrow-forward.png" width="13" height="13"
+                            alt="Disabled Skip to Main Page Content" border="0"></a>
+                </div>
+                <div class="navbar-header">
+                    <a href="https://cartagenawomen.com/"><img src="/img/cartagena-women-logo.png" width="200" height="53" class="img-responsive" alt="Cartagena Women Logo"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav text-center">
+                        <li><a href="/" target="_top">Home</a></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                href="">Cartagena Women Profile <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/members/signup/">Men&#8217;s FREE Registration</a></li>
+                                <li><a href="/women/cartagena-women/cartagena-women.htm">Cartagena Women&#8217;s
+                                        Profiles</a></li>
+                                <li><a href="/new-cartagena-women.html">Newest Singles in Cartagena Women</a></li>
+                                <li><a href="/mp/latin-women.htm">All Latin Women</a></li>
+                                <li><a href="/newest-latin-women/">Newest Latin Women</a> </li>
+                                <li><a href="/search-single-foreign-women-worldwide.html">Want More? Single Women
+                                        Worldwide
+                                <li></a></li>
+                                <li><a href="/new-single-girls-for-marriage-worldwide.html">This Weeks New Girls
+                                        Worldwide</a></li>
+                                <li><a href="/search-cartagenawomen-seeking-men/">Advance Search</a></li>
+                                <li><a href="/order-form/automatchmaillist.shtml">Weekly Auto Match Wizard</a></li>
+                            </ul>
+                        </li>
+
+
+
+
+
+
+                        <li><a href="/women-tour/" target="_top">Cartagena Women Singles Tours</a></li>
+                        <li><a href="/how-to-meet-women-in-cartagena.html" target="_top">How to Meet Women in
+                                Cartagena</a></li>
+                        <li><a href="/new-cartagena-women.html" target="_top">Newest Profiles</a></li>
+                        <li><a href="/search-cartagenawomen-seeking-men/" target="_top">Advanced Search</a></li>
+                        <li><a href="/members/login" target="_top"> <svg width="15" height="15" fill="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.592 3.027C14.68 2.042 13.406 1.5 12 1.5c-1.414 0-2.692.54-3.6 1.518-.918.99-1.365 2.334-1.26 3.786C7.348 9.67 9.528 12 12 12c2.472 0 4.648-2.33 4.86-5.195.106-1.439-.344-2.78-1.268-3.778Z">
+                                    </path>
+                                    <path
+                                        d="M20.25 22.5H3.75a1.454 1.454 0 0 1-1.134-.522 1.655 1.655 0 0 1-.337-1.364c.396-2.195 1.63-4.038 3.571-5.333C7.574 14.132 9.758 13.5 12 13.5c2.242 0 4.426.633 6.15 1.781 1.94 1.294 3.176 3.138 3.571 5.332.091.503-.032 1-.336 1.365a1.453 1.453 0 0 1-1.135.522Z">
+                                    </path>
+                                </svg> My Account</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- START OF BOTTOM CTA NAV MOBILE -->
+
+    <div id="bottom-cta-nav-mobile-top" class="sticky-top fixed-top">
+        <ul class="list-group list-group-horizontal mx-auto">
+            <li class="list-group-item border-0 w-100">
+                <div class="rotator-girlss">
+                    <!-- MasterSlider -->
+
+
+                    <div id="P_masterslider_mobile" class="master-slider-parent ms-staff-carousel ms-parent-id-49">
+                        <!-- MasterSlider Main -->
+                        <div id="masterslider_mobile" class="master-slider ms-skin-default">
+
+                            <!--#include virtual="/imagemap/cartagenawomen-rotator.php" -->
+
+                        </div>
+                        <!-- END MasterSlider Main -->
+                    </div>
+                    <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider -->
+
+            </li>
+        </ul>
+    </div>
+    <div id="bottom-cta-nav-mobile" class="sticky-bottom fixed-bottom">
+
+        <ul class="list-group list-group-horizontal mb-0">
+            <li class="list-group-item">
+                <a target="_blank" href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html"
+                    class="fw-b2 nav-link my-sm-0"><i class="fa-solid fa-location-dot pr-1 fa-2x"></i>
+                    <p class="small">Tour<br />Schedule</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a target="_blank" href="/new-cartagena-women.html" class="fw-b2 nav-link my-sm-0"><i
+                        class="fa-brands fa-hotjar text-warning pr-1 fa-2x"></i>
+                    <p class="small">Newest Ladies<br />Profiles</p>
+                </a>
+            </li>
+            <li class="list-group-item">
+                <a target="_blank" href="/members/signup" class="fw-b2 nav-link my-sm-0 bg-success text-white"><i
+                        class="fa-solid fa-user-plus pr-1 fa-2x"></i>
+                    <p class="small text-white">FREE<br />REGISTRATION</p>
+                </a>
+            </li>
+            <!-- <li class="list-group-item">
+            <a href="#" class="fw-b2 nav-link my-sm-0"><i class="fa-solid fa-user-plus pr-1 fa-2x"></i> <p class="small">Register<br/>for FREE</p></a>
+        </li> -->
+        </ul>
+
+    </div>
+
+</div>

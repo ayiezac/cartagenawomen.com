@@ -1,0 +1,13 @@
+default /tours/
+
+rect /index1.htm 0,0 173,22
+rect /tour/order/order_cartagena_tour.shtml 0,23 173,45
+rect /tour/order/brochure.shtml 0,46 173,68
+rect /tour/platmem.shtml 0,69 173,91
+rect /tours/ 174,0 347,22
+rect /women/women_of_city/cartagena_1.htm 174,46 347,68 
+rect /tour/order/tour.shtml 174,23 347,45
+rect /visa/ 174,69 347,91
+
+
+

@@ -1,0 +1,34 @@
+<nav class="d-flex flex-wrap align-items-center gap-3 mt-3 mb-5 border-bottom pb-4 justify-content-between">
+    <h1 class="d-flex align-items-center m-0 text-decoration-none display-5 p-0 text-dark text-start"
+        style="text-wrap: balance;">
+       Cartagena Women Blogs
+    </h1>
+    <div id="desktop-blog-nav-container" class="d-none d-xl-block">
+        <menu data-id="nav-blog" class="list-group shadow-none list-group-horizontal m-0">
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#dating">Dating</a></li>
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#culture">Culture</a></li>
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#travel">Travel</a></li>
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#psychology">Psychology</a></li>
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#realities">Realities</a></li>
+            <li class="list-group-item border-0 p-3"><a class="link-secondary fw-medium" href="#our-process">Our Process/Service</a></li>
+        </menu>
+    </div>
+    <div class="d-block d-xl-none">
+        <div class="d-flex align-items-center gap-3">
+            <span class="mb-0 text-nowrap fw-medium">Read other topics about:</span>
+            <div class="dropdown-center">
+                <button class="dropdown-toggle bg-transparent border rounded-pill py-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Select a topic
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-start" href="#dating">Dating</a></li>
+                  <li><a class="dropdown-item text-start" href="#culture">Culture</a></li>
+                  <li><a class="dropdown-item text-start" href="#travel">Travel</a></li>
+                  <li><a class="dropdown-item text-start" href="#psychology">Psychology</a></li>
+                  <li><a class="dropdown-item text-start" href="#realities">Realities</a></li>
+                  <li><a class="dropdown-item text-start" href="#our-process">Our Process/Service</a></li>
+                </ul>
+              </div>
+        </div>
+    </div>
+</nav>

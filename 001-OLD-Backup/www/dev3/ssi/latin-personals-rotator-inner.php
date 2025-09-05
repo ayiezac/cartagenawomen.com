@@ -1,0 +1,22 @@
+<?php
+ $numberBegin = 760;
+ $numberEnd = 779;
+ $numberPhotos = 10; 
+ function genHTMLPeru($numer) {
+  return '<li><a href="/mp/info'.$numer.'.htm"><img src="/mp/p'.$numer.'-1.jpg" alt="Chinese Brides" /></a></li>'; 
+ }
+
+ 
+ $HTML = ""; 
+ $arr = range($numberBegin, $numberEnd); 
+ if($numberPhotos > count($arr)) $numberPhotos = count($arr);
+ 
+ for($i=0;$i<$numberPhotos;$i++) {
+  $randKey = array_rand($arr); 
+  $HTML .= "\t".genHTMLPeru($arr[$randKey])."\n";
+  unset($arr[$randKey]);
+ } 
+ 
+ echo $HTML;
+ 
+?>

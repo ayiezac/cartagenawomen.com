@@ -1,0 +1,56 @@
+<!--#set var="site_title" value="Cartagena Women" -->
+<!--#set var="bgcolor" value="#B5B3B1" -->
+
+<!--#set var="background" value="/imagemap/back_white.gif" -->
+<!--#set var="java_and_style" value="<link rel=\"stylesheet\" TYPE=\"text/css\" href=\"/imagemap/tour-menu.css\"><link rel=\"stylesheet\" TYPE=\"text/css\" href=\"/imagemap/st_site.css\"><SCRIPT src=\"/imagemap/nw.js\" language=\"JavaScript\"></SCRIPT>" -->
+<!--#set var="metaconfig" value="/imagemap/meta.shtml" -->
+
+<!--#set var="text_color" value="#3E377B" -->
+<!--#set var="link_color" value="#3E377B" -->
+<!--#set var="alink_color" value="#3E377B" -->
+<!--#set var="vlink_color" value="#3E377B" -->
+<!--#set var="topmargin" value="10" -->
+<!--#set var="leftmargin" value="10" -->
+<!--#set var="logopro" value="tourlogo-pro.gif" -->
+
+<!--#set var="name" value="Cartagena Women" -->
+<!--#set var="shortname" value="Cartagena Women" -->
+
+<!--#set var="tour_address" value="
+Hotel Michel Plaza<br>
+Av. San Martin # 5-52, L 13<br>
+Cartagena - Bolivar<br>
+Colombia, Sur America<br>
+Ph 1-800-576-3367<br>
+" -->
+<!--#set var="address" value="
+Hotel Michel Plaza<br>
+Av. San Martin # 5-52, L 13<br>
+Cartagena - Bolivar<br>
+Colombia, Sur America<br>
+Ph 1-800-576-3367<br>
+" -->
+
+<!--#set var="menu" value="
+[ <a href=\"/\">HOME</a> ] 
+[ <a href=\"/women/women_of_city/cartagena_1.htm\">WOMEN</a> ] 
+[ <a href=\"/tour/cartagena/\">TOURS</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">PRICING</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">TOUR DATES</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">RESERVATION</a> ] <br>
+[ <a href=\"/visa/\">FIANCEE VISAS</a> ] 
+[ <a href=\"/hotels/colombia/\">HOTELS INFO</a> ] 
+[ <a href=\"/apartment/cartagena/\">APARTMENTS</a> ] 
+"-->
+
+<!--#set var="tour_menu" value="
+[ <a href=\"/\">HOME</a> ] 
+[ <a href=\"/women/women_of_city/cartagena_1.htm\">WOMEN</a> ] 
+[ <a href=\"/tour/cartagena/\">TOURS</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">PRICING</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">TOUR DATES</a> ] 
+[ <a href=\"/tour/order/latin-tour-order/\">RESERVATION</a> ] <br>
+[ <a href=\"/visa/\">FIANCEE VISAS</a> ] 
+[ <a href=\"/hotels/colombia/\">HOTELS INFO</a> ] 
+[ <a href=\"/apartment/cartagena/\">APARTMENTS</a> ] 
+"-->

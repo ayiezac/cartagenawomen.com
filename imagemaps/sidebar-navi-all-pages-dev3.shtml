@@ -1,0 +1,170 @@
+<style>
+	.sidebar-header-area {
+		padding: 0px 0 10px 0;
+		border-bottom: 1px solid #e5e5e5;
+	}
+
+	.sidebar-header-area h4 {
+		font-family: 'Rosario', sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.sidebar-icon {
+		padding: 10px 0 0;
+	}
+
+	.sidebar-icon a img {
+		max-width: 40px;
+	}
+
+	.sidebar-close {
+		padding: 10px 0 0;
+	}
+
+	.sidebar-close a {
+		font-size: 18px;
+		font-weight: bold;
+		color: #000;
+		text-decoration: none;
+	}
+
+	.sidebar-close a span {
+		color: #c70e15;
+	}
+
+
+	.desktop-side-mega-menu {
+		padding: 0 0 20px 0;
+		list-style: none;
+		margin: 18px 0 0;
+		text-align: left;
+		border-bottom: 1px solid #e7e7e7;
+	}
+
+	.desktop-side-mega-menu li {
+		padding-left: 50px;
+	}
+
+	.desktop-side-mega-menu li:first-child {
+		font-weight: bold;
+		padding-left: 30px;
+	}
+
+	.desktop-side-mega-menu li a {
+		color: #333;
+		line-height: 32px;
+		display: block;
+		font-size: 15px;
+		text-decoration: none;
+	}
+
+	.desktop-side-mega-menu li a:hover {
+		text-decoration: underline;
+		text-decoration-color: #ed1c24;
+		text-decoration-thickness: 2px;
+		text-underline-offset: 7px;
+	}
+
+	.desktop-side-mega-menu li a i {
+		color: #c70e15;
+		font-size: 18px;
+	}
+	@media only screen and (min-width: 992px) {
+	.mobile-sidebar{
+		display: none !important;
+	}}
+
+	@media only screen and (max-width: 991px) {
+		#mySidenav {
+			display: none !important;
+		}
+	}
+</style>
+
+
+<div class="oc-menu sidebar-area text-center" id="mySidenav">
+
+	<div class="left-sidebar-area all-links col-lg-12 col-md-12 col-sm-12 items">
+
+		<div class="sidebar-header-area">
+			<div class="row">
+				<div class="col">
+					<h4>Main Menu</h4>
+				</div>
+
+				<div class="col sidebar-icon">
+					<!-- <a href="/"><img src="/img/shanghai-watermark.png" alt="Shanghai-Women-Icon"
+							title="https://shanghai-women.com/" /></a> -->
+				</div>
+
+				<div class="col sidebar-close">
+					<a href="javascript:void(0)" onclick="closeNav()">Close <span aria-hidden="true"><i class="fa-solid fa-circle-xmark fa-lg" style="color: #b9c398;"></i></span></a>
+				</div>
+			</div>
+		</div>
+
+		<span class="mt-3 d-block">&nbsp;</span>
+
+		<!-- Mobile Sidebar Area -->
+
+
+		<div class="mobile-sidebar">
+			<!--#include virtual="/imagemap/mobile-sidebar.shtml" -->
+
+		</div>
+
+		<!-- End Mobilde Sidebar Area -->
+
+		<!-- START DESKTOP SIDEBAR -->
+
+		<div class="desktop-sidebar-section">
+
+			<ul class="desktop-side-mega-menu">
+				<li><a href="/how-to-meet-women-in-cartagena.html"><i class="fa-solid fa-circle-question"></i>&nbsp; How Our Service Works</a></li>
+				<li><a href="/members/signup/">Signup For Free</a></li>
+				<li><a href="/information/how-to-correspond-with-women.html">Upgrade to Platinum Membership</a></li>
+			</ul>
+
+			<ul class="desktop-side-mega-menu">
+				<li><a href="/new-cartagena-women.html"><i class="fa-regular fa-image"></i>&nbsp; See Women’s Profiles in Shanghai</a></li>
+				<li><a href="/new-cartagena-women.html">Newest Shanghai Ladies Profiles</a></li>
+				<li><a href="/mp/latin-women.htm">All Latin Women Profiles</a></li>
+			</ul>
+
+			<ul class="desktop-side-mega-menu">
+				<li><a href="/women-tour/"><i class="fa-solid fa-fire"></i>&nbsp; Book a Tour, Travel & Meet Her </a></li>
+				<li><a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html">Group Tours</a></li>
+				<li><a href="/latin_club/">Club Tours</a></li>
+				<li><a href="/order-form/introductions-order-form.html">One-on-one Introductions</a></li>
+			</ul>
+
+			<ul class="desktop-side-mega-menu">
+				<li><a href="#"><i class="fa-solid fa-wrench"></i>&nbsp; Service Options We Offer</a></li>
+				<li><a href="/phone_translation/">Virtual Phone / Video Translation</a></li>
+				<li><a href="/execu/professional-matchmaker-plan.html">Executive Plan Package</a></li>
+				<li><a href="/gifts/">Gift Sending</a></li>
+				<li><a href="/order-form/imbra-order-form.html">IMBRA Request</a></li>
+				<li><a href="/fiancee-visa/">Fiancee Visa Kit</a></li>
+			</ul>
+
+			<ul class="desktop-side-mega-menu">
+				<li><a href="#"><i class="fa-solid fa-video"></i>&nbsp; Media & Client Testimonials</a></li>
+				 <a href="/cartagena-women-videos/">Tour Videos</a>
+            <a href="/cartagena-women-videos/testimonial-videos.html">Testimonial Videos</a>
+            <a href="/cartagena-women-videos/informational-videos.html">Informational Videos</a>
+            <!-- <a href="#">Client Reviews</a> -->
+            <a href="/blog/">Blogs</a>
+			</ul>
+
+		</div>
+
+
+
+
+		<!-- END DESKTOP SIDEBAR -->
+
+
+	</div>
+
+</div>

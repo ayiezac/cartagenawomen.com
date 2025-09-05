@@ -1,0 +1,15 @@
+<style>
+    #ladies-rotator-mobile {
+        margin-top: 15rem;
+
+        /* @media (min-width: 1024px) {
+            margin-top: 0;
+        } */
+    }
+</style>
+<div class="container d-xl-none d-lg-block" id="ladies-rotator-mobile-container">
+    <div class="d-flex overflow-x-hidden justify-content-around column-gap-3 pb-3"
+        id="ladies-rotator-mobile">
+        <!--#include virtual="/imagemap/cartagenawomen-rounded-rotator-mobile.php" -->
+    </div>
+</div>

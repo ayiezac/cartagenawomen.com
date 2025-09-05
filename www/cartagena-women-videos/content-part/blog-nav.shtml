@@ -1,0 +1,7 @@
+<nav class="d-flex flex-wrap align-items-center gap-3 mt-3 mb-5 border-bottom pb-4 justify-content-between">
+  <h1 class="d-flex align-items-center m-0 text-decoration-none p-0 text-dark text-start fw-medium display-5"
+    style="text-wrap: balance;">
+    <!--#include virtual="./setHeadingTitle.php"  -->
+  </h1>
+  <!--#include virtual="./setActiveNav.php"  -->
+</nav>

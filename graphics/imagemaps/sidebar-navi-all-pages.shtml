@@ -1,0 +1,76 @@
+    <div class="container">
+        <div class="row site-container">  
+			<div class="col-lg-3 sidebar">
+				<div class="">
+				     <p class="tour-date-departs text-center">Our Next <a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html">Cartagena Group Singles Tour</a> <br>Departs <!--#include virtual="/invar/ssi-common/tourdates/cartegena.shtml" --> <br><span>Individual Club Tours <b>365 Days a Year</b></span></p>
+                </div>
+				<button class="newest-women-btn" onclick="window.location.href='/new-cartagena-women.html'">Newest Women's Profiles</button>
+				<button class="newest-women-btn" onclick="window.location.href='/search-cartagenawomen-seeking-men/'">Search for Women</button>
+
+				<div align="center" style="margin-bottom: 15px;">
+                    <!--#include virtual="/invar/ssi-common/contact/sidebar-contact-number.shtml" -->
+			        <!-- DO NOT REMOVE  -->
+			        <!--#include virtual="/invar/ssi-common/botcode/bottrap.shtml" -->
+			        <!-- END - DO NOT REMOVE -->
+                </div>
+
+				<ul class="list-group desktop-sidebar">
+					<a class="list-group-item  active">FIND AND DATE WOMEN OF CARTAGENA</a>
+					<a class="list-group-item" href="/members/signup/">Men&#8217;s FREE Registration</a>
+					<!-- <a class="list-group-item" href="/sign-up.html">Men&#8217;s FREE Registration</a> -->
+					<a class="highlight-sidebar list-group-item" href="/women/cartagena-women/cartagena-women.htm">Cartagena Women&#8217;s Profiles</a>
+					<a class="highlight-sidebar list-group-item" href="/new-cartagena-women.html">Newest Singles in Cartagena Women</a>
+					<a class="highlight-sidebar list-group-item" href="/mp/latin-women.htm">All Latin Women</a>		
+					<a class="highlight-sidebar list-group-item" href="/newest-latin-women/">Newest Latin Women</a>	
+					<a class="highlight-sidebar list-group-item" href="/search-single-foreign-women-worldwide.html">Want More? Single Women Worldwide</a>
+					<a class="highlight-sidebar list-group-item" href="/new-single-girls-for-marriage-worldwide.html">This Weeks New Girls Worldwide</a>
+					<a class="list-group-item" href="/how-to-meet-women-in-cartagena.html ">How Our Service Works</a>
+					<a class="list-group-item" href="/order-form/automatchmaillist.shtml">Weekly Auto Match Wizard</a>
+					<a class="list-group-item" href="/best-cartagena-matchmakers-marriage-agency.html">Best Cartagena Marriage Agency and Matchmaking Services</a>
+					<a class="list-group-item" href="/blog/">Blogs</a>
+				</ul>
+
+				<ul class="list-group desktop-sidebar">
+					<a class="list-group-item  active">ACTUALLY MEET CARTAGENA WOMEN</a>
+					<a class="list-group-item" href="/women-tour/">Cartagena Singles Tours</a>
+					<a class="list-group-item" href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html">Cartagena Women Tour Schedule</a>
+					<a class="list-group-item" href="/latin_club/">Individual Club Tours to Cartagena</a>
+					<a class="list-group-item" href="/cartagena-women-videos/">Cartagena Tour Highlight Videos</a>
+					<a class="list-group-item" href="/cartagena-women-tour-photos/">Cartagena Women Tour Photos</a>
+					<a class="list-group-item" href="/tour/things-to-consider-on-singles-tours.html">Singles Tour FAQ&#8217;s</a>
+					<a class="list-group-item" href="/search-cartagenawomen-seeking-men/">Advanced Search</a>
+				</ul>
+
+				<ul class="list-group desktop-sidebar">
+					<a class="list-group-item  active">GENERAL TIPS & INFORMATION</a>
+					<a class="list-group-item" href="/how-to-meet-women-in-cartagena.html">How to Meet Women in Cartagena</a>
+					<a class="list-group-item" href="/information/prg2b5.shtml">How To Use Our Service</a>
+					<a class="list-group-item" href="/cartagena-singles.html">Cartagena Singles</a>
+					<a class="list-group-item" href="/about-cartagena-women.html">About CarteganaWomen.com</a>
+					<a class="list-group-item" href="/more-single-cartagena-girls.htm">More on Single Cartagena Girls</a>
+					<a class="list-group-item" href="/invar/sendmess/index.php">Contact Us</a>
+					<a class="list-group-item" href="/date-cartagena-women.html">Date Cartagena Women</a>
+					<a class="list-group-item" href="/marry-younger-cartagena-women.html">Marrying Younger Cartagena Women</a>
+					<a class="list-group-item" href="/cartagena-brides.html">Cartagena Brides</a>
+					<a class="list-group-item" href="/Craigslist-women-seeking-men-vs-cartagena-women.html">Craigslist vs Cartagena Women</a>
+					<a class="list-group-item" href="/cartagena-questions-to-ask.html/">Questions to Ask a Cartagena Girl</a>
+				</ul>
+
+				<ul class="list-group desktop-sidebar">
+					<a class="list-group-item  active">CARTAGENA WOMEN, CULTURE & HISTORY</a>
+					<a class="list-group-item" href="/women-in-cartagena.html ">Women in Cartagena</a>
+					<a class="list-group-item" href="/cartagena-women-in-love.html">Cartagena Women in Love</a>
+					<a class="list-group-item" href="/history-of-cartagena.html">History of Cartagena</a>
+					<a class="list-group-item" href="/culture-traditions-of-cartagena-women.htm">The Culture and Traditions of Cartagena Women</a>
+					<a class="list-group-item" href="/cartagena-dating-culture.html">Cartagena Dating Culture</a>
+					<a class="list-group-item" href="/cartagena-marriage-culture.html">Cartagena Marriage Culture</a>
+					<a class="list-group-item" href="/why-travel-to-cartagena.htm">Why You Should Travel to Cartagena</a>
+					<a class="list-group-item" href="/helpful-itinerary-for-cartagena.html">Helpful Itinerary Tips for Cartagena</a>
+				</ul>
+
+
+          <!-- Mobile Sidebar Area -->      
+          <!--#include virtual="/imagemap/mobile-sidebar.shtml"-->  
+          <!-- End Mobilde Sidebar Area -->
+
+    		

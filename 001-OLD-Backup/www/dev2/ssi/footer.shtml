@@ -1,0 +1,142 @@
+
+      <div class="row latin-personals-news-background">
+          <div class="col-lg-12 latin-personals-news-holder">
+              <img src="/dev/img/latin-personals-news-icon.png" alt="" class="pull-left">
+              <p><!--#include virtual="/dev/ssi/news-top.shtml"--></p>
+          </div>                        
+      </div>
+      
+		</div> <!-- end col-lg-9 site-main-content -->
+	</div>
+</div>
+
+<div class="row site-footer">
+  <div class="container">
+    <div class="col-lg-12 row footer-info-holder">
+      <div class="col-lg-3 latin-personals-footer-contact">
+          <p>Contact</p>
+          <h2>Informations</h2>
+          <a href="/invar/sendmess/index-newtest.php"><img src="/invar/ssi-common/contact/left-align-contact-dark-background.png" class="img-responsive"></a>
+      </div>
+      <div class="col-lg-6 footer-navigation">
+          <p>Latin Personals</p>
+          <h2>Navigations</h2>
+          <div class="col-md-6 mx-auto">
+              <ul class="list-unstyled">
+                  <li><a href="" target="_top"><span>&#187;</span>Home</a></li>
+                  <li><a href="" target="_top"><span>&#187;</span>Cartagena Women Profiles</a></li>
+                  <li><a href="" target="_top"><span>&#187;</span>Cartagena Women Singles Tours</a></li>
+                  <li><a href="" target="_top"><span>&#187;</span>How to Meet Women in Cartagena</a></li>
+              </ul>
+          </div>
+          <div class="col-md-6 mx-auto">
+              <ul class="list-unstyled">
+                  <li><a href="" target="_top"><span>&#187;</span>Newest Women&#39;s Profiles</a></li>
+                  <li><a href="/information/winfreetour/" target="_top"><span>&#187;</span>Win a Free Latin Tour</a></li>
+                  <li><a href="/members/privacy" target="_top"><span>&#187;</span>Privacy Policy</a></li>
+                  <li><a href="/members/terms" target="_top"><span>&#187;</span>Terms & Conditions</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="col-lg-3 latin-personals-footer-logo">
+          <a href=""><img src="/dev/img/latin-personals-footer-logo.png" class="img-responsive" alt="Latin Personals Footer Logo"></a>
+      </div>
+    </div>
+  </div> <!-- end of container site-footer -->
+
+  <div class="container-fluid"> 
+    <div class="container">
+      <div class="col-md-6 copyright">
+            <p>&#169; Copyright - All Rights Reserved&nbsp; &#8226; &nbsp;<a href="/">Latin Personals</a></p>
+      </div>
+
+      <div class="col-md-6">
+          <ul class="list-unstyled list-inline text-right">
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/fb-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/instagram-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/youtube-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/twitter-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/gplus-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/wordpress-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href=""><img src="/dev/img/blogger-icon.png" alt="social media"></a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+          <!-- Button Modal Start -->
+              <div class="modal fade latin-personal-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content register-modal">
+                            <div class="row">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/dev/img/latin-personal-modal-close.png"></span></button>
+                                <div class="col-lg-6">
+                                    <!--#include virtual="/invar/ssi-common/why-register.shtml" --> 
+                                </div>
+
+                                <div class="col-lg-6">
+                                   <!--#include virtual="/invar/ssi-common/form-register.shtml" -->  
+                                </div>
+
+                                <div class="col-lg-12 text-center register-custom">
+                                  <h2>
+                                    Is there any REAL reason to wait?<br/>
+                                    It's FREE, instant and without obligation to register NOW!
+                                  </h2>
+
+                                  <h5>
+                                    It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                                  </h5>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Button Modal End -->
+            <script src="/dev/jscripts/lity.js"></script>
+            <script src="/dev/jscripts/pagination.js"></script>
+            <script src="/dev/jscripts/jquiry.min.js"></script>
+            <script src="/dev/jscripts/masterslider.min.js"></script>
+
+            <script type="text/javascript">   
+
+            var slider = new MasterSlider();
+
+            slider.control('arrows'); 
+            slider.control('bullets' , {autohide:false, align:'bottom', margin:10});  
+
+            slider.setup('masterslider' , {
+              width:444,
+              height:280,
+              space:5,
+              view:'stack',
+              loop:true,
+              autoplay:true
+            });
+
+           </script>

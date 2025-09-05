@@ -1,0 +1,783 @@
+<!--top-->
+<!--display related post for each cluster-->
+<div class="row">
+    <div class="cluster-data">
+        <div id="preloader"></div>
+    </div>
+</div>
+<!--end display-->
+
+
+<div style="clear:both;">
+
+</div>
+<div class="cartagenawomen-news-background row">
+    <div class="col-lg-12 latin-personals-news-holder">
+        <img src="/img/cartagenawomen-info-icon.png" alt="" class="info-icon pull-left">
+        <div class="pull-left">
+            <!--#include virtual="/imagemap/news-bottom.shtml" -->
+        </div>
+    </div>
+</div>
+
+ </div>
+</div>
+</div> 
+
+<!-- sidebar ends -->
+
+
+
+
+
+<!-- footer -->
+<div class="row site-footer">
+    <div class="container">
+        <!-- <div class="col-lg-12 row footer-info-holder">
+	      <div class="col-lg-3 col-md-12 col-sm-12">
+	      	<a href="/"><img class="footer-logo" src="/img/footer-logo.png" width="130" height="110" alt="cartagena women"></a>
+	      </div>
+
+		  
+	    </div> -->
+
+        <!-- <div class="col-lg-3 col-md-12 col-sm-12 footer-navigation">
+	      	<p>Contact</p>
+	      	<h2>Information</h2>
+	      		<a href="/invar/sendmess/index.php">
+					<img src="/invar/ssi-common/contact/left-align-contact-dark-background.png" class="img-responsive" width="225" height="78" alt="contact us">
+				</a>
+	      </div>
+
+<div class="col-lg-3  col-md-12 col-sm-12 footer-navigation">
+ <h2>General Information</h2>
+                        <ul class="list-group">
+                            <a  href="/blog/"><span>»</span> Blogs</a>
+														<a  href="/how-to-meet-women-in-cartagena.html"><span>»</span> How to Meet Women in Cartagena</a>
+														<a  href="/information/prg2b5.shtml"><span>»</span> How To Use Our Service</a>
+														<a  href="/cartagena-singles.html"><span>»</span> Cartagena Singles</a>
+														<a  href="/about-cartagena-women.html"><span>»</span> About CarteganaWomen.com</a>
+														<a  href="/more-single-cartagena-girls.htm"><span>»</span> More on Single Cartagena Girls</a>
+														<a  href="/invar/sendmess/index.php"><span>»</span> Contact Us</a>
+														<a  href="/date-cartagena-women.html"><span>»</span> Date Cartagena Women</a>
+														<a  href="/marry-younger-cartagena-women.html"><span>»</span> Marrying Younger Cartagena Women</a>
+														<a  href="/cartagena-brides.html"><span>»</span> Cartagena Brides</a>
+														<a  href="/Craigslist-women-seeking-men-vs-cartagena-women.html"><span>»</span> Craigslist vs Cartagena Women</a>
+														<a  href="/cartagena-questions-to-ask.html/"><span>»</span> Questions to Ask a Cartagena Girl</a>
+                        </ul>
+                    </div>
+
+                   <div class="col-lg-3  col-md-12 col-sm-12 footer-navigation">
+                       
+                        <h2> Cartagena Women Culture &amp; History</h2>
+                        <ul class="list-group">
+                            <a href="/women-in-cartagena.html "><span>»</span> Women in Cartagena</a>
+														<a href="/cartagena-women-in-love.html"><span>»</span> Cartagena Women in Love</a>
+														<a href="/history-of-cartagena.html"><span>»</span> History of Cartagena</a>
+														<a href="/culture-traditions-of-cartagena-women.htm"><span>»</span> The Culture and Traditions of Cartagena Women</a>
+														<a href="/cartagena-dating-culture.html"><span>»</span> Cartagena Dating Culture</a>
+														<a href="/cartagena-marriage-culture.html"><span>»</span> Cartagena Marriage Culture</a>
+														<a href="/why-travel-to-cartagena.htm"><span>»</span> Why You Should Travel to Cartagena</a>
+														<a href="/helpful-itinerary-for-cartagena.html"><span>»</span> Helpful Itinerary Tips for Cartagena</a>
+                        </ul>
+                    </div>
+
+	    </div>
+	  </div>  end of container site-footer -->
+
+        <div class="container footer">
+            <div class="col-lg-3 footer-contacts inlinks">
+                <h3>Contact <span>Information</span></h3>
+                <a href="/invar/sendmess/index.php"><img src="/invar/ssi-common/contact/contact-dark-background.png"
+                        width="278" height="98" class="contact-footerinfo img-responsive center-block"
+                        alt="Cartagena Dating | contact us"></a>
+
+                <a href="/"><img class="footer-logo center-block" src="/img/footer-logo.png" width="130" height="110"
+                        alt="cartagena women"></a>
+
+            </div>
+
+
+            <div class="col-lg-5 geninfo inlinks">
+                <h3>Cartagena Dating <span>General Information</span></h3>
+
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/blog/"><span>&#187;</span> Blogs</a></li>
+                        <li><a href="/tour/things-to-consider-on-singles-tours.html"><span>&#187;</span> Singles Tour
+                                FAQ&#8217;s</a></li>
+                        <li><a href="/how-to-meet-women-in-cartagena.html"><span>&#187;</span> How to Meet Women in
+                                Cartagena</a></li>
+                        <li><a href="/information/prg2b5.shtml"><span>&#187;</span> How To Use Our Service</a></li>
+                        <li><a href="/cartagena-singles.html"><span>&#187;</span> Cartagena Singles</a></li>
+                        <li><a href="/about-cartagena-women.html"><span>&#187;</span> About Carteganawomen.com</a></li>
+                        <li><a href="/more-single-cartagena-girls.htm"><span>&#187;</span> More on Single Cartagena
+                                Girls</a></li>
+                        <li><a href="/invar/sendmess/index.php"><span>&#187;</span> Contact Us</a></li>
+                        <li><a href="/date-cartagena-women.html"><span>&#187;</span> Date Cartagena Women</a></li>
+                        <li><a href="/marry-younger-cartagena-women.html"><span>&#187;</span> Marrying Younger Cartagena
+                                Women</a></li>
+                        <li><a href="/cartagena-brides.html"><span>»</span>Cartagena Brides</a></li>
+                        <li><a href="/Craigslist-women-seeking-men-vs-cartagena-women.html"><span>&#187;</span>
+                                Craigslist vs Cartagena Women</a></li>
+                        <li><a href="/cartagena-questions-to-ask.html/"><span>&#187;</span> Questions to Ask a Cartagena
+                                Girl</a></li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3 inlinks">
+                <h3>Cartagena Dating <span>Women, Culture &amp; History</span></h3>
+
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="/women-in-cartagena.html "><span>&#187;</span> Women in Cartagena</a></li>
+                        <li><a href="/cartagena-women-in-love.html"><span>&#187;</span> Cartagena Women in Love</a></li>
+                        <li><a href="/history-of-cartagena.html"><span>&#187;</span> History of Cartagena</a></li>
+                        <li><a href="/culture-traditions-of-cartagena-women.htm"><span>&#187;</span> The Culture and
+                                Traditions of Cartagena Women</a></li>
+                        <li><a href="/cartagena-dating-culture.html"><span>&#187;</span> Cartagena Dating Culture</a>
+                        </li>
+                        <li><a href="/cartagena-marriage-culture.html"><span>&#187;</span> Cartagena Marriage
+                                Culture</a></li>
+                        <li><a href="/why-travel-to-cartagena.htm"><span>&#187;</span> Why You Should Travel to
+                                Cartagena</a></li>
+                        <li><a href="/helpful-itinerary-for-cartagena.html"><span>&#187;</span> Helpful Itinerary Tips
+                                for Cartagena</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col-md-6 copyright">
+                <p>&#169; Copyright - All Rights Reserved&nbsp; &#8226; &nbsp;<a href="/">Cartagena Women</a></p>
+            </div>
+
+            <div class="col-md-6">
+                <ul class="list-unstyled list-inline text-right icon">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/cartagenawomen/"><img src="/img/facebook.png"
+                                width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://twitter.com/CartagenaWomen1/"><img src="/img/twitter.png"
+                                width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/officialcartagenawomen/"><img
+                                src="/img/instagram.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.youtube.com/channel/UCYaQ2RkRwB_3hgikuBKHJkA"><img
+                                src="/img/yt.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.linkedin.com/company/cartagenawomencom"><img
+                                src="/img/linkedin.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.tiktok.com/@cartagenawomencom?lang=en"><img
+                                src="/img/tiktok.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="/img/sitejabber_icon.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="/img/trustpilot_icon.png" width="22" height="30" alt="social media"></a>
+                    </li>
+                    <!-- <li class="list-inline-item">
+	                  <a target="_blank" href="https://co.pinterest.com/CartagenaWomenOfficial/_created/"><img src="/img/pinterest.png" alt="social media"></a>
+	              </li> -->
+                </ul>
+
+            </div>
+            <div class="footer-section">
+                <div class="container">
+                    <div class="nav-footer">
+                        <ul class="list-inline text-center">
+                            <li><a href="/" target="_top">Home</a></li>
+                            <li><a href="/women/cartagena-women/cartagena-women.htm" target="_top">Cartagena Women
+                                    Profile</a></li>
+                            <li><a href="/women-tour/" target="_top">Cartagena Women Singles Tours</a></li>
+                            <li><a href="/how-to-meet-women-in-cartagena.html">How to Meet Women in Cartagena</a></li>
+                            <li><a href="/new-cartagena-women.html">Newest Women&#8217;s Profiles</a></li>
+                            <li><a href="/search-cartagenawomen-seeking-men/">Advanced Search</a></li>
+                            <li><a href="/members/privacy">Privacy Policy</a></li>
+                            <li><a href="/members/terms">Terms & Conditions</a></li>
+                        </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer ends -->
+
+
+
+<!-- index head ends -->
+
+
+<!-- home search Modal -->
+<div class="home-search-modal-v3">
+  <!--#include virtual="/imagemap/home-search-modal.shtml" -->
+</div>
+
+<!-- Button Modal Start -->
+<div class="modal fade cartagenawomen-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content register-modal">
+			<!-- <div class="row">
+          <div class="col-12 text-center mb-5">
+            <a href="/members/login/" class="btn btn-lg px-5"><i class="fa-solid fa-lock"></i> <strong>Member's Login</strong></a>
+          </div>
+        </div> -->
+            <div class="row register-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true"><img src="/img/cartagenawomen-modal-close.png"
+                            alt="close button"></span></button>
+                <div class="col-lg-6">
+                    <!--#include virtual="/invar/ssi-common/why-register.shtml" -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!--#include virtual="/invar/ssi-common/form-register.shtml" -->
+                </div>
+
+                <div class="col-lg-12 text-center register-custom">
+                    <h2>
+                        Is there any REAL reason to wait?<br />
+                        It's FREE, instant and without obligation to register NOW!
+                    </h2>
+
+                    <h5>
+                        It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Button Modal End -->
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "cartagenawomen",
+  "alternateName": "Cartagena Women",
+  "url": "https://cartagenawomen.com/",
+  "logo": "https://cartagenawomen.com/img/cartagena-women-logo.png",
+  "sameAs": [
+    "https://www.facebook.com/cartagenawomen",
+    "https://twitter.com/CartagenaWomen1",
+    "https://www.instagram.com/officialcartagenawomen/",
+    "https://www.youtube.com/channel/UCYaQ2RkRwB_3hgikuBKHJkA",
+    "https://www.linkedin.com/company/cartagenawomencom",
+    "https://www.tiktok.com/@cartagenawomencom?lang=en"
+  ]
+}
+</script>
+
+
+
+<!------------------------floating components----------------------------------------------->
+<div class="bottom-cta-v3">
+<!--#include virtual="/imagemap/bottom-cta-dev3a.shtml"-->
+</div>
+<!-------------------------end floating components---------------------------------------------->
+
+
+<script src="/jscripts/lity.js"></script>
+<script src="/jscripts/masterslider.min.js"></script>
+<script src="/jscripts/pagination.js"></script>
+<script src="/jscripts/related-post.js"></script>
+<!--after js script-->
+
+<!------------------------floating components----------------------------------------------->
+<!-- Master Slider -->
+<!-- <script src="/jscripts/slider-js-css/masterslider.min.js"></script> -->
+
+<script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+<script src="/jscripts/masterslider.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!-------------------------end floating components---------------------------------------------->
+
+
+<!--preloader script-->
+<script>
+    $(window).on('load', function () { // makes sure the whole site is loaded 
+        $('#status').fadeTo(2000, 1).fadeOut("slow"); // will first fade out the loading animation 
+        $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+        $('.cluster-data').css('overflow', 'visible');
+    })
+</script>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+<!---USER ACCOUNT SCRIPT--->
+
+<script type="text/javascript">
+
+  document.addEventListener("DOMContentLoaded", async () => {
+
+
+    let isLoggedIn = false;
+
+    const signup = document.querySelector('#signup');
+    const signup2 = document.querySelector('#signup2');
+    const memberLogin = document.querySelector('#member-login');
+    const memberLogin2 = document.querySelector('#member-login2');
+    const logout = document.querySelector('#logout');
+
+    const signupMobile = document.querySelector('#signup-mobile');
+    const loginMobile = document.querySelector('#login-mobile');
+    const logoutMobile = document.querySelector('#logout-mobile');
+
+
+    try {
+      const response = await fetch('/members/home');
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      isLoggedIn = true;
+
+      const html = await response.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const targetElements = doc.querySelector('.badge');
+
+
+
+      if (isLoggedIn) {
+
+        //DESKTOP FUNCTIONALITY
+
+        memberLogin.innerHTML = `My Account <span class="d-flex align-items-center position-relative ps-2"><i class="message-icon fa-regular fa-envelope rounded-circle text-black profile-pulse" style="margin-top:-2px;font-size: 16px;"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center" style="padding: 5px;font-size: 12px;top: -5px !important;font-family: 'Hind Siliguri', sans-serif;border-radius: 50% !important;color: transparent !important;width: 10px;height: 10px;">${targetElements.textContent}</span></span>`;
+
+        memberLogin.classList.add("position-relative", "d-flex", "justify-content-center", "align-items-center", "gap-1");
+
+
+        memberLogin.setAttribute('href', '/members/mailbox?folder=received');
+
+
+        memberLogin2.innerHTML = `My Account <span class="d-flex align-items-center position-relative ps-2"><i class="message-icon fa-regular fa-envelope rounded-circle text-black profile-pulse" style="margin-top:-2px;font-size: 16px;"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center" style="padding: 5px;font-size: 12px;top: -5px !important;font-family: 'Hind Siliguri', sans-serif;border-radius: 50% !important;color: transparent !important;width: 10px;height: 10px;">${targetElements.textContent}</span></span>`;
+
+        memberLogin2.classList.add("position-relative", "d-flex", "justify-content-center", "align-items-center", "gap-1");
+
+        memberLogin2.setAttribute('href', '/members/mailbox?folder=received');
+
+
+
+
+        signup.innerHTML = ` <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Logout`
+        signup.setAttribute('href', '/members/logout?cmd=logout');
+        signup.classList.replace("text-white", "text-dark");
+
+        signup2.innerHTML = `Logout <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>`
+        signup2.setAttribute('href', '/members/logout?cmd=logout');
+        signup2.classList.replace("text-white", "text-dark");
+        signup2.classList.add("sigup2-logout");
+
+
+        $('.header-right-nav ul li a').css('margin-right', '10px');
+        $('.top-header-signup').css({ "border": "1px solid #221e1f29", "padding": "0 15px", "color": "#717171", "background": "#d9d9d926", "line-height": "30px", "width": "auto" });
+        $('.top-header-right').css({ "text-align": "right", "margin-right": "100px" });
+        // MOBILE FUNCTIONALITY
+
+        loginMobile.style.display = "none";
+
+        signupMobile.innerHTML = `<span class="d-flex justify-content-center position-relative"><i class="message-icon fa-regular fa-envelope rounded-circle fs-5 mb-1 text-black" style="margin-top:-2px;color:#1381A2 !important; margin-right:-8px"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center fs-6">${targetElements.textContent}</span></span> My Account`
+
+        signupMobile.setAttribute('href', '/members/mailbox?folder=received');
+        logoutMobile.style.display = "block";
+
+      } else {
+
+
+        //DESKTOP FUNCTIONALITY
+
+        memberLogin.innerHTML = `Member's Login`;
+        memberLogin2.innerHTML = `Member's Login`;
+        signup.innerHTML = `<i class="fa-solid fa-user-plus me-2"></i>Signup for Free</a>`
+        signup.setAttribute("data-toggle", "modal");
+        signup.setAttribute("data-target", ".women-modal");
+        signup.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+        signup2.innerHTML = `<i class="fa-solid fa-user-plus me-2"></i>Signup for Free</a>`
+        signup2.setAttribute("data-toggle", "modal");
+        signup2.setAttribute("data-target", ".women-modal");
+        signup2.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+
+        signupMobile.innerHTML = `Signup Today, <strong class="text-white">It's Totally Free. &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></strong>`;
+        signupMobile.setAttribute("data-toggle", "modal");
+        signupMobile.setAttribute("data-target", ".cartagenawomen-modal");
+
+
+        // MOBILE FUNCTIONALITY
+        loginMobile.style.display = "block";
+        logoutMobile.style.display = "none";
+
+      }
+
+    } catch (error) {
+      console.error('Error fetching data:', error);
+
+      //DESKTOP FUNCTIONALITY
+
+      memberLogin.innerHTML = `Member's Login`;
+      memberLogin2.innerHTML = `Member's Login`;
+      signup.innerHTML = `Signup Today, <strong class="text-white">It's Totally Free. &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></strong>`
+      signup.setAttribute("data-toggle", "modal");
+      signup.setAttribute("data-target", ".cartagenawomen-modal");
+
+      signup2.innerHTML = `Signup Today, <strong class="text-white">It's Totally Free. &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></strong>`
+      signup2.setAttribute("data-toggle", "modal");
+      signup2.setAttribute("data-target", ".cartagenawomen-modal");
+
+      // signup.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+
+      // MOBILE FUNCTIONALITY
+
+      signupMobile.innerHTML = `<i
+            class="mb-1 fa-solid fa-user-plus pr-1 fa-2x" style="color:#ed1c24;"></i> Signup for </br> Free`;
+
+      loginMobile.style.display = "block";
+      logoutMobile.style.display = "none";
+
+
+    }
+  });
+</script>
+
+<!---END USER ACCOUNT SCRIPT--->
+
+
+<!-- SEARCH TOOLS MODAL -->
+<script>
+
+jQuery(document).ready(function () {
+    jQuery('.mega-menu-header').on('click', function (event) {
+      jQuery('.mega-dropdown-content').toggle('show');
+    });
+  });
+
+  jQuery(document).ready(function () {
+    jQuery('.mega-menu-header2').on('click', function (event) {
+      jQuery('.mega-dropdown-content2').toggle('show');
+    });
+  });
+
+  // function openModal() {
+  //   document.getElementById("mega-dropdown-content2").style.display = "block";
+  // }
+
+function closeModal() {
+    document.getElementById("mega-dropdown-content2").style.display = "none";
+  }
+
+
+$(document).ready(function(){
+            $(window).on('scroll', function() {
+              closeModal();
+            });
+        });
+
+
+// $('body').on('click', function(){
+//     if( $('#mega-dropdown-content2').css('display') === 'block' ){
+//     closeModal();
+// }
+// });
+
+
+// --------------------------------------
+
+  $(document).ready(function () {
+    $('#tour-fix-close').on('click', function (e) {
+      $('.homepage-tour-schedule-fix').remove();
+    });
+  });
+
+
+
+</script>
+
+
+<!---Nav Scroll--->
+
+<script>
+
+    window.onscroll = function () {
+    let c = window.scrollY;
+
+    if (c > window.innerHeight) {
+      document.getElementById("bottom-cta-nav-grid").className = "d-grid";
+      // $('.mega-dropdown-content').css('position', 'relative');
+      // $('.mega-dropdown-content').css('top', '21.1%');
+    } else {
+      document.getElementById("bottom-cta-nav-grid").className = "d-none";
+      // $('.mega-dropdown-content').css('position', 'absolute');
+      // $('.mega-dropdown-conten2').css('top', '21%');
+
+    }
+  }
+
+</script>
+
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 11402428;
+    (function () {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+<noscript>
+    <a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+    powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
+
+
+<!-------------------------floating components---------------------------------------------->
+
+<script>
+    //////  START OF MASTER SLIDER  /////////
+    var masterslider = new MasterSlider();
+
+    // slider controls
+    masterslider.control('arrows', { autohide: false, overVideo: true });
+    // masterslider.control('slideinfo', { autohide: false, overVideo: true, dir: 'h', align: 'bottom', inset: false, margin: 10 });
+    // slider setup
+    masterslider.setup("masterslider", {
+        width: 140,
+        height: 180,
+        minHeight: 0,
+        space: 2,
+        start: 1,
+        grabCursor: false,
+        swipe: false,
+        mouse: false,
+        keyboard: false,
+        layout: "partialview",
+        wheel: true,
+        autoplay: false,
+        instantStartLayers: false,
+        loop: true,
+        shuffle: false,
+        preload: 5,
+        heightLimit: true,
+        autoHeight: false,
+        smoothHeight: true,
+        endPause: false,
+        overPause: true,
+        fillMode: "fill",
+        centerControls: true,
+        startOnAppear: false,
+        layersMode: "top",
+        autofillTarget: "",
+        hideLayers: false,
+        fullscreenMargin: 0,
+        speed: 20,
+        dir: "h",
+        parallaxMode: 'swipe',
+        view: "focus"
+    });
+
+
+    //////  START OF MASTER SLIDER MOBILE  /////////
+    var masterslider_mobile = new MasterSlider();
+
+    // slider controls
+    masterslider_mobile.control('arrows', { autohide: true, overVideo: true });
+    // masterslider_mobile.control('slideinfo', { autohide: false, overVideo: true, dir: 'h', align: 'bottom', inset: false, margin: 10 });
+    // slider setup
+    masterslider_mobile.setup("masterslider_mobile", {
+        width: 115,
+        height: 170,
+        minHeight: 0,
+        space: 1,
+        start: 1,
+        grabCursor: false,
+        swipe: false,
+        mouse: false,
+        keyboard: false,
+        layout: "partialview",
+        wheel: true,
+        autoplay: false,
+        instantStartLayers: false,
+        loop: true,
+        shuffle: false,
+        preload: 7,
+        heightLimit: true,
+        autoHeight: false,
+        smoothHeight: true,
+        endPause: false,
+        overPause: true,
+        fillMode: "fill",
+        centerControls: true,
+        startOnAppear: false,
+        layersMode: "center",
+        autofillTarget: "",
+        hideLayers: false,
+        fullscreenMargin: 0,
+        speed: 20,
+        dir: "h",
+        parallaxMode: 'swipe',
+    });
+
+
+</script>
+
+<script>
+    (function () {
+        "use strict";
+
+        var carousels = function () {
+            $(".owl-carousel1").owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 5000,
+                autoplayHoverPause: true,
+                loop: true,
+                margin: 0,
+                padding: 0,
+                responsiveClass: true,
+                nav: false,
+                center: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    767: {
+                        items: 2,
+                        nav: false
+
+                    },
+                    1000: {
+                        items: 2,
+                        nav: true
+                    }
+                }
+            });
+        };
+
+        (function ($) {
+            carousels();
+        })(jQuery);
+    })();
+
+
+
+</script>
+
+
+
+
+
+<!-- FORCE CLEAR CACHE ON RETURNING VISITOR -->
+<script>
+    function GetCookie(name) {
+        var arg = name + "=";
+        var alen = arg.length;
+        var clen = document.cookie.length;
+        var i = 0;
+        while (i < clen) {
+            var j = i + alen;
+            if (document.cookie.substring(i, j) == arg)
+                return "here";
+            i = document.cookie.indexOf(" ", i) + 1;
+            if (i == 0) break;
+        }
+        return null;
+    }
+    function testFirstCookie() {
+        var visit = GetCookie("FirstTimeVisitCookie");
+        if (visit == null) {
+            //  var expire=new Date();
+            //  expire=new Date(expire.getTime()+7776000000);
+            //  document.cookie="FirstTimeVisitCookie=here; expires="+expire + ";path=/";
+            console.log('new visitor');
+            // document.getElementById("firstVisit").innerHTML = "Welcome! You are here for the first time!";	// New visitor
+        } else {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .getRegistrations()
+                    .then(function (registrations) {
+                        for (let registration of registrations) {
+                            registration.unregister()
+                        }
+                    })
+            }
+            console.log('new visitor');
+            // returning visitor
+        }
+    }
+    $(document).ready(function () {
+        testFirstCookie();
+    });
+
+
+    // OFFCANVAS
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "400px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+    //This is for mobile only
+    //Hide women images when scroll down then display again when scroll top
+    var lastScrollTop = 100;
+
+    $(window).scroll(function () {
+
+        var scrollTop = $(this).scrollTop();
+        $('#bottom-cta-nav-mobile-top').show();
+
+        if (scrollTop > lastScrollTop) {
+
+            $('#bottom-cta-nav-mobile-top').hide();
+        } else {
+
+            $('#bottom-cta-nav-mobile-top').show();
+        }
+
+        lastScrollTop = scrollTop;
+    });
+
+</script>
+
+<!-------------------------end floating components---------------------------------------------->

@@ -1,0 +1,132 @@
+<section data-id="realities-container" id="realities" class="mt-4">
+    <div class="d-flex justify-content-between gap-3 align-items-baseline mb-5">
+        <div class="w-100">
+            <h2 class="pt-0 mb-0 d-flex w-100 align-items-baseline gap-3 text-dark cluster-title fw-medium">Realities</h2>
+        </div>
+
+        <a id="cta-link-desktop" href="/realities/" class="text-nowrap fs-4 cta-link">See more Realities
+            articles</a>
+    </div>
+    <div class="px-md-3 px-0">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col" data-class="card-container">
+                <a href="#">
+
+                    <div class="card mb-3 border-0">
+                        <div class="row row-cols-2 g-0">
+                            <div class="col-md-5">
+                                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                    class="lozad img-fluid rounded-3 w-100" alt="...">
+                            </div>
+                            <div class="col-md-7 align-content-center">
+                                <div class="card-body p-0 placeholder-glow">
+                                    <span aria-label="card title"
+                                        class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-grid col-6 mx-auto my-3">
+        <a id="cta-link-mobile"  href="/realities/" class="text-center fs-4 cta-link">See more Realities articles</a>
+    </div>
+</section>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <title>Cartagena Singles Tour Schedule</title>
+   <!--#include virtual="/imagemap/analytics.shtml" -->
+   <link rel="preload" as="style" href="./css/cartagena-singles-tour-schedule.min.css" onload="this.onload=null;this.rel='stylesheet'">
+   <noscript><link rel="stylesheet" href="./css/cartagena-singles-tour-schedule.min.css"></noscript>
+   <meta name="robots" content="index, follow">
+   <meta http-equiv="Content-Language" content="en-us" />
+
+   <meta name="description"
+      content="Check out this page to be updated with the latest Cartagena singles tour schedule. Reserving your spot and joining our singles tours will provide you with an opportunity to meet gorgeous Cebu singles for marriage.">
+   <meta name="keywords"
+      content="Cartagena woman, Cartagena girls, Colombian women, Woman from Colombia, Colombian Woman, Singles Vacation, Medellin Women, Cartagena Women, Barranquilla Women, Bogota Women, Cali Women, singles tour, matchmaking agency, marriage agency">
+
+   <meta name="author" content="<!--#include virtual="/imagemap/sitename.shtml" -->">
+
+   <link rel="canonical" href="https://<!--#include virtual="/imagemap/canonical-domain.shtml" -->/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html" />
+
+   <!--#include virtual="/imagemap/push-code.shtml" -->
+   <style>
+      .ms-view.ms-basic-view {
+         overflow: visible !important;
+      }
+   </style>
+</head>
+
+<body onload="getTourYear()" class="tour-sched">
+
+   <!--#include virtual="/imagemap/header.shtml" -->
+
+   <!--#include virtual="/invar/ssi-common/tourforms/latin-schedule.shtml" -->
+
+   <!--#set var="link_to_members_tour_schedule_order" value="/members/latin_tour" -->
+   <!--#include virtual="/invar/ssi-common/tourforms/client-data-fields.shtml" -->
+
+   <!--#include virtual="/invar/ssi-common/tourforms/tour-order-body-text-v2.shtml" -->
+
+   <!--#include virtual="/imagemap/footer.shtml" -->
+
+
+   <!-- Get Tour Schedule Year-->
+   <script>
+      function getTourYear() {
+         var currentYear = new Date().getFullYear();
+         var elements = document.querySelectorAll(".tourYear");
+         elements.forEach(function (element) {
+            element.innerHTML = currentYear;
+         });
+      }
+   </script>
+
+   <!---- End --->
+
+
+   <script>
+      $('.header-btn-link').click(function () {
+         $(".tour-sched-active").removeClass("tour-sched-active");
+         $($(this).attr('href')).addClass("tour-sched-active");
+      });
+
+      $("form").submit(function () {
+         $("#submit").prop('disabled', true);
+         e.preventDefault();
+         return false;
+      });
+
+   </script>
+
+
+   <script>
+      const formScheduleHeading = document.getElementById('formScheduleHeading');
+      const radioBtnFormSchedule = document.querySelectorAll("input[type=radio]");
+
+      const reservationFormHeading = document.getElementById('reservationFormHeading');
+      const reservationForm = document.querySelector('.tour-schedule-right-box');
+
+      let surveyBox = document.querySelector('.tour-sched-client-survey-box');
+
+      formScheduleHeading.classList.add('active-select');
+
+
+      radioBtnFormSchedule.forEach(radio => {
+         radio.addEventListener('click', function () {
+            formScheduleHeading.classList.add('active-select');
+            reservationFormHeading.classList.remove('active-select');
+            console.log('Radio button clicked');
+
+         });
+      });
+
+      reservationForm.addEventListener('click', function () {
+         reservationFormHeading.classList.add('active-select');
+         formScheduleHeading.classList.remove('active-select');
+         console.log('click')
+      })
+
+   </script>
+
+
+   <!-- reservation -->
+   <!-- <script>
+      // instantiating all variables to DOM HTML
+      const radioButtons = document.querySelectorAll("input[type=radio]");
+      const popupButton = document.getElementById('popupButton');
+      const reserveForm = document.querySelector(".tour-schedule-v2-area-right");
+      const tourTable = document.querySelector("table");
+
+      // Create an Intersection Observer when intersecting to the reservation form and the button will popout when scrolling down
+      const observer = new IntersectionObserver(entries => {
+         entries.forEach(entry => {
+            if (entry.isIntersecting) {
+               // Display the element
+               popOutButton()
+            }
+         });
+      });
+
+      // function that will popout associated to the other function
+      const popOutButton = () => {
+         popupButton.style.display = 'none';
+         reservationFormHeading.classList.add('active-select');
+         formScheduleHeading.classList.remove('active-select');
+      }
+
+      // based on the screen that is set to tablet and goes through to mobile if matches
+      const isMobileViewPort = () => {
+         return window.matchMedia("(max-width: 991px)").matches
+      };
+
+      const showPopupButton = () => {
+         // matches on the set of the screen size 
+         if (isMobileViewPort()) {
+
+            if (!popupButton || !reserveForm) {
+               console.error("Popup button or reserve form not found.");
+               return;
+            }
+
+            // when click the radiobutton will display block and have an fade entrance from the bottom of the screen
+            radioButtons.forEach(radio => {
+               radio.addEventListener('click', function () {
+                  popupButton.style.display = 'block';
+                  popupButton.classList.add('fade-in-bottom')
+               });
+            });
+
+            // when click the popup button it will goes to reservation form and will hide
+            popupButton.addEventListener('click', function () {
+               reserveForm.scrollIntoView(true);
+               popOutButton();
+            });
+         }
+      };
+
+      document.addEventListener('DOMContentLoaded', showPopupButton);
+      observer.observe(reserveForm);
+   </script> -->
+
+</body>
+
+</html>

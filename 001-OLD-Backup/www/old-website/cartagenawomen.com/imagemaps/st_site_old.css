@@ -1,0 +1,88 @@
+/*all*/
+
+a {color:#3E377B; font-family:Helvetica, Arial; }
+a.menu {color:#3E377B; font-family:Helvetica, Arial; }
+a:hover {color:#3E377B;}
+a:active {color:#3E377B;}
+a:visited {color:#3E377B;}
+
+h1 {
+	color: #3E377B;
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: normal;
+	margin : 0px;
+}
+
+
+/*font*/
+font			{font-family: Arial;}
+font.tour {
+	font-family:arial;
+	font-size:12px;
+	color: black;
+	font-weight:normal;
+}
+.tourhead {
+	font-family:arial;
+	font-size:16px;
+	color: black;
+	font-weight:bold;
+}
+.tourbig {
+	font-family:arial;
+	font-size:12px;
+	color: black;
+	font-weight:bold;
+}
+
+.toursm {
+	font-family:Arial;
+	font-size:10pt;
+	color: black;
+	font-weight:normal;
+}
+.toursm {fontsize:10px;}
+
+/*table*/
+.ttable  {background-color: FFFFFF;}
+.thead   {background-color: #FFFFFF;}
+.tcells1 {background-color: #FFFFFF;}
+.tcells2 {background-color: white;}
+
+/*custom*/
+.copy			{font-size: 7pt; color: white;}
+
+	a:hover.menu {color:red; text-decoration:underline;}
+	a:active.menu {color:red; text-decoration:underline;}
+	a:visited.menu {color:black;}
+	a.menu11 {color:white; font-size:8pt; font-family:Helvetica, Arial; font-variant:smallcaps; text-decoration:none; font-weight:bold;}
+	a:hover.menu11 {color:red; text-decoration:underline;}
+	a:active.menu11 {color:red; text-decoration:underline;}
+	a:visited.menu11 {color:white;}
+	a.side {color:black; font-size:8pt; font-family:Helvetica, Arial; font-variant:smallcaps;}
+	a:hover.side {color:silver; text-decoration:underline;}
+	a:active.side {color:silver; text-decoration:underline;}
+	a:visited.side {color:black;}
+.headmenu {font-size:7pt; font-family: Helvetica, Arial, Verdana; color:white; font-weight:bold;}
+.menutext {font-size:7pt; font-family: Helvetica, Arial, Verdana; color:black; font-weight:normal;}
+img.women		{ border-color : #3E377B; border-width: 1px; }
+
+h2 {
+	color: #3E377B;
+	font-size: 9pt;
+	font-weight: bold;
+	font-style: normal;
+	margin : 0px;
+}
+
+.contact {
+	color: #07265B;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 8pt;
+	line-height: normal;
+}
+hr { color: #3E377B; height:2px;}
+
+

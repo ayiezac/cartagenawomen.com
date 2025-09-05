@@ -1,0 +1,88 @@
+<!-- start of Testimonial Schema -->
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/", 
+        "@type": "Product", 
+        "name": "Cartagena Women Meet, Date, and Marry Colombian Ladies",
+        "image": "https://www.cartagenawomen.com/img/cartagena-women-white-logo.png",
+        "description": "Cartagena women is one of the best marriage agencies that operates today. It specializes in matching gorgeous Cartagena women with foreign men who have the same goal: to find true love. Meet your beautiful Cartagena bride through hundreds of profiles available on our site.",
+        "brand": {
+        "@type": "Brand",
+        "name": "Cartagena Women"
+        },
+        "review": [{
+        "@type": "Review",
+        "name": "Marcus",
+        "reviewBody": "I wanted to leave a review and thank the entire staff in Cartagena for the exceptional event that they impeccably hosted. It was one that I will not soon forget. I have met a wonderful person thanks to your agency and I am very optimistic about the future. They will never be able to convince every single skeptic on their services, but they have convinced this one. Thank you for everything, and I will always be grateful for the opportunity and the experience your agency provided.",
+        "author": {"@type": "Person", "name": "Marcus"},
+        "publisher": {"@type": "Organization", "name": "Cartagena Women"}
+        },{
+        "@type": "Review",
+        "name": "Shawn J.",
+        "reviewBody": "The social was a great time. I've been to Colombia before but this was the first time on a tour. And it was more than I expected. I just lived in the moment and enjoyed every minute of it. The women actually made me feel comfortable and they helped break the ice.",
+        "author": {"@type": "Person", "name": "Shawn J."},
+        "publisher": {"@type": "Organization", "name": "Cartagena Women"}
+        },{
+        "@type": "Review",
+        "name": "Kirk",
+        "reviewBody": "My interpreter was great. She was a large reason why my trip was successful. It was hard to leave Medellin. I was very emotional because I felt like I was leaving friends who I may never see again. This was not like other vacations where you visit a country and then go home. A trip to Colombia is much different. You meet new people and make new friends, and you become attached to them in a way that makes it hard to leave. I can’t wait to go back again. I truly fell in love with the city and the people. Colombia was everything they said it would be and more!",
+        "author": {"@type": "Person", "name": "Kirk"},
+        "publisher": {"@type": "Organization", "name": "Cartagena Women"}
+        },{
+        "@type": "Review",
+        "name": "Marc W.",
+        "reviewBody": "The most challenging part of the trip for me was dwindling down the list of the women I wanted to meet. Maria provided excellent guidance in mentoring throughout the process. I can't begin to express my thanks to the entire staff of the event. The long days and nights they spent to ensure that all needs were met did not go unnoticed or unappreciated. They will never be able to convince all of the skeptics on their methods, but they have convinced me. I will always be grateful for the opportunity and the experience they provided.",
+        "author": {"@type": "Person", "name": "Marc W."},
+        "publisher": {"@type": "Organization", "name": "Cartagena Women"}
+        }]
+    }
+</script>
+
+
+
+<!-- start of https://youtu.be/bDoSewRn4eo -->
+<script type="application/ld+json">
+    { 
+    "@context":"https://schema.org", 
+    "@type":"VideoObject", 
+    "description":"There are a lot of advantages to be found in Cartagena Colombia, the most obvious would be the sexy Latinas who call the city home. Solo travel to exotic locations throughout the world has shown a new light on the amazing Latinas living in Cartagena Colombia.nnSingle men have traveled to Colombian cities for several decades in hopes of courting beautiful Latin women residing in the region. Known for their immense devotion to family, unparalleled beauty and loyalty to their men, the women of Colombia continue to draw countless men to their shores each year. nnInternational dating provides men an avenue to meet Latin women. This is similar to solo travel in a way that they both give people a chance to see things from a different angle, they'd be able to appreciate things better and can have great travel adventures. nnIn fact, more foreign men gave international dating a shot, and they were never disappointed. No man would be dissatisfied with having an opportunity to meet beautiful Colombian women while on a vacation!n**********nMeet alluring and passionate Colombian women in Cartagena!nnHomePage - https://www.cartagenawomen.com/nRegistration - https://www.cartagenawomen.com/sign-up.htmlnForeign women's profiles - https://www.cartagenawomen.com/new-cartagena-women.htmlnSchedules for upcoming singles tours - https://www.cartagenawomen.com/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.htmlnIndividual club tours - https://www.cartagenawomen.com/latin_club/nFAQ - https://www.cartagenawomen.com/tour/things-to-consider-on-singles-tours.htmlnnSend us a thumbs up if you liked this video, and share this to all your friends.nDrop a comment if you like our videos, or if you have any questions!n**********n 
+    Cartagenan 
+    Latinasn 
+    ColombianWomen", 
+    "duration":"PT229S", 
+    "embedUrl":"https://www.youtube.com/embed/bDoSewRn4eo", 
+    "interactionCount":"1677", 
+    "name":"SEXY Latinas Lead Men to Cartagena Colombia", 
+    "thumbnailUrl":["https://i.ytimg.com/vi/bDoSewRn4eo/maxresdefault.jpg"], 
+    "uploadDate":"2019-05-17", 
+    "genre":"People & Blogs", 
+    "author":"Cartagena Women" 
+    } 
+</script>
+<!-- schema -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org/",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.cartagenawomen.com/"
+        },
+        "headline": "Cartagena Women | Meet, Date, and Marry Colombian Ladies",
+        "description": "Sometimes, finding true love means going beyond your borders. One can never avoid failed attempts in seeking a lifetime relationship. However, giving up is never an option because someone’s out there who is exclusively destined for you. Widening your dating pool seems to be the best and wisest decision one can ever make.",
+        "image": "https://www.cartagenawomen.com/img/cartagena-women-1.jpg",
+        "author": {
+        "@type": "Organization",
+        "name": "cartagenawomen"
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "cartagenawomen", 
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.cartagenawomen.com/img/cartagena-women-logo.png"
+            }
+        }
+    }
+</script>

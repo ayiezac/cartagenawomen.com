@@ -1,0 +1,477 @@
+<style>
+  .parent-div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 1px;
+    grid-row-gap: 5px;
+    align-items: center;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  .div2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .div3 {
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  .div4 {
+    grid-area: 1 / 4 / 2 / 5;
+  }
+
+  .div5 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  .div6 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  .div7 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+
+  .div8 {
+    grid-area: 2 / 4 / 3 / 5;
+  }
+
+  .div9 {
+    grid-area: 3 / 1 / 4 / 2;
+  }
+
+  .div10 {
+    grid-area: 3 / 2 / 4 / 5;
+  }
+
+  .div11 {
+    grid-area: 4 / 1 / 5 / 5;
+  }
+
+  .div12 {
+    grid-area: 5 / 1 / 6 / 5;
+  }
+
+  .div12 p {
+    text-underline-offset: 1rem;
+    /* text-decoration: underline #e6ecd1; */
+  }
+
+  
+  .div12 p strong a:hover {
+    text-decoration: underline #6b7385;
+  }
+  /* .banner-bg {
+    background: linear-gradient(140deg, rgba(27, 27, 27, 0.8631827731092436) 50%, rgba(11, 0, 0, 0) 72%, rgba(255, 255, 255, 1) 100%), url(../img/davao-women-banner-bg.jpg) !important;
+    display: block !important;
+  } */
+
+
+  .quick-search-form {
+    /* background: rgb(65,79,16);
+    background: linear-gradient(120deg, rgba(65,79,16,1) 53%, rgba(132,162,27,1) 100%); */
+    /* background: rgb(52,63,13);
+    background: linear-gradient(120deg, rgba(52,63,13,1) 53%, rgba(132,162,27,1) 100%); */
+    /* background: rgb(141,149,112);
+    background: linear-gradient(120deg, rgba(141,149,112,1) 0%, rgba(52,63,13,1) 10%, rgba(52,63,13,1) 64%, rgba(141,149,112,1) 100%); */
+    background: rgb(141,149,112);
+    background: linear-gradient(138deg, rgba(141,149,112,1) 0%, rgba(105,115,72,1) 2%, rgba(52,63,13,1) 10%, rgba(52,63,13,1) 59%, rgba(141,149,112,1) 100%);
+
+    margin-top: 215px;
+  }
+
+
+
+  .quick-search-form h1 {
+    text-align: center !important;
+    font-size: 1.28rem !important;
+  }
+
+  .backdrop {
+    background: rgb(255 255 255 / 9%);
+    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .backdrop {
+      width: 100%
+    }
+  }
+
+
+
+  .input-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    /* max-width: 290px; */
+  }
+
+  .input-container>button,
+  .input-container .input {
+    white-space: nowrap;
+    display: block;
+  }
+
+  .input-container>button,
+  .input-container .input:first-child {
+    border-radius: 6px 0 0 6px;
+  }
+
+  .input-container>button,
+  .input-container .input {
+    border-radius: 0 6px 6px 0;
+  }
+
+  .input-container>button,
+  .input-container .input {
+    margin-left: -1px;
+  }
+
+  .input-container .input {
+    position: relative;
+    /* z-index: 1; */
+    flex: 1 1 auto;
+    width: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .input-container button {
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #414F10;
+    background: #cedaa4;
+    border: 1px solid #cedaa4;
+    font-weight: bold;
+    transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+  }
+
+  .input-container:focus-within>button {
+    color: #fff;
+    background-color: #677240;
+    border-color: #677240;
+  }
+
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #cedaa4;
+    border: 1px solid #cedaa4;
+    background: #fff;
+    transition: border 0.3s ease;
+  }
+
+  .input::placeholder {
+    color: #CBD1DC;
+  }
+
+  .input:focus {
+    outline: none;
+    border-color: #fff;
+  }
+
+  .backdrop-input {
+    background: rgb(18 18 18 / 8%);
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease-out;
+  }
+
+
+  input.primaryBGColor1.btn.bg-opacity-75 {
+    background-color: transparent !important ;
+    border: #cedaa4 solid 1px;
+    color: #cedaa4;
+
+  }
+
+  input.primaryBGColor1.btn.bg-opacity-75:hover {
+    background-color: #9db549 !important;
+    color: #fff !important;
+    border: none;
+    /* color: #e6ecd1 !important;
+    border: 1px solid #e6ecd1; */
+  }
+
+  a.btn.bg-danger.bg-opacity-75.text-white:hover {
+    background-color: transparent !important;
+    border: 1px solid #CDD9ED;
+    color: whitesmoke !important;
+  }
+
+  .or:before, .or:after {
+    content: "";
+    border-bottom: 1px solid #CEDAA4;
+    display: inline-block;
+    width: 8rem;
+    margin-inline: 5px;
+    /* height: 1px; */
+    position: relative;
+    top: -3px;
+  }
+
+
+  .or {
+    color: #CEDAA4 !important;
+  }
+
+  .vr-span span {
+    height: 150px;
+    width: 50px;
+    display: inline-block;
+    padding-top: 11.7rem;
+  }
+
+  .vr-span span:before {
+    border-left: 1px solid #e6ecd1;
+    content: "";
+    display: block;
+    height: 65px;
+    left: 47px;
+    position: absolute;
+    top: 115px;
+    width: 1px;
+    z-index: 0;
+  }
+
+  .vr-span span:after {
+    border-left: 1px solid #e6ecd1;
+    content: "";
+    display: block;
+    height: 65px;
+    left: 47px;
+    position: absolute;
+    top: 220px;
+    width: 1px;
+    z-index: 0;
+  }
+
+  a.btn.bg-opacity-75.text-white {
+    background-color: #9db549;
+    width: 100%;
+  }
+
+
+  .intro-video .btn.bg-transparent {
+    border: 1px solid #CEDAA4; 
+    color:#CEDAA4;
+    width: 100%;
+    white-space: normal;
+  }
+
+
+  .intro-video .text-white.fs-5.text-lg-start.text-md-start.text-sm-center.text-center.lh-2.pt-lg-0.pb-2.px-lg-3 {
+    font-size: .95rem !important;
+    line-height: 1.3 !important;
+    margin-block: 3px;
+  }
+
+  @media (max-width:320px) {
+    .form-select.fs-6 {
+    font-size: 0.65rem !important;
+    padding-inline: 7px;
+}
+
+.or:before, .or:after {
+  width: 4rem;
+}
+
+.intro-video a.btn.bg-opacity-75.text-white {
+  padding: 5px;
+  font-size: .85rem !important;
+}
+
+.intro-video a.btn.bg-opacity-75.text-white strong {
+  font-size: .85rem !important;
+}
+.intro-video .btn.bg-transparent {
+  font-size: .8rem !important;
+    padding: 12px;
+}
+
+input#searchid {
+  font-size: .75rem;
+}
+
+.div12 .text-center a.fs-6 {
+  font-size: .78rem !important;
+}
+
+label.col-form-label.fs-6.fw-normal {
+  font-size: .78rem !important;
+}
+
+
+
+.form-select.fs-6 {
+    font-size: 0.65rem !important;
+    font-weight: 600;
+    padding: 2px 10px 2px 5px;
+  }
+
+  b.text-white.ms-2.fs-6.fw-normal {
+
+    font-size: .72rem !important;
+}
+
+i.fas.fa-circle.text-success {
+    font-size: .75rem !important;
+}
+  }
+
+  @media (max-width:540px) {
+    .form-select.fs-6 {
+    font-size:0.8rem !important;
+  }
+  }
+
+
+  @media (max-width: 1199.98px) {
+
+    .vr-span span:after,
+    .vr-span span:before {
+      left: 40px;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .md-grid {
+      display: grid;
+      place-items: center;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .quick-search-form {
+      margin-top:120px;
+    }
+
+ 
+
+    .quick-search-form h1 {
+      font-size: revert !important;
+      margin-top: 55px !important;
+    }
+
+    .backdrop {
+      padding:0 30px;
+    }
+
+    .intro-video .center-block {  
+    border: none !important;
+    width: 420px;
+    }
+    
+
+    .row.d-flex.flex-column.flex-lg-row-reverse.mt-lg-3 .col-lg-5 {
+      width: 37%;
+    }
+
+  
+
+    .d-flex.flex-column.flex-lg-row.column-gap-2 .btn {
+      padding: 11px 0;
+    }
+
+
+    .d-flex.flex-column.flex-lg-row.column-gap-2 .btn:hover {
+      background: transparent;
+    border: 1px solid #CEDAA4;
+    color: #CEDAA4 !important;
+
+    }
+
+    a.fs-6.btn.bg-opacity-75.text-white.mb-0 {
+      padding-block: 12px;
+    }
+
+
+    .text-white.fs-5.text-lg-start.text-md-start.text-sm-center.text-center.lh-2.pt-lg-0.pb-2 {
+      line-height: 1.5;
+    }
+
+    a.fs-6.btn.bg-opacity-75.text-white.mb-0:hover {
+      background-color: transparent;
+      border: 1px solid #e6ecd1;
+      color: #cedaa4 !important;
+    }
+
+    a.fs-6.btn.bg-transparent.mb-0.d-flex.align-items-center.justify-content-center {
+      font-size: .9rem !important;
+    }
+
+    a.fs-6.btn.bg-transparent.mb-0.d-flex.align-items-center.justify-content-center:hover {
+      color: #fff !important;
+    }
+
+    .d-flex.flex-column.flex-lg-row.column-gap-2.mt-2.px-lg-3 {
+      margin-top: 20px !important;
+      padding-left: 68px !important;
+      padding-right: 68px !important;
+    }
+    
+
+    .parent-div {
+      grid-template-rows: repeat(5, 50px);
+    }
+
+
+    .intro-video .text-white.fs-5.text-lg-start.text-md-start.text-sm-center.text-center.lh-2.pt-lg-0.pb-2.px-lg-3 {
+      font-size: 1.2rem !important;
+    line-height: 1.5 !important;
+    padding-left:  68px !important;
+    }
+
+  
+  }
+
+
+  @media (min-width:1280px) {
+    .intro-video .center-block {
+      width:520px;
+    }
+
+
+    .quick-search-form h1 {
+      margin-top: 0px !important;
+    }
+  }
+  
+</style>
+<div class="row mx-auto my-lg-2 my-md-5 mt-sm-0 mb-sm-5 py-4 pb-lg-0">
+  
+  <h1 class="fs-3 text-white text-lg-start text-md-start text-sm-center text-center mb-lg-0 mt-0 pe-lg-5 fw-normal">Meet, Date & Marry a Beautiful Cartagena Woman!</h1>
+
+  <div class="row d-flex flex-column flex-lg-row-reverse px-0 mx-auto mt-lg-3">
+
+    <div class="col-xs-12 col-md-7 mb-4 intro-video ps-lg-0 pe-lg-0">
+    <!--#include virtual="/imagemap/intro-video.shtml"  -->
+    </div>
+   
+  <div class="col-xs-12 col-md-5">
+    <!--#include virtual="/imagemap/quick-search-mobile.shtml"  -->
+    <!--#include virtual="/imagemap/quick-search-desktop.shtml"  -->
+</div>
+
+  </div>
+  
+ 
+  </div>

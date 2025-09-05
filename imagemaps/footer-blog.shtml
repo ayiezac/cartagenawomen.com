@@ -1,0 +1,55 @@
+  <script>
+	/**
+   * Counts the words inside elements with the specified class or id and calculates the estimated reading time.
+   * @param {string} selector - The class or ID selector (e.g., '.className' or '#idName').
+   * @param {number} wordsPerMinute - Average reading speed in words per minute (default is 200 WPM).
+   * @returns {object} - An object containing word count and estimated reading time in minutes.
+   */
+ 
+   function calculateReadingTime(selector, wordsPerMinute = 200) {
+		// Define the tags to count words in
+		let tags = ['p', 'h1', 'h2', 'h3', 'ul', 'ul li', 'cite'];
+		
+		let wordCount = 0;
+
+		// Iterate through each tag and count the words
+		tags.forEach(tag => {
+			// Select the elements within the specified selector
+			let elements = document.querySelectorAll(`${selector} ${tag}`);
+			
+			elements.forEach(element => {
+			// Get the text content of the element
+			let text = element.textContent || element.innerText;
+			// Match the words using a regular expression
+			let words = text.match(/\b\w+\b/g);
+			// Add the number of words in this element to the total word count
+			if (words) {
+				wordCount += words.length;
+			}
+			});
+		});
+
+		// Calculate the reading time in minutes
+		let readingTimeMinutes = Math.ceil(wordCount / wordsPerMinute);
+
+		return {
+			wordCount: wordCount,
+			readingTime: readingTimeMinutes
+		};
+	}
+	
+
+
+	document.addEventListener("DOMContentLoaded", function(event) {
+	
+		let retval = calculateReadingTime('.site-content');
+		let refEle = document.querySelector('.site-content h1');
+		let newEle = document.createElement('span');
+		newEle.id = ('readtime');
+		let ntext = `Estimated reading time: ${retval.readingTime} minute(s)`;
+      newEle.textContent = ntext;
+		refEle.after(newEle);
+
+	});
+	
+  </script>

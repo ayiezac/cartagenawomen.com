@@ -1,0 +1,1111 @@
+<meta charset="utf-8">
+
+<script defer src="/members/scripts/lp_track.min.js" async></script>
+
+
+<link rel="stylesheet" TYPE="text/css" href="/invar/ssi-common/framework.css">
+<script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+<script src="/invar/ssi-common/jscript/ddaccordion.js"></script>
+<script src="/invar/ssi-common/jscript/framework.min.js"></script>
+<link rel="icon" href="/favicon.ico" />
+<!-- <link rel="stylesheet" href="/imagemap/st_site.css" /> -->
+
+
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGXSCLM" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+
+<!-------------------------Google Fonts----------------------------------------------------->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantata+One&family=Overpass:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet"> -->
+
+<!-------------------------floating components---------------------------------------------->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/masterslider.main.css">
+<link rel="stylesheet" TYPE="text/css" href="/jscripts/slider-js-css/style.css">
+
+<link rel="stylesheet" href="/imagemap/bottom-cta-v3.css?tms=<!--#include virtual="/imagemap/timestamp.php"-->">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="/imagemap/st_site.css?tms=<!--#include virtual="/imagemap/timestamp.php"-->">
+
+<style>
+
+    html {
+      font-size: 16px;
+    }
+    body {
+        color: #333;
+        background-color: #fff;
+        
+    }
+
+
+    h1, h2, h3, h4, h5, h6 {
+       font-family: 'Cantata One', serif !important; 
+       line-height: 1.2 !important;
+    }
+
+
+    
+    body, p {
+      line-height: 1.8 ; 
+    }
+
+    body, p, span, small, strong, label, a {
+      font-family: 'Overpass', sans-serif !important;
+     
+      
+    }
+
+    h1 {
+      font-size: 28px ;
+    }
+ 
+    h2 {
+      font-size: 2rem ;
+    }
+
+    h3,h4,h5,h6 {
+    font-size: 20px ;
+
+    }
+
+    /* strong {
+      font-size: 1.3rem ;
+    } */
+
+    body, p, a, li, button{
+      font-size: 16px ;
+    }
+
+
+  
+
+
+    /* The side navigation menu */
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 18;
+        /* Stay on top */
+        top: 0px !important;
+        left: 0;
+        background-color: #fbfbfb;
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 0px !important;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+        box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+        -webkit-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+        -moz-box-shadow: 10px 1px 5px -6px rgba(0, 0, 0, 0.18);
+    }
+
+    .left-menu {
+        border: none;
+    }
+
+    .oc-menu .left-menu {
+        border: none;
+    }
+
+
+    .news-top {
+        display: none !important;
+    }
+
+    /* .news-wrapper {
+    margin-bottom: 30px !important;
+} */
+    /* The navigation menu links */
+    /* .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Gotham;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+} */
+
+    /* When you mouse over the navigation links, change their color */
+    /* .sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+} */
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        text-decoration: none;
+    }
+
+    .news {
+        display: none !important;
+    }
+
+
+    /**delete sidebar single tour schedule **/
+
+    .sidenav .tour-date-departs {
+        display: none;
+    }
+
+    /* .heading{
+  border:none !important;
+}
+
+.heading h5{
+    background-color: #959595;
+    border-radius: 0;
+    border:none !important;
+   
+} */
+
+
+/**hide cartagena women-banner**/
+
+.cartagenawomen-banner {
+    display: none;
+}
+
+/**hide  rotator**/
+.main-image-rotator {
+    display: none;
+}
+
+    .main-content p {
+        font-size: 18px !important;
+        color: #000;
+        /* margin:10px 50px 10px 50px; */
+        text-align: left;
+        line-height: 1.8em;
+        padding: 0;
+    }
+
+    .main-content h2 {
+        font-size: 28px;
+        color: #39b54a;
+        /* margin: 50px 50px 10px 50px; */
+    }
+
+    /* .main-content h3{
+  margin: 50px 50px 10px 50px;
+} */
+    /* .cluster-data{
+  margin: 50px 50px 10px 50px;
+} */
+    .ul.ml-20 {
+        margin-left: 80px !important;
+    }
+
+    .main-content ul {
+        text-align: left !important;
+    }
+
+    .footer-bg,
+    .footer {
+        margin: 0px !important;
+
+    }
+
+    /*override*/
+    .header-top2 {
+        display: none;
+    }
+
+    .poltava-main-navigation {
+      background-image: none;
+    }
+
+    .poltava-main-navigation 
+    .main-content {
+        margin: 0px auto;
+        width: 1600px;
+        max-width: 100%;
+
+    }
+
+    .banner-bg {
+        margin-top: 100px !important;
+        padding: 20px !important;
+        min-height: unset !important;
+        display: none;
+    }
+
+    .header-caption2 {
+        margin: 0;
+    }
+
+    .footer-nav {
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+
+    .banner-rotator {
+        width: 80% !important;
+    }
+
+    .medialogos .item img {
+        width: unset !important;
+    }
+
+    .midcontarea {
+        padding: 20px;
+        max-width: 100% !important;
+        width: 1600px !important;
+        margin-top: 200px;
+        margin-inline: auto !important;
+        /* margin: 120px auto 0px !important; */
+    }
+
+    .site-content {
+        max-width: 100% !important;
+        width: 1600px !important;
+    margin-inline: auto !important;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .midcontarea {
+            margin-top: 220px !important;
+        }
+    }
+
+
+    @media screen and (min-width: 1024px) {
+        .midcontarea {
+            margin-top: 230px !important;
+            max-width: 65% !important;
+        }
+
+        .site-content h1 {
+            margin-bottom: 30px ;
+        }
+
+
+    }
+
+
+    @media screen and (min-width: 1280px) {
+        .midcontarea {
+            margin-top: 200px !important;
+        }
+    }
+
+
+    @media screen and (min-width: 1440px) {
+        .midcontarea {
+            margin-top: 175px !important;
+        }
+    }
+
+
+  
+
+    .cartagena-women-cluster .horizontal-form {
+      margin-top: 150px !important;
+    }
+
+
+
+    figure.figure.pull-right {
+        display: none;
+    }
+
+   
+    .form-horizontal 
+    .list-group {
+        margin-bottom: 0 !important;
+    }
+
+    .content-area {
+        padding: 0 !important;
+    }
+
+    .main-nav2 .navbar-nav li {
+        position: relative !important;
+        z-index: 2 !important;
+    }
+
+    .navbar-header span.navmenu {
+        color: #414F10;
+    font-size: 16px;
+    }
+
+
+    .poltava-main-navigation .navbar-nav .mobile-sidebar-area   .thelanguage {
+        background-color: #ffff;
+    }
+
+
+
+    .cartagenawomen-modal .btn {
+          background-color: #414F10 !important;
+    }
+
+
+    .sidebar #cartagenawomen-sidebar-cta {
+     
+            border: 2px solid #414F10 !important;
+    }
+
+       .single-women-profile-women-table {
+          display: flex !important;
+          column-gap: 10px !important;
+          flex-wrap: wrap;
+        }
+
+        .single-women-profile-women-table-box {
+          flex: 25% !important;
+          width: 0  !important; 
+        }
+
+
+    /*=================Cartagena Women Blog Pagination==============*/
+
+       .pillar-page  .related-content-wrapper, .cluster-data  .related-content-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+
+
+
+.pillar-page .card, .cluster-data .card {
+    border: none;
+}
+
+.pillar-page .card-wrapper, .card-wrapper, .cluster-data .card-wrapper, .card-wrapper {
+    padding: 0;
+}
+      
+/* .related-content-wrapper .items .card-wrapper .card-body .item img {
+    transform: scale(1);
+} */
+
+
+
+
+@media only screen and (max-width: 374px) {
+        .pillar-page  .related-content-wrapper, .cluster-data  .related-content-wrapper {
+    display: unset;
+}
+
+
+ .pillar-page  .related-content-wrapper .items .card-wrapper .card-body .item:first-child, 
+.cluster-data  .related-content-wrapper .items .card-wrapper .card-body .item:first-child {
+        width: 40%;
+}
+
+
+ .pillar-page  .related-content-wrapper .card-body .item, .cluster-data  .related-content-wrapper .items .card-wrapper .card-body .item {
+    width: 60%;
+ }
+}
+
+
+
+    /*=================End of Cartagena Women Blog Pagination==============*/
+    
+
+     /*=================Cartagena Women Video Pagination==============*/
+
+
+        .tour-dates-header {
+                gap: 15px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+        }
+
+        /* .tour-dates-header li {
+            width: auto;
+        } */
+
+         .tour-dates-header li {
+             padding-block: 10px !important;
+         }
+
+        
+
+         .tour-dates-header .cartagena-women-heading h1 {
+            margin-block: 0 !important;
+         }
+
+        .cartagena-videos-wrapper {
+             /* display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-column-gap: 10px;
+             grid-row-gap: 20px; */
+             display: flex;
+            flex-wrap: wrap;
+            
+        }
+
+        
+
+         .cartagena-videos-wrapper  .custom-pagination-page {
+            /* padding:20px; */
+            flex-basis: 100%;
+            flex-grow:unset;
+         }
+
+         @media only screen and (min-width:1024px) {
+            .cartagena-videos-wrapper  .custom-pagination-page {
+                
+                flex-basis: 33.33%;
+                
+
+            }
+           
+
+        }
+    
+
+             .cartagena-videos-wrapper  .video-content h2{
+            font-size: 1rem !important;
+            margin-top: 15px !important;
+         }
+
+
+         .cartagena-videos-wrapper  .video-section  {
+            
+               -webkit-line-clamp: 0 !important;
+                line-clamp: 0 !important;
+                display: block;
+         }
+
+
+          .cartagena-videos-wrapper  .video-section img {
+            margin-bottom: 0px !important;
+          }
+    
+        
+        @media screen and (max-width: 374px) {
+            .cartagena-videos-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+
+
+
+
+    /*=================End of Cartagena Women Videos Pagination==============*/
+
+
+
+    /*=================Cartagena Women Video Page==============*/
+
+          .videoPage h1 {
+            text-align: center;
+          }
+
+
+
+          .video-wrap .video {
+            width: 50%;
+            margin: auto;
+            /* height: 500px; */
+          }
+
+           .video-wrap .video iframe {
+            height: 100%;
+          }
+
+
+        
+
+
+     /*=================End of Cartagena Women Video Page==============*/
+
+
+ 
+
+
+  /*===================== MOBILE - TABLET MEDIA QUERY ======================*/
+  @media screen and (max-width: 1023px) {
+
+    .header-top2 div#navbar {
+        height: 72vh !important;
+    overflow-y: scroll !important;
+    background: #414F10;
+    }
+
+      /* h1 {
+      font-size: 28px!important;
+    } */
+ 
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    h3,h4,h5,h6  {
+    font-size: 1.3rem ;
+    }
+
+    body, p, li, button{
+        font-size: 1.2rem ;
+    line-height: 1.8 !important;
+    }
+
+    a {
+      font-size: inherit ;
+        line-height: 1.5 !important;
+    }
+
+
+   /* #bottom-cta-nav-mobile p {
+    font-size: 1rem !important;
+} */
+
+    .cartagena-women-cluster .horizontal-form {
+      margin-top: 0  !important;
+    }
+
+    .header-top2 {
+            display: block;
+            position: fixed;
+            width: 100%;
+            z-index: 2;
+        }
+
+
+           .toprightarea,
+        .ada-icon-link {
+            display: none;
+        }
+
+    .header-top2 .navbar-header {
+    /* position: absolute !important; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+    }
+
+
+    .header-top2 .primaryBGColor {
+        background-color: #84A21B;
+        font-size:14px;
+    }
+
+
+    .header-top2 .navbar-header a {
+        margin-right:auto;
+    }
+    .header-top2 .navbar-inverse {
+        z-index: 5;
+        background: #fff;
+       
+    }
+
+
+
+     .header-top2 .navbar-inverse .navbar-toggle {
+        border: 2px solid #414F10;
+        width: max-content;
+        padding: 2px 8px;
+        color: #414F10;
+        background-color: transparent;  
+    }
+
+
+
+    .header-top2 .navbar-inverse .navbar-nav li a {
+    padding-block: 3px;
+    font-size: 1rem;
+    }
+
+
+.header-top2 .mobile-sidebar-area .thelanguage ul li {
+    padding-block: 2px;
+    margin-top:0;
+}
+     
+
+    /* .header-top2  .navbar-collapse.collapse.in {
+        background: #84A21B;
+    } */
+
+
+    .header-caption2 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: #cedaa4;
+      
+    }
+
+
+
+   
+
+    .header-top2 .navbar-inverse .navbar-nav .active a, .navbar-nav .open .dropdown-toggle {
+        background-color: #414F10 !important;
+      } 
+
+    .header-top2 .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+
+   .header-top2 .navbar-nav > li:first-child {
+        background: #fbffee;
+}
+   
+.header-top2 .navbar-nav > li:first-child a {
+    color: #1b1b1b !important;
+}
+
+         .midcontarea {
+            display: block !important;
+            /* margin-top: 250px !important; */
+        }
+
+       .midcontarea .mobile-sidebar-area {
+            display: none ;
+        }
+
+        .mobile-sidebar-area .panel-group.mobile-sidebar-panel {
+            margin-top: 280px !important
+        }
+
+        .mobile-sidebar-panel h4 a img  {
+            position: relative;
+        }
+
+        .mobile-sidebar-panel h4 a img {
+            right: 0; 
+        }
+
+
+        .mobile-sidebar-panel .panel-title {
+                display: flex;
+                justify-content: space-between;
+        }
+
+
+
+        .mobile-sidebar-area ul li a {
+          padding-top: 13px 0 0 13px !important ;
+          border: none;
+          color: #414F10;
+          font-size: 15px;
+        }
+      
+        .mobile-sidebar-area ul li a:hover {
+            background: transparent;
+            text-decoration: none;
+            color: #84A21B;
+        }
+
+
+        .single-women-profile-section-box li a {
+          color: #23527c; 
+        }
+
+
+          .single-women-profile-women-table {
+              gap: 10px;
+          }
+
+          
+          .single-women-profile-women-table-box {
+            flex: 50% !important;
+          }
+
+          
+          
+     /**** Register modal ****/ 
+
+     .register-modal .register-body .col-lg-6 {
+        order: 2 !important;
+     }
+
+      /**** End of Register modal ****/ 
+
+      
+    /*=================Cartagena Women Video Page==============*/
+
+    
+          .video-wrap .video {
+            width: 100%;
+          
+           
+          }
+
+          .videoPage h1 {
+            padding-top: 0;
+          }
+       
+     /*=================End of Cartagena Women Video Page==============*/
+
+
+     @media screen and (min-width:712px) and (max-width: 950px) {
+        .mobile-sidebar-area {
+            display: block;
+        }
+        ul.nav.navbar-nav.text-center {
+            padding-inline: 100px;
+        }
+
+        .mobile-sidebar-area .liveshow-link img {
+            width: 100%;
+        }
+
+     }
+
+  
+     @media screen and (max-width: 767px) {
+
+        .video.stuck {
+            display: none;
+        }
+        .video-wrap .video {
+            height: auto;
+        }
+
+
+        .videoPage .video iframe:not(.videoPage .video.stuck iframe) {
+            width: 100%;
+        }
+        
+            .site-content p {
+                margin-bottom: 30px !important;
+                line-height: 1.8 !important;
+                text-align: left;
+            }
+
+            .site-content {
+                margin-top:45px;
+            }
+     }
+
+
+     @media screen and (min-width:712px) {
+        .video-wrap .video {
+            height: 420px;
+        }
+
+        .video.stuck {
+            width: 40%;
+        }
+
+
+        body, p, a, li, button{
+      font-size: 1.1rem ;
+    }
+
+
+      
+     }
+
+
+        @media (min-width:1024px) {
+
+            .video-wrap .video:not(.video.stuck) {
+            height: 550px;
+        }
+            .tour-dates-header li {
+                width: auto;
+                padding-block: 0px !important;
+                padding-inline: 18px !important;
+               
+            }
+
+            .tour-dates-header {
+                width: 100%; 
+            }
+/* 
+            li.cartagena-women-heading {
+                margin-right: auto;
+            } */
+
+            .mobile-sidebar-area {
+                display: none;
+            }
+
+        }
+
+
+
+        /********REGISTRATIONA MODAL OVERRIDE ********/
+
+
+        .register-modal  .row.register-body {
+    flex-direction: column-reverse;
+}
+
+        .register-area-form .register-form p {
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+
+
+        .register-modal     .register-area-form label {
+            font-size: 1rem !important;
+        }
+
+
+        .register-modal   .register-area-form .register-form .submitsign {
+            width: 100% !important;
+        }
+
+
+        .register-modal  .register-content ul li strong:first-child {
+    color: #414F10; 
+        }
+
+        @media (min-width: 1024px) {
+
+            .register-modal .row.register-body {
+                flex-flow: wrap-reverse !important;
+    flex-direction: row-reverse !important;
+                
+            }
+            .register-modal    .register-area-form .register-form .form-group {
+                display: flex;
+            }
+
+
+            .register-modal    .register-area-form label {
+                text-align: left !important;
+                width: 35%;
+            }
+
+
+            .register-modal   .register-area-form .register-form .form-group .col-lg-9 {
+                width: 65%
+            }
+
+
+            .register-modal     .register-area-form .register-form #qr_profile_birth_date select {
+                width: 75px !important;
+            }
+
+        }
+        /********END REGISTRATIONA MODAL OVERRIDE ********/
+</style>
+
+
+
+
+
+
+
+
+<div class="container-fluid poltava-main-navigation header-top2 ">
+    <div class="row">
+        <div class="container-fluid">
+            <nav class="row navbar navbar-inverse">
+                <div class="ada-icon-link">
+                    <a href="/information/ada/index.html"><img class="ada-icon" src="/information/ada/handicap-icon.png"
+                            width="15" height="19" alt="Link to ADA Handicap Assistance and Information" border="0"></a>
+                    <a href="#main-content"><img src="/information/ada/arrow-forward.png" width="13" height="13"
+                            alt="Disabled Skip to Main Page Content" border="0"></a>
+                </div>
+                <div class="navbar-header shadow-sm">
+                    <a href="https://cartagenawomen.com/"><img src="/img/cartagena-women-logo.png" width="217" height="53" class="img-responsive" alt="Cartagena Women Logo"></a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                       MENU
+                    </button>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav text-center">
+                          <li><a href="/members/login" target="_top"> <svg width="15" height="15" fill="currentColor"
+                                    viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15.592 3.027C14.68 2.042 13.406 1.5 12 1.5c-1.414 0-2.692.54-3.6 1.518-.918.99-1.365 2.334-1.26 3.786C7.348 9.67 9.528 12 12 12c2.472 0 4.648-2.33 4.86-5.195.106-1.439-.344-2.78-1.268-3.778Z">
+                                    </path>
+                                    <path
+                                        d="M20.25 22.5H3.75a1.454 1.454 0 0 1-1.134-.522 1.655 1.655 0 0 1-.337-1.364c.396-2.195 1.63-4.038 3.571-5.333C7.574 14.132 9.758 13.5 12 13.5c2.242 0 4.426.633 6.15 1.781 1.94 1.294 3.176 3.138 3.571 5.332.091.503-.032 1-.336 1.365a1.453 1.453 0 0 1-1.135.522Z">
+                                    </path>
+                                </svg> My Account</a></li>
+                        <li><a href="/" target="_top">Home</a></li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                href="">Cartagena Women Profile <span class="caret" style="display: none;"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                <li><a href="/members/signup/">Men&#8217;s FREE Registration</a></li>
+                                <li><a href="/women/cartagena-women/cartagena-women.htm">Cartagena Women&#8217;s
+                                        Profiles</a></li>
+                                <li><a href="/new-cartagena-women.html">Newest Singles in Cartagena Women</a></li>
+                                <li><a href="/mp/latin-women.htm">All Latin Women</a></li>
+                                <li><a href="/newest-latin-women/">Newest Latin Women</a> </li>
+                                <li><a href="/search-single-foreign-women-worldwide.html">Want More? Single Women
+                                        Worldwide
+                                <li></a></li>
+                                <li><a href="/new-single-girls-for-marriage-worldwide.html">This Weeks New Girls
+                                        Worldwide</a></li>
+                                <li><a href="/search-cartagenawomen-seeking-men/">Advance Search</a></li>
+                                <li><a href="/invar/contact/match_request.html">Weekly Auto Match Wizard</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li><a href="/women-tour/" target="_top">Cartagena Women Singles Tours</a></li>
+                        <li><a href="/how-to-meet-women-in-cartagena.html" target="_top">How to Meet Women in
+                                Cartagena</a></li>
+                        <li><a href="/new-cartagena-women.html" target="_top">Newest Profiles</a></li>
+                        <li><a href="/search-cartagenawomen-seeking-men/" target="_top">Advanced Search</a></li>
+
+                        <div class="mobile-sidebar-area">
+
+
+                            <div class="technology primaryBGColor">WOMEN&#8217; PROFILE &amp; SEARCH OPTIONS</div>
+                              <div class="thelanguage">
+                                <ul>
+                                  <li><a href="/members/signup/">Men&#8217;s FREE Registration</a></li>
+                                  <li><a href="/women/cartagena-women/cartagena-women.htm">Cartagena Women&#8217;s Profiles</a></li>
+                                  <li><a href="/new-cartagena-women.html">Newest Singles in Cartagena Women</a></li>
+                                  <li><a href="/mp/latin-women.htm">All Latin Women</a></li>   
+                                  <li><a href="/newest-latin-women/">Newest Latin Women</a></li> 
+                                  <li><a href="/search-single-foreign-women-worldwide.html">Want More? Single Women Worldwide</a></li>
+                                  <li><a href="/new-single-girls-for-marriage-worldwide.html">This Weeks New Girls Worldwide</a></li>
+                                  <li><a href="/search-cartagenawomen-seeking-men/">Advance Search</a></li>
+                                  <li><a href="/invar/contact/match_request.html">Weekly Auto Match Wizard</a></li>
+                                  
+                                </ul>
+                              </div>
+        
+                              <div class="technology primaryBGColor">SEARCH</div>
+                        <div class="thelanguage">
+                          <ul>
+                            <li><a href="/information/mobi/search-advanced.html">Advanced Search</a></li>
+                            <li><a href="/information/mobi/search-quick.html">Quick Search</a></li>
+                            <li><a href="/information/mobi/search-id.html">Search by ID</a></li>
+                            <li><a href="/women/update.htm">New Women</a></li>
+                            <li><a href="/information/mobi/search-match-wizard.html">Match Wizard</a></li>
+                          </ul>
+                        </div>
+        
+        
+                            <div class="technology primaryBGColor">TOOLS &amp; OPTIONS</div>
+                              <div class="thelanguage">
+                                <ul>
+                                  <li><a href="/how-to-meet-women-in-cartagena.html">How Our Services Works</a></li>
+                                  <li><a href="/information/how-to-correspond-with-women.html">Platinum Upgrade</a></li>
+                                  <li><a href="/phone_translation/">Virtual Phone/Video Calls</a></li>
+                                  <li><a href="/order-form/imbra-order-form.html">IMBRA Request</a></li>
+                                  <li><a href="/execu/professional-matchmaker-plan.html">Our Executive Plan</a></li>
+                                  <li><a href="/gifts/">Send Her A Gift</a></li>
+                                </ul>
+                              </div>
+        
+        
+                            <div class="technology primaryBGColor">TRAVEL &amp; MEETING HER</div>
+                              <div class="thelanguage">
+                                <ul>
+                                  <li><a href="/women-tour/">Cartagena Singles Tours</a></li>
+                                  <li><a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html">Cartagena Women Tour Schedule</a></li>
+                                  <li><a href="/latin_club/">Individual Club Tours to Cartagena</a></li>
+                                  <li><a href="/cartagena-women-videos/">Cartagena Tour Highlight Videos</a></li>
+                                  <li><a href="/cartagena-women-tour-photos/">Cartagena Women Tour Photos</a></li>
+                                  <li><a href="/order-form/introductions-order-form.html">One on One Introductions</a></li>
+                                  <li><a href="/tour/things-to-consider-on-singles-tours.html">Singles Tour FAQ&#8217;s</a></li>
+                                  <li><a href="/blog/">Blog</a></li>
+                                </ul>
+                              </div>
+        
+                              <div class="liveshow-link" style="margin: 5px 0 0 0;">
+                                <a href="/maria-live.html"><img src="/img/CartW-YT056.png" width="481" height="270"
+                                        class="img-responsive center-block" border="0" alt="To Love a Latin Woman"
+                                        title="1st Latin Women Video"></a>
+                            </div>
+        
+    
+                            </div>
+  
+                      
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- START OF BOTTOM CTA NAV MOBILE -->
+
+
+    
+
+    <div id="bottom-cta-nav-mobile-top" class="fixed-top">
+        <ul class="list-group list-group-horizontal mx-auto">
+            <li class="list-group-item border-0 w-100">
+                <div class="rotator-girlss">
+                    <!-- MasterSlider -->
+
+
+                    <div id="P_masterslider_mobile" class="master-slider-parent ms-staff-carousel ms-parent-id-49">
+                        <!-- MasterSlider Main -->
+                        <div id="masterslider_mobile" class="master-slider ms-skin-default">
+
+                           <!--#include virtual="/imagemap/cartagenawomen-rotator.php" -->
+
+                        </div>
+                        <!-- END MasterSlider Main -->
+                    </div>
+                    <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider -->
+
+            </li>
+        </ul>
+    </div>
+    <div id="bottom-cta-nav-mobile" class="sticky-bottom fixed-bottom">
+
+        <ul class="list-group list-group-horizontal mb-0 d-flex ">
+            <li class="list-group-item border border-1 d-flex align-items-center">
+                <a target="_blank" href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html"
+                    class="text-dark fw-b2 nav-link my-sm-0" style="line-height:1.2 !important; font-size: 11px !important;"><i class="fa-solid fa-location-dot pr-1 fa-2x mb-1"  style="color:#414F10 !important;"></i>
+                    Tour <br> Schedule
+                </a>
+            </li>
+            <li class="px-1 list-group-item border border-1 d-flex align-items-center">
+                <a target="_blank" href="/new-cartagena-women.html" class="text-dark fw-b2 nav-link my-sm-0" style="line-height:1.2 !important; font-size: 11px !important;"><i
+                        class="fa-brands fa-hotjar text-warning pr-1 fa-2x mb-1" style="color:#414F10 !important;"></i>
+                    Newest Ladies Profiles 
+                </a>
+            </li>
+            <li class="list-group-item d-flex align-items-center rounded-0" style="background-color: transparent !important;">
+                <a  href="/members/signup" class="fw-b2 nav-link my-sm-0  text-dark" style="line-height:1.2 !important
+            ; background-color: transparent !important;"> 
+                    <i class="fa-solid fa-user-plus pr-1 fa-2x text-white text-center mb-1" style="color:#414F10 !important;"></i>
+                   Signup for Free
+                    
+                </a>
+            </li>
+            <!-- <li class="list-group-item">
+            <a href="#" class="fw-b2 nav-link my-sm-0"><i class="fa-solid fa-user-plus pr-1 fa-2x"></i> <p class="small">Register<br/>for FREE</p></a>
+        </li> -->
+        </ul>
+
+    </div>
+
+</div>

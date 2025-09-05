@@ -1,0 +1,85 @@
+<section data-id="travel-container" id="travel" class="mt-5">
+    <div class="d-flex justify-content-between gap-3 align-items-baseline mb-5">
+        <div class="w-100">
+            <h2 class="pt-0 mb-0 d-flex w-100 align-items-baseline gap-3 text-dark cluster-title fw-medium">Travel</h2>
+        </div>
+
+        <a id="cta-link-desktop" href="/travel" class="text-nowrap fs-4 cta-link">See more Travel articles</a>
+    </div>
+
+    <div class="px-md-3 px-0">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div data-id="latest" class="col">
+                <a href="#">
+                    <div class="card h-100 border-0">
+                        <div class="ratio ratio-16x9">
+                            <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                                class="lozad rounded-3 object-fit-cover" alt="...">
+                        </div>
+                        <div class="card-body placeholder-glow">
+                            <h3 class="card-title fs-2 placeholder mt-0 rounded-pill bg-secondary text-dark d-block fw-medium"
+                                aria-label="card title"></h3>
+                            <p class="fw-light px-0 lh-base fs-4">
+                                <span class="placeholder col-7 rounded-pill bg-secondary placeholder-sm"></span>
+                                <span class="placeholder col-4 rounded-pill bg-secondary placeholder-sm"></span>
+                                <span class="placeholder col-4 rounded-pill bg-secondary placeholder-sm"></span>
+                                <span class="placeholder col-5 rounded-pill bg-secondary placeholder-sm"></span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div data-id="other-posts" data-class="card-container" class="d-grid gap-3 col mt-0">
+                <div class="pb-3 border-bottom" data-class="card-container">
+                    <a href="#" class="d-flex justify-content-between align-items-center link-dark">
+                        <span aria-label="card title"
+                            class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                        <img width="110" height="78"
+                            src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                            class="lozad object-fit-cover rounded-3" alt="...">
+                    </a>
+                </div>
+                <div class="pb-3 border-bottom" data-class="card-container" data-class="other">
+                    <a href="#" class="d-flex justify-content-between align-items-center link-dark">
+                        <span aria-label="card title"
+                            class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                        <img width="110" height="78"
+                            src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                            class="lozad object-fit-cover rounded-3" alt="...">
+                    </a>
+                </div>
+                <div class="pb-3 border-bottom" data-class="card-container" data-class="other">
+                    <a href="#" class="d-flex justify-content-between align-items-center link-dark">
+                        <span aria-label="card title"
+                            class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                        <img width="110" height="78"
+                            src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                            class="lozad object-fit-cover rounded-3" alt="...">
+                    </a>
+                </div>
+                <div class="pb-3 border-bottom" data-class="card-container" data-class="other">
+                    <a href="#" class="d-flex justify-content-between align-items-center link-dark">
+                        <span aria-label="card title"
+                            class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                        <img width="110" height="78"
+                            src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                            class="lozad object-fit-cover rounded-3" alt="...">
+                    </a>
+                </div>
+                <div class="pb-3 border-bottom" data-class="card-container" data-class="other">
+                    <a href="#" class="d-flex justify-content-between align-items-center link-dark">
+                        <span aria-label="card title"
+                            class="mt-md-0 mt-3 card-title placeholder w-100 m-0 rounded-pill bg-secondary fs-3 fw-medium"></span>
+                        <img width="110" height="78"
+                            src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNlOWVjZWYiPjwvcmVjdD48L3N2Zz4="
+                            class="lozad object-fit-cover rounded-3" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-grid col-6 mx-auto my-3">
+        <a id="cta-link-mobile" href="/travel/" class="text-center fs-4 cta-link">See more Travel articles</a>
+    </div>
+</section>

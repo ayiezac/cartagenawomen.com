@@ -1,0 +1,136 @@
+/*
+***************************************************************************************
+CSS ELEMENTS FOR TOUR RELATED PAGES
+	. This file is to be placed in the imagemap folder of the site.
+	. It's color and font elements are used on tour pages to lend the same scheme
+	to those pages as the site uses (design integrity between the site and those pages).
+	. IMPORTANT!!!
+	. Use hex colors for these elements that best match the color scheme of the site.
+	. You can change colors for backgrounds and fonts, but DO NOT CHANGE ANYTHING ELSE!!
+	. Be sure to put a stylesheet link in the header of the site:
+		. <LINK href="/imagemap/tour-menu.css" rel="stylesheet" type="text/css">
+***************************************************************************************
+*/
+
+/*
+HORIZONTAL TOUR MENU 
+	. On european, asian, and latin tour pages, the horizontal menu at top of page.
+	. Has three elements: background of selected menu item; background of non-selected menu item; and fonts for either case
+*/
+.menu-bg-selected {
+	background-color: #6666CC; /* background color EDIT-YES */
+	box-shadow:2px 2px 2px #333333;
+	border: 1px solid #000000;
+}
+.menu-bg-selected-not {
+	background-color: #6666CC; /* background color EDIT-YES */
+	box-shadow:2px 2px 2px #333333;
+	border: 1px solid #000000;	
+}
+.menu-font-selected {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+.menu-font-selected:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+.menu-font-selected:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: underline;
+}
+
+
+
+.menu-font-selected-not {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+
+.menu-font-selected-not:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: underline;
+}
+.menu-font-selected-not:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+
+/*
+PAGE ELEMENTS
+	. Page elements include: title and header.
+	. Title is the European or Asian or Latin 'Tour Schedule' (eg. 2017 European Tour Schedule).
+	. Header is the heading above the listed tour (eg. Select, Tour Cities, From, To, Days, Cost.
+	. Both title and header have background and font values.
+*/
+
+/*
+TITLE
+*/
+.menu-bg-title {
+	background-color: #620B13; /* background color EDIT-YES */
+}
+.menu-font-title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+	font-weight: normal;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+
+/*
+TITLE
+*/
+.menu-bg-header {
+	background-color: #240201; /* background color EDIT-YES */
+}
+.menu-font-header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+}
+
+/*
+TOUR CITIES PAGES
+	. Tour city pages also use the elements above.
+	. Tour city pages also have one additional element, a pull-down menu style.
+	. The menu-pulldown style is only used on tour city pages, not the schedule pages.
+	. For the pull-down element, use the same background color from the menu-bg-selected-not, above.
+*/
+
+.menu-pulldown
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF; /* font color EDIT-YES */
+	text-decoration: none;
+	background-color: #6666CC; /* background color EDIT-YES */
+	height: 20px;
+	border: 1px solid #ffffff;
+	margin-right: 3px;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	width: 200px;
+}
+

@@ -1,0 +1,126 @@
+<div class="page-top-header">
+<!--#include virtual="/imagemap/top-header.shtml" -->
+</div>
+
+<!-- BOTTOM CTAs -->
+
+<div id="bottom-cta-nav" class="">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 mx-0 px-0 d-md-flex d-block">
+
+                <!-- Use any element to open the sidenav -->
+                <ul class="list-group list-group-horizontal shadow-none ps-5">
+
+                    <li class="list-group-item border-0" style="padding: 0 !important;">
+                        <div class="desktop-sidebar-menu2">
+                            <a class="fc-megamenu" href="javascript:void(0)" onclick="openNav()">Main Menu <i
+                                    class="fa-solid fa-bars"></i></a>
+                        </div>
+                    </li>
+                </ul>
+               
+                <a href="/" class="top-logo-v2 ps-5 pt-3"><img style="display:block; width:350px;" src="/img/cartagena-women-logo.png" border="0" alt="Logo" title=""></a>
+            </div>
+            
+            <div class="col-4">&nbsp;</div>
+            
+            <div class="col-4 text-center pt-3">
+                <div class="row">
+                    <div class="col-7 bottom-cta-searchform">
+                        <!-- <a class="searchbox" href="#" role="button" data-toggle="modal" data-target="#searchInfoModal">
+                        Find Your Woman Here..&nbsp; <i class="fa-solid fa-magnifying-glass"></i>
+                        </a> -->
+                        <a class="quick-search-header-modal" href="#" role="button" data-toggle="modal"
+                            data-target="#searchInfoModal">
+                            <p class="ps-4"><i class="fa-solid fa-magnifying-glass"></i> Search Women's ID / <span>Use Advance
+                                    Search</span></p>
+                        </a>
+
+                        <a class="quick-search-header-modal go-btn" href="#" role="button" data-toggle="modal"
+                            data-target="#searchInfoModal">
+                            <p class="search-go">Go</p>
+                        </a>
+                    </div>
+                   <div class="col bottom-cta-members-login">
+                        <a class="top-header-signup" id="signup2" href="javascript:;"></a>
+                    </div>
+                </div>
+            </div>
+        
+         </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-4 mx-0 px-0 d-flex justify-content-center top-navi-left-side">
+
+                <ul class="list-group list-group-horizontal">
+
+                    <li class="list-group-item border-0">
+                        <a href="/" class="fw-b2 nav-link border text-dark  my-2 my-sm-0">Home</a>
+                    </li>
+
+                    <li class="list-group-item border-0">
+                        <a href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html" class="fw-b2 nav-link border text-dark my-2  my-sm-0">Tour Schedule</a>
+                    </li>
+
+                    <li class="list-group-item border-0">
+                        <a target="_blank" href="/new-cartagena-women.html"
+                            class="fw-b2 nav-link border text-dark  my-2 my-sm-0">Newest Ladies
+                            Profiles</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="col-4 mx-0 px-0 d-flex justify-content-center pt-3">
+
+                <ul class="list-group list-group-horizontal w-100">
+                    <li class="list-group-item border-0 w-100">
+                        <div class="rotator-girlss">
+                            <!-- MasterSlider -->
+
+
+                            <div id="P_masterslider" class="master-slider-parent ms-staff-carousel ms-parent-id-49"
+                                >
+                                <!-- MasterSlider Main -->
+                                <div id="masterslider" class="master-slider ms-skin-default">
+
+                                    <!--#include virtual="/imagemap/cartagenawomen-rotator.php" -->
+
+                                </div>
+                                <!-- END MasterSlider Main -->
+                            </div>
+                            <!-- END MasterSlider Main -->
+                        </div>
+                        <!-- END MasterSlider -->
+
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-4 mx-0 px-0 d-flex justify-content-center  top-navi-right-side">
+                <ul class="list-group list-group-horizontal">
+
+                    <li class="list-group-item border-0">
+                       <a target="_blank" href="/women/cartagena-women/cartagena-women.htm" class="nav-link ">Cartagena
+                            Women Profiles</a>
+                    </li>
+
+                    <li class="list-group-item border-0">
+                        <a href="javascript:;" class="fc-sidemenu fw-b2 nav-link mega-menu-header">Search Tools&nbsp;<i class="fa fa-caret-down"></i></a>
+                    </li>
+
+                    <li class="list-group-item border-0">
+                        <a href="/members/login/" id="member-login2" class="nav-link"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+

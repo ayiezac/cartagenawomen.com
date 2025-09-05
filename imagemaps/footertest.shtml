@@ -1,0 +1,156 @@
+      
+      <div style="clear: both;"></div>
+      <div class="row news-background">
+          <div class="col-lg-12 news-holder">
+              <img src="/img/cartagena-dating-news-icon.png" alt="" class="pull-left">
+              <p><!--#include virtual="/imagemap/news-bottom.shtml"--></p>
+          </div>                        
+      </div>
+      
+		</div> <!-- end col-lg-9 site-main-content -->
+	</div>
+</div>
+
+<div class="row site-footer"> 
+  <div class="container">
+    <div class="col-lg-12 row footer-info-holder">
+      <div class="col-lg-3 col-md-3 footer-contact">
+          <p>Contact</p>
+          <h2>Information</h2>
+          <a href="/invar/sendmess/index.php"><img src="/invar/ssi-common/contact/left-align-contact-dark-background.png" alt="Contact Cartagena Dating" class="img-responsive"></a>
+      </div>
+      <div class="col-lg-6 col-md-6 footer-navigation">
+          <p>Cartagena Dating</p>
+          <h2>Navigation</h2>
+          <div class="col-md-6 mx-auto">
+              <ul class="list-unstyled">
+                  <li><a href="/" target="_top">Home</a></li>
+                  <li><a href="/women/cartagena-women/cartagena-women.htm" target="_top">Cartagena Dating Profiles</a></li>
+                  <li><a href="/cartagena-dating-tour.html" target="_top">Cartagena Dating Tours</a></li>
+                  <li><a href="/how-to-meet-single-ladies-in-cartagena.html" target="_top">How to Meet Single Ladies in Cartagena</a></li>
+              </ul>
+          </div>
+          <div class="col-md-6 mx-auto">
+              <ul class="list-unstyled">
+                  <li><a href="/new-cartagena-ladies.html" target="_top">Newest Cartagena Ladies Profiles</a></li>
+                  <li><a href="/search-for-women-in-cartagena-seeking-men/" target="_top">Advanced Search</a></li>
+                  <li><a href="/members/privacy" target="_top">Privacy Policy</a></li>
+                  <li><a href="/members/terms" target="_top">Terms & Conditions</a></li>
+              </ul>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-3 cartagena-dating-footer-logo">
+          <a href=""><img src="/img/cartagena-dating-footer-logo.png" class="img-responsive" alt="Cartagena Dating Footer Logo"></a>
+      </div>
+    </div>
+  </div> <!-- end of container site-footer -->
+
+  <div class="container-fluid"> 
+    <div class="container copyrightarea">
+      <div class="col-md-6 copyright">
+            <p>&#169; Copyright - All Rights Reserved&nbsp; &#8226; &nbsp;<a href="/">Cartagena Dating</a></p>
+      </div>
+
+      <div class="col-md-6">
+          <ul class="list-unstyled list-inline text-right">
+              <li class="list-inline-item">
+                  <a href="https://www.facebook.com/CartagenaDating/" target="_blank"><img src="/img/fb-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.instagram.com/cartagenadatingcom/" target="_blank"><img src="/img/instagram-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.youtube.com/channel/UCtoYB6Blq9ooZ6ReZGZknjQ" target="_blank"><img src="/img/youtube-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://twitter.com/DatingCartagena/" target="_blank"><img src="/img/twitter-icon.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/company/cartagena-dating" target="_blank"><img src="/img/linkedIn.png" alt="social media"></a>
+              </li>
+              <li class="list-inline-item">
+                  <a href="https://www.tiktok.com/@cartagenadating.com?" target="_blank"><img src="/img/tiktok.png" alt="social media"></a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+          <!-- Button Modal Start -->
+              <div class="modal fade cartagena-dating-modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content register-modal">
+                            <div class="row">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/img/modal-close.png" alt="Cartagena Dating"></span></button>
+                                <div class="col-lg-6">
+                                    <!--#include virtual="/invar/ssi-common/why-register.shtml" --> 
+                                </div>
+
+                                <div class="col-lg-6">
+                                   <!--#include virtual="/invar/ssi-common/form-register.shtml" -->  
+                                </div>
+
+                                <div class="col-lg-12 text-center register-custom">
+                                  <h2>
+                                    Is there any REAL reason to wait?<br/>
+                                    It's FREE, instant and without obligation to register NOW!
+                                  </h2>
+
+                                  <h5>
+                                    It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                                  </h5>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            <!-- Button Modal End -->
+            <script src="/jscripts/masterslider.min.js"></script>
+            
+
+            <script type="text/javascript">   
+
+            var slider = new MasterSlider();
+
+            slider.control('arrows'); 
+            slider.control('bullets' , {autohide:false, align:'bottom', margin:10});  
+
+            slider.setup('masterslider' , {
+              width:444,
+              height:280,
+              space:5,
+              view:'stack',
+              loop:true,
+              autoplay:true
+            });
+
+           </script>
+
+           <!-- Start of LiveChat (www.livechatinc.com) code -->
+            <script type="text/javascript">
+              window.__lc = window.__lc || {};
+              window.__lc.license = 11402428;
+              (function() {
+                var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+                lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+              })();
+            </script>
+            <noscript>
+            <a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+            powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+            </noscript>
+            <!-- End of LiveChat code -->

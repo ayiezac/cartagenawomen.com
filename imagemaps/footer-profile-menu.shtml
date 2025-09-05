@@ -1,0 +1,460 @@
+
+
+<!-- home search Modal -->
+<div class="home-search-modal-v3">
+  <!--#include virtual="/imagemap/home-search-modal.shtml" -->
+</div>
+
+<!-- Button Modal Start -->
+<div class="modal fade cartagenawomen-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content register-modal">
+			<!-- <div class="row">
+          <div class="col-12 text-center mb-5">
+            <a href="/members/login/" class="btn btn-lg px-5"><i class="fa-solid fa-lock"></i> <strong>Member's Login</strong></a>
+          </div>
+        </div> -->
+            <div class="row register-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true"><img src="/img/cartagenawomen-modal-close.png"
+                            alt="close button"></span></button>
+                <div class="col-lg-6">
+                    <!--#include virtual="/invar/ssi-common/why-register.shtml" -->
+                </div>
+
+                <div class="col-lg-6">
+                    <!--#include virtual="/invar/ssi-common/form-register.shtml" -->
+                </div>
+
+                <div class="col-lg-12 text-center register-custom">
+                    <h2>
+                        Is there any REAL reason to wait?<br />
+                        It's FREE, instant and without obligation to register NOW!
+                    </h2>
+
+                    <h5>
+                        It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                    </h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Button Modal End -->
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "cartagenawomen",
+  "alternateName": "Cartagena Women",
+  "url": "https://cartagenawomen.com/",
+  "logo": "https://cartagenawomen.com/img/cartagena-women-logo.png",
+  "sameAs": [
+    "https://www.facebook.com/cartagenawomen",
+    "https://twitter.com/CartagenaWomen1",
+    "https://www.instagram.com/officialcartagenawomen/",
+    "https://www.youtube.com/channel/UCYaQ2RkRwB_3hgikuBKHJkA",
+    "https://www.linkedin.com/company/cartagenawomencom",
+    "https://www.tiktok.com/@cartagenawomencom?lang=en"
+  ]
+}
+</script>
+
+
+
+<!------------------------floating components----------------------------------------------->
+<div class="bottom-cta-v3">
+<!--#include virtual="/imagemap/bottom-cta-dev3.shtml"-->
+</div>
+<!-------------------------end floating components---------------------------------------------->
+
+
+
+<!-- <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+
+<!--preloader script-->
+<script>
+    $(window).on('load', function () { // makes sure the whole site is loaded 
+        $('#status').fadeTo(2000, 1).fadeOut("slow"); // will first fade out the loading animation 
+        $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+        $('.cluster-data').css('overflow', 'visible');
+    })
+</script>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+
+<!---USER ACCOUNT SCRIPT--->
+
+<script type="text/javascript">
+
+  document.addEventListener("DOMContentLoaded", async () => {
+
+
+    let isLoggedIn = false;
+
+    const signup = document.querySelector('#signup');
+    const signup2 = document.querySelector('#signup2');
+    const memberLogin = document.querySelector('#member-login');
+    const memberLogin2 = document.querySelector('#member-login2');
+    const logout = document.querySelector('#logout');
+
+    const signupMobile = document.querySelector('#signup-mobile');
+    const loginMobile = document.querySelector('#login-mobile');
+    const logoutMobile = document.querySelector('#logout-mobile');
+
+
+    try {
+      const response = await fetch('/members/home');
+
+      if (!response.ok) {
+        throw new Error('Network response was not ok');
+      }
+
+      isLoggedIn = true;
+
+      const html = await response.text();
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const targetElements = doc.querySelector('.badge');
+
+
+
+      if (isLoggedIn) {
+
+        //DESKTOP FUNCTIONALITY
+
+        memberLogin.innerHTML = `My Account <span class="d-flex align-items-center position-relative ps-2"><i class="message-icon fa-regular fa-envelope rounded-circle text-black profile-pulse" style="margin-top:-2px;font-size: 16px;"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center" style="padding: 5px;font-size: 12px;top: -5px !important;font-family: 'Hind Siliguri', sans-serif;border-radius: 50% !important;color: transparent !important;width: 10px;height: 10px;">${targetElements.textContent}</span></span>`;
+
+        memberLogin.classList.add("position-relative", "d-flex", "justify-content-center", "align-items-center", "gap-1");
+
+
+        memberLogin.setAttribute('href', '/members/mailbox?folder=received');
+
+
+        memberLogin2.innerHTML = `My Account <span class="d-flex align-items-center position-relative ps-2"><i class="message-icon fa-regular fa-envelope rounded-circle text-black profile-pulse" style="margin-top:-2px;font-size: 16px;"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center" style="padding: 5px;font-size: 12px;top: -5px !important;font-family: 'Hind Siliguri', sans-serif;border-radius: 50% !important;color: transparent !important;width: 10px;height: 10px;">${targetElements.textContent}</span></span>`;
+
+        memberLogin2.classList.add("position-relative", "d-flex", "justify-content-center", "align-items-center", "gap-1");
+
+        memberLogin2.setAttribute('href', '/members/mailbox?folder=received');
+
+
+
+
+        signup.innerHTML = ` <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>Logout`
+        signup.setAttribute('href', '/members/logout?cmd=logout');
+        signup.classList.replace("text-white", "text-dark");
+
+        signup2.innerHTML = `Logout <i class="fa-solid fa-arrow-right-from-bracket me-2"></i>`
+        signup2.setAttribute('href', '/members/logout?cmd=logout');
+        signup2.classList.replace("text-white", "text-dark");
+        signup2.classList.add("sigup2-logout");
+
+
+        $('.header-right-nav ul li a').css('margin-right', '10px');
+        $('.top-header-signup').css({ "border": "1px solid #221e1f29", "padding": "0 15px", "color": "#717171", "background": "#d9d9d926", "line-height": "30px", "width": "auto" });
+        $('.top-header-right').css({ "text-align": "right", "margin-right": "100px" });
+        // MOBILE FUNCTIONALITY
+
+        loginMobile.style.display = "none";
+
+        signupMobile.innerHTML = `<span class="d-flex justify-content-center position-relative"><i class="message-icon fa-regular fa-envelope rounded-circle fs-5 mb-1 text-black" style="margin-top:-2px;color:#1381A2 !important; margin-right:-8px"></i><span id="badge-text" class="position-absolute top-0 start-100 translate-middle badge text-white bg-danger rounded-pill d-flex align-items-center justify-content-center fs-6">${targetElements.textContent}</span></span> My Account`
+
+        signupMobile.setAttribute('href', '/members/mailbox?folder=received');
+        logoutMobile.style.display = "block";
+
+      } else {
+
+
+        //DESKTOP FUNCTIONALITY
+
+        memberLogin.innerHTML = `<i class="fa-solid fa-right-to-bracket me-2"></i>Member's Login`;
+        memberLogin2.innerHTML = `<i class="fa-solid fa-right-to-bracket me-2"></i>Member's Login`;
+        signup.innerHTML = `<i class="fa-solid fa-user-plus me-2"></i>Signup for Free</a>`
+        signup.setAttribute("data-toggle", "modal");
+        signup.setAttribute("data-target", ".women-modal");
+        signup.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+        signup2.innerHTML = `<i class="fa-solid fa-user-plus me-2"></i>Signup for Free</a>`
+        signup2.setAttribute("data-toggle", "modal");
+        signup2.setAttribute("data-target", ".women-modal");
+        signup2.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+
+        signupMobile.innerHTML = `Signup Today, <strong class="text-white">It's Totally Free. &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></strong>`;
+        signupMobile.setAttribute("data-toggle", "modal");
+        signupMobile.setAttribute("data-target", ".cartagenawomen-modal");
+
+
+        // MOBILE FUNCTIONALITY
+        loginMobile.style.display = "block";
+        logoutMobile.style.display = "none";
+
+      }
+
+    } catch (error) {
+      console.error('Error fetching data:', error);
+
+      //DESKTOP FUNCTIONALITY
+
+      memberLogin.innerHTML = `<i class="fa-solid fa-right-to-bracket me-2"></i>Member's Login`;
+      memberLogin2.innerHTML = `<i class="fa-solid fa-right-to-bracket me-2"></i>Member's Login`;
+      signup.innerHTML = `Signup Today, <strong class="text-white">It's Totally Free. &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></strong>`
+      signup.setAttribute("data-toggle", "modal");
+      signup.setAttribute("data-target", ".cartagenawomen-modal");
+
+      signup2.innerHTML = `<i class="fa-solid fa-arrow-right-from-bracket"></i> &nbsp;<strong>Signup Today</strong> <span class="text-white">It's Totally Free.</span>`
+      signup2.setAttribute("data-toggle", "modal");
+      signup2.setAttribute("data-target", ".cartagenawomen-modal");
+
+      // signup.setAttribute("style", "background: #EC666B; border: #1381A2 1px solid !important;");
+
+
+      // MOBILE FUNCTIONALITY
+
+      signupMobile.innerHTML = `<i
+            class="mb-1 fa-solid fa-user-plus pr-1 fa-2x" style="color:#ed1c24;"></i> Signup for </br> Free`;
+
+      loginMobile.style.display = "block";
+      logoutMobile.style.display = "none";
+
+
+    }
+  });
+</script>
+
+<!---END USER ACCOUNT SCRIPT--->
+
+
+<!-- SEARCH TOOLS MODAL -->
+<script>
+
+jQuery(document).ready(function () {
+    jQuery('.mega-menu-header').on('click', function (event) {
+      jQuery('.mega-dropdown-content').toggle('show');
+    });
+  });
+
+  jQuery(document).ready(function () {
+    jQuery('.mega-menu-header2').on('click', function (event) {
+      jQuery('.mega-dropdown-content2').toggle('show');
+    });
+  });
+
+  // function openModal() {
+  //   document.getElementById("mega-dropdown-content2").style.display = "block";
+  // }
+
+function closeModal() {
+    document.getElementById("mega-dropdown-content2").style.display = "none";
+  }
+
+
+$(document).ready(function(){
+            $(window).on('scroll', function() {
+              closeModal();
+            });
+        });
+
+
+// $('body').on('click', function(){
+//     if( $('#mega-dropdown-content2').css('display') === 'block' ){
+//     closeModal();
+// }
+// });
+
+
+// --------------------------------------
+
+  $(document).ready(function () {
+    $('#tour-fix-close').on('click', function (e) {
+      $('.homepage-tour-schedule-fix').remove();
+    });
+  });
+
+
+
+</script>
+
+
+<!---Nav Scroll--->
+
+<script>
+
+    window.onscroll = function () {
+    let c = window.scrollY;
+
+    if (c > window.innerHeight) {
+      document.getElementById("bottom-cta-nav").className = "d-block";
+      // $('.mega-dropdown-content').css('position', 'relative');
+      // $('.mega-dropdown-content').css('top', '21.1%');
+    } else {
+      document.getElementById("bottom-cta-nav").className = "d-none";
+      // $('.mega-dropdown-content').css('position', 'absolute');
+      // $('.mega-dropdown-conten2').css('top', '21%');
+
+    }
+  }
+
+</script>
+
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+    window.__lc = window.__lc || {};
+    window.__lc.license = 11402428;
+    (function () {
+        var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+        lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+    })();
+</script>
+<noscript>
+    <a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+    powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
+
+
+<!-------------------------floating components---------------------------------------------->
+
+
+
+
+
+
+<!-- FORCE CLEAR CACHE ON RETURNING VISITOR -->
+<script>
+    function GetCookie(name) {
+        var arg = name + "=";
+        var alen = arg.length;
+        var clen = document.cookie.length;
+        var i = 0;
+        while (i < clen) {
+            var j = i + alen;
+            if (document.cookie.substring(i, j) == arg)
+                return "here";
+            i = document.cookie.indexOf(" ", i) + 1;
+            if (i == 0) break;
+        }
+        return null;
+    }
+    function testFirstCookie() {
+        var visit = GetCookie("FirstTimeVisitCookie");
+        if (visit == null) {
+            //  var expire=new Date();
+            //  expire=new Date(expire.getTime()+7776000000);
+            //  document.cookie="FirstTimeVisitCookie=here; expires="+expire + ";path=/";
+            console.log('new visitor');
+            // document.getElementById("firstVisit").innerHTML = "Welcome! You are here for the first time!";	// New visitor
+        } else {
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker
+                    .getRegistrations()
+                    .then(function (registrations) {
+                        for (let registration of registrations) {
+                            registration.unregister()
+                        }
+                    })
+            }
+            console.log('new visitor');
+            // returning visitor
+        }
+    }
+    $(document).ready(function () {
+        testFirstCookie();
+    });
+
+
+    // OFFCANVAS
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "400px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+
+
+
+</script>
+
+<!-------------------------end floating components---------------------------------------------->
+
+<!--hide ladies rotator on mobile -->
+<script>
+
+// CSS styles to be appended
+const cssStyle = `
+@media (max-width:990px) {
+#bottom-cta-nav-mobile-top {
+      display: none !important;
+   }
+
+
+   .site-content {
+      margin-top: 0px !important;
+   }
+
+
+   .midcontarea {
+      margin-top: 58px !important;
+   }
+}
+`;
+
+// List of URL fragments to check
+const urlFragments = [
+   "/new-single-girls-for-marriage-worldwide.html",
+"/newest-latin-women/",
+      "/information/how-to-correspond-with-women.html",
+   "/phone_translation/",
+   "/order-form/imbra-order-form.html",
+   "/order-form/introductions-order-form.html",
+   "/order-form/introductions-order-form-europe.html",
+   "/order-form/introductions-order-form-europe.html",
+   "/execu/professional-matchmaker-plan.html",
+   "/blog/",
+   "/euro_club/",
+   "/asian_club/",
+   "/latin_club/",
+   "/execu/the-process.html",
+   "/execu/why-us.html",
+   "/execu/cost.html",
+   "/execu/meet-our-matchmakers.html"
+];
+
+
+const targetHref = window.location.href;
+
+// Function to check if the current URL contains any of the fragments
+
+function checkUrlFragment(url) {
+    urlFragments.forEach(function(fragment) {
+        if (url.includes(fragment)) {
+            var styleElement = document.createElement('style');
+            styleElement.textContent = cssStyle;
+            document.head.appendChild(styleElement);
+        }
+    });
+}
+
+checkUrlFragment(targetHref);
+
+</script>
+<!--end hide ladies rotator on mobile -->

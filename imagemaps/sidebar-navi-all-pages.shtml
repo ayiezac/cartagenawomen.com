@@ -1,0 +1,115 @@
+<style>
+    #offcanvasMenu {
+        content-visibility: auto
+    }
+</style>
+<aside aria-labelledby=offcanvasMenuLabel class="offcanvas offcanvas-start overflow-y-scroll" data-bs-scroll=true
+    id=offcanvasMenu tabindex=-1>
+    <div class="justify-items-center offcanvas-header shadow-sm">
+        <div class=col>
+            <h3 class="fs-3 mt-0 offcanvas-title" id=offcanvasMenuLabel>Main Menu</h3>
+        </div>
+        <div class="d-flex col justify-content-end"><button aria-label=Close class=btn-close data-bs-dismiss=offcanvas
+                title=Close type=button></button></div>
+    </div>
+    <div class="offcanvas-body p-5">
+        <nav>
+            <div class="fs-3 fw-medium">
+                <h4 class="d-flex align-items-center gap-3 m-0"><svg class="lucide lucide-circle-help" fill=none
+                        height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2
+                        viewBox="0 0 24 24" width=20 xmlns=http://www.w3.org/2000/svg>
+                        <circle cx=12 cy=12 r=10 />
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                        <path d="M12 17h.01" />
+                    </svg> How To Get Started?</h4>
+            </div>
+            <ul class="list-group list-unstyled ps-3 shadow-none">
+                <li class="border-0 list-group-item"><a class=link-secondary
+                        href=/how-to-meet-women-in-cartagena.html>How Our Service Works?</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/members/signup/>Sign up for
+                        Free</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/information/how-to-correspond-with-women.html>Upgrade to Platinum Membership</a>
+            </ul>
+        </nav>
+        <nav>
+            <div class="fs-3 fw-medium">
+                <h4 class="d-flex align-items-center gap-3 m-0"><svg class="lucide lucide-image" fill=none height=20
+                        stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2
+                        viewBox="0 0 24 24" width=20 xmlns=http://www.w3.org/2000/svg>
+                        <rect height=18 rx=2 width=18 x=3 y=3 ry=2 />
+                        <circle cx=9 cy=9 r=2 />
+                        <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21" />
+                    </svg> See Women's Profiles</h4>
+            </div>
+            <ul class="list-group list-unstyled ps-3 shadow-none">
+                <li class="border-0 list-group-item"><a class=link-secondary href=/women/cartagena-women/cartagena-women.htm>Cartagena
+                        Ladies Profiles</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/women/colombian/colombian-women.htm>Colombian Women's Profiles</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/mp/latin-women.htm>All Latin
+                        Women Profiles</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/invar/contact/match_request.html>Weekly Auto Match Wizard</a>
+            </ul>
+        </nav>
+        <nav>
+            <div class="fs-3 fw-medium">
+                <h4 class="d-flex align-items-center gap-3 m-0"><svg class="lucide lucide-plane" fill=none height=20
+                        stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2
+                        viewBox="0 0 24 24" width=20 xmlns=http://www.w3.org/2000/svg>
+                        <path
+                            d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
+                    </svg> Book a Tour, Travel & Meet Her</h4>
+            </div>
+            <ul class="list-group list-unstyled ps-3 shadow-none">
+                <li class="border-0 list-group-item"><a class=link-secondary href=/women-tour/>Cartagena Women Tour</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html>Group Tours</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/latin_club/>Club Tours</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/order-form/introductions-order-form.html>One-on-One Introductions</a>
+            </ul>
+        </nav>
+        <nav>
+            <div class="fs-3 fw-medium">
+                <h4 class="d-flex align-items-center gap-3 m-0"><svg class="lucide lucide-wrench" fill=none height=20
+                        stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2
+                        viewBox="0 0 24 24" width=20 xmlns=http://www.w3.org/2000/svg>
+                        <path
+                            d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+                    </svg> Service Options We Offer</h4>
+            </div>
+            <ul class="list-group list-unstyled ps-3 shadow-none">
+                <li class="border-0 list-group-item"><a class=link-secondary href=/phone_translation/>Virtual Phone /
+                        Video Translation</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/execu/professional-matchmaker-plan.html>Executive Plan Package</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/gifts/>Gift Sending</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/order-form/imbra-order-form.html>IMBRA Request</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/fiancee-visa/>Fianceé Visa
+                        Kit</a>
+            </ul>
+        </nav>
+        <nav>
+            <div class="fs-3 fw-medium">
+                <h4 class="d-flex align-items-center gap-3 m-0"><svg class="lucide lucide-video" fill=none height=20
+                        stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2
+                        viewBox="0 0 24 24" width=20 xmlns=http://www.w3.org/2000/svg>
+                        <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path>
+                        <rect height=12 rx=2 width=14 x=2 y=6></rect>
+                    </svg> Media & Client Testimonials</h4>
+            </div>
+            <ul class="list-group list-unstyled ps-3 shadow-none">
+                <li class="border-0 list-group-item"><a class=link-secondary href=/cartagena-women-videos/>Tour
+                        Videos</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/cartagena-women-videos/testimonial/>Testimonial Videos</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary
+                        href=/cartagena-women-videos/informational/>Informational Videos</a>
+                <li class="border-0 list-group-item pt-0"><a class=link-secondary href=/blog/>Blogs</a>
+            </ul>
+        </nav>
+    </div>
+</aside>

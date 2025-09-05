@@ -1,0 +1,69 @@
+
+	<div class="container">
+		<div class="row site-body-holder">
+			<div class="col-lg-3">
+
+				<button class="sidebar-button">
+					Newest Cartagena Women
+				</button>
+				<button class="sidebar-button">
+					Search For Women
+				</button>
+
+				<ul class="list-group">
+					<a class="list-group-item  active">Find & Date Women of <br> Cartagena</a>
+					<a class="list-group-item">Men&#39;s FREE Registration</a>
+					<a class="list-group-item">Cartagena Women’s Profiles</a>
+					<a class="list-group-item">Newest Singles in Cartagena Women</a>
+					<a class="list-group-item">How Our Service Works</a>
+					<a class="list-group-item">Weekly Auto Match Wizard</a>
+					<a class="list-group-item">Best Cartagena Marriage Agency and Matchmaking Services</a>
+				</ul>
+
+				<ul class="list-group">
+					<a class="list-group-item  active">Actually Meet Cartagena Women</a>
+					<a class="list-group-item">Cartagena Singles Tours</a>
+					<a class="list-group-item">Cartagena Women Tour Schedule</a>
+					<a class="list-group-item">Individual Club Tours to Cartagena</a>				
+					<a class="list-group-item">Cartagena Tour Highlight Videos</a>
+					<a class="list-group-item">Cartagena Tour Photos</a>
+					<a class="list-group-item">Singles Tour FAQ&#39;s</a>
+					<a class="list-group-item">Win A Free Singles Tour</a>
+				</ul>
+
+				<ul class="list-group">
+					<a class="list-group-item  active">General Tips & Information</a>
+					<a class="list-group-item">How to Meet Women in Cartagena</a>
+					<a class="list-group-item">How To Use Our Service</a>
+					<a class="list-group-item">Cartagena Singles/a>				
+					<a class="list-group-item">About CarteganaWomen.com</a>
+					<a class="list-group-item">More on Single Cartagena Girls</a>
+					<a class="list-group-item">Contact Us</a>
+					<a class="list-group-item">Date Cartagena Women</a>
+<!-- 					<a class="list-group-item">Dating Latin Personals</a>
+					<a class="list-group-item">Marrying Younger Women</a>
+					<a class="list-group-item">About Latin Brides</a>
+					<a class="list-group-item">Questions to Ask a Latin  Girl</a> -->
+				</ul>
+
+<!-- 				<ul class="list-group">
+					<a class="list-group-item  active">Latin America&#39;s Women&#44; Culture & History</a>
+					<a class="list-group-item">Latin America&#58; Its History&#44; Culture and Tradition</a>
+					<a class="list-group-item">Latin America&#39;s Tourism</a>
+					<a class="list-group-item">Why Latin Personals?</a>				
+					<a class="list-group-item">Dating Culture in Latin America</a>
+					<a class="list-group-item">Marriage Culture in Latin America</a>
+					<a class="list-group-item">Helpful Itinerary Tips for Latin America</a>
+				</ul> -->
+			</div>
+
+			<div class="col-lg-9 site-main-content">
+				
+				<div class="latin-personals-news-background row">
+                    <div class="col-lg-12 latin-personals-news-holder">
+                        <img src="/dev/img/latin-personals-news-icon.png" alt="" class="pull-left">
+                        <p><!--#include virtual="/dev/ssi/news-top.shtml"--></p>
+                    </div>                        
+                </div>
+				
+			

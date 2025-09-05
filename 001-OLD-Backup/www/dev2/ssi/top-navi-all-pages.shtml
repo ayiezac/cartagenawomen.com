@@ -1,0 +1,54 @@
+<link href="/invar/ssi-common/framework.css" rel="stylesheet" type="text/css">
+        <script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+        <script src="/invar/ssi-common/jscript/framework.min.js"></script>
+
+        <link rel="stylesheet" TYPE="text/css" href="/dev/ssi/st_site.css">
+        <link rel="icon" href="/dev/favicon.ico">
+
+        <div class="container-fluid">
+            <div class="row header">
+                <div class="container top-header">
+                    <div class="col-lg-6 col-md-6 col-sm-6 logo">
+                        <a href="/dev/"><img src="/dev/img/cartagena-women-logo.png" alt="Chinese Brides" /></a>
+                    </div>
+
+                    <div class="col-lg-6 header-btns text-right">
+                      <button class="register-btn members-login" type="button" data-toggle="modal" data-target=".cartagena-women-modal">Members Login</span></button>
+                      <button class="register-btn" type="button" data-toggle="modal" data-target=".cartagena-women-modal">Register FREE Instantly<br><span>No Obligation - No Credit Card Required</span></button>
+                          </a>
+                    </div>
+<!--                     <div class="col-lg-6 col-md-6 col-sm-6">
+                      <button class="register-btn" type="button" data-toggle="modal" data-target=".latin-personal-modal">Register FREE Instantly<br><span>No Obligation - No Credit Card Required</span></button>
+                    </div>
+ -->
+                </div>
+            </div>
+
+
+
+            <div class="row navi-area">
+                <div class="container main-nav">
+                  <div class="row">
+                    <nav class="navbar navbar-default">
+                      <div>
+                        <div class="navbar-header" data-toggle="collapse" data-target="#bs-example-navbar-c ollapse-1">
+                        <button type="button" class="navbar-toggle collapsed navbar-toggle-center" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="navmenu">MENU</span>
+                        </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-nav-justified" id="bs-example-navbar-collapse-1">
+                          <ul class="nav nav-pills nav-justified">
+                            <li><a href="/dev/" target="_top">Home</a></li>
+                            <li><a href="" target="_top">Cartagena Women Profiles</a></li>
+                            <li><a href="" target="_top">Cartagena Women Singles Tours</a></li>
+                            <li><a href="/dev/how-to-meet-women-in-latin-america.html" target="_top">How to Meet Women in Cartagena</a></li>
+                            <li><a href="" target="_top">Newest Women&#39;s Profiles</a></li>
+                            <li><a href="" target="_top" class="nav-no-border">Win a Free Latin Tour</a></li>
+<!--                             <li><a href="" target="_top" class="nav-no-border">Login</a></li> -->
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+            </div>

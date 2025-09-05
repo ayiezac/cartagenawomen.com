@@ -1,0 +1,91 @@
+			</div>
+    	</div>
+	</div>
+ 
+<!-- sidebar ends -->
+
+
+<!-- footer -->
+	<div class="row site-footer">
+	  <div class="container">
+	    <div class="col-lg-12 row footer-info-holder">
+	      <div class="col-lg-3">
+	      	<img class="footer-logo" src="image/footer-logo.png" alt="cartagena women">
+	      </div>
+	      <div class="col-lg-6 footer-navigation">
+	      	  <p>Cartagena Women</p>
+	          <h2>Navigation</h2>
+	          <div class="col-md-6 mx-auto">
+	              <ul class="list-unstyled">
+	                  <li><a href="" target="_top"><span>&#187;</span>Home</a></li>
+	                  <li><a href="" target="_top"><span>&#187;</span>Cartagena Women Profile</a></li>
+	                  <li><a href="" target="_top"><span>&#187;</span>Cartagena Women Singles Tours</a></li>
+	                  <li><a href=""><span>&#187;</span>How to Meet Women in Cartagena</a></li>
+	              </ul>
+	          </div>
+	          <div class="col-md-6 mx-auto">
+	          	<ul class="list-unstyled">
+	                  <li><a href=""><span>&#187;</span>Newest Women&#8217;s Profiles</a></li>
+	                  <li><a href=""><span>&#187;</span>Win a Free Cartagena Tour</a></li>
+	                  <li><a href=""><span>&#187;</span>Privacy Policy</a></li>
+	                  <li><a href=""><span>&#187;</span>Terms & Conditions</a></li>
+	             </ul>
+	          </div> 
+	      </div>
+	      <div class="col-lg-3 footer-navigation">
+	      	<p>Contact</p>
+	      	<h2>Information</h2>
+				<img src="/invar/ssi-common/contact/left-align-contact-dark-background.png" class="img-responsive">
+	      </div>
+	    </div>
+	  </div> <!-- end of container site-footer -->
+
+	  <div class="container-fluid"> 
+	    <div class="container">
+	      <div class="col-md-6 copyright">
+	            <p>&#169; Copyright - All Rights Reserved&nbsp; &#8226; &nbsp;<a href="/">Cartagena Women</a></p>
+	      </div>
+	      <div class="col-md-6">
+	          <ul class="list-unstyled list-inline text-right">
+	              <li class="list-inline-item">
+	                  <a href=""><img src="/dev4/image/facebook.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a href=""><img src="/dev4/image/twitter.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a href=""><img src="/dev4/image/instagram.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a href=""><img src="/dev4/image/google_plus.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a href=""><img src="/dev4/image/yt.png" alt="social media"></a>
+	              </li>
+	          </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- footer ends -->
+
+
+<!-- index head ends -->
+
+<script src="jscripts/jquery.min.js"></script>
+<script src="jscripts/lity.js"></script>
+<script src="jscripts/masterslider.min.js"></script>
+<script src="jscripts/pagination.js"></script>
+<script src="jscripts/simple-lightbox.js"></script>
+<script src="jscripts/bootstrap.min.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

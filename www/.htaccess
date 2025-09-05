@@ -1,0 +1,138 @@
+ErrorDocument 404 /error-404.html
+
+# Canonical FORCE REDIRECT TO HTTPS/non-WWW
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+</IfModule>
+
+
+
+#START OF WEB CACHING
+<IfModule mod_expires.c>
+ExpiresActive On
+AddType application/vnd.ms-fontobject .eot
+AddType application/x-font-ttf .ttf
+AddType application/x-font-opentype .otf
+AddType application/x-font-woff .woff
+AddType image/svg+xml .svg
+ExpiresByType application/vnd.ms-fontobject "access 1 year"
+ExpiresByType application/x-font-ttf "access 1 year"
+ExpiresByType application/x-font-opentype "access 1 year"
+ExpiresByType application/x-font-woff "access 1 year"
+ExpiresByType image/svg+xml "access 1 year"
+ExpiresByType text/html "access 1 hour"
+ExpiresByType text/css "access 14 days"
+ExpiresByType text/x-javascript "access 3 weeks"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType image/gif "access 2 months"
+ExpiresByType image/png "access 2 months"
+ExpiresByType image/jpg "access 2 months"
+ExpiresByType image/jpeg "access 2 months"
+ExpiresByType image/gif "access 2 months"
+ExpiresByType application/pdf "access 1 year"
+ExpiresByType application/x-shockwave-flash "access 1 year"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
+</IfModule>
+#END OF WEB CACHING
+
+
+#START OF GZIP COMPRESSION
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE image/x-icon
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/x-font
+AddOutputFilterByType DEFLATE application/x-font-truetype
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/x-font-otf
+AddOutputFilterByType DEFLATE application/x-font-opentype
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/ttf
+AddOutputFilterByType DEFLATE font/otf
+AddOutputFilterByType DEFLATE font/opentype
+# For Olders Browsers Which Can't Handle Compression
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>
+#END OF GZIP COMPRESSIONErrorDocument 404 /error-404.html
+
+
+Redirect 301 /treelink.html /welcome/index.html
+
+
+#TOPIC CLUSTER Redirection
+
+#Dating
+Redirect 301 /blog/avoid-awkward-silence-when-dating-colombian-women.html /dating/avoid-awkward-silence-when-dating-colombian-women.html
+Redirect 301 /blog/be-the-perfect-lover-for-colombian-women.html /dating/be-the-perfect-lover-for-colombian-women.html
+Redirect 301 /blog/cartagena-women-values-needed-for-a-relationship-to-flourish.html /dating/cartagena-women-values-needed-for-a-relationship-to-flourish.html
+Redirect 301 /blog/conveying-value-to-colombian-women.html /dating/conveying-value-to-colombian-women.html
+Redirect 301 /blog/date-in-cartagena-colombia.html /dating/date-in-cartagena-colombia.html
+Redirect 301 /blog/dating-a-colombian-woman-for-valentines-what-to-expect.html /dating/dating-a-colombian-woman-for-valentines-what-to-expect.html
+Redirect 301 /blog/dating-advice-from-experts.html /dating/dating-advice-from-experts.html
+Redirect 301 /blog/dating-tips-etiquette.html /dating/dating-tips-etiquette.html
+Redirect 301 /blog/first-date-questions-colombian-women.html /dating/first-date-questions-colombian-women.html
+Redirect 301 /blog/five-romantic-gifts-for-your-colombian-girlfriend.html /dating/five-romantic-gifts-for-your-colombian-girlfriend.html
+Redirect 301 /blog/How-to-Engage-Cartagena-Women-Online.html /dating/How-to-Engage-Cartagena-Women-Online.html
+Redirect 301 /blog/how-to-win-the-heart-of-cartagena-women.html /dating/how-to-win-the-heart-of-cartagena-women.html
+Redirect 301 /blog/intimacy-with-latina-girlfriend.html /dating/intimacy-with-latina-girlfriend.html
+Redirect 301 /blog/latin-women-ideal-ways-to-spend-a-romantic-date.html /dating/latin-women-ideal-ways-to-spend-a-romantic-date.html
+Redirect 301 /blog/looking-for-love-after-divorce.html /dating/looking-for-love-after-divorce.html
+Redirect 301 /blog/men-colombian-women-avoid-dating.html /dating/men-colombian-women-avoid-dating.html
+Redirect 301 /blog/overcoming-approach-anxiety-dating-women-in-cartagena.html /dating/overcoming-approach-anxiety-dating-women-in-cartagena.html
+Redirect 301 /blog/qualities-colombian-women-desire-in-their-men.html /dating/qualities-colombian-women-desire-in-their-men.html
+Redirect 301 /blog/secrets-to-winning-cartagena-womens-hearts.html /dating/secrets-to-winning-cartagena-womens-hearts.html
+Redirect 301 /blog/signs-that-cartagena-women-like-you.html /dating/signs-that-cartagena-women-like-you.html
+Redirect 301 /blog/signs-to-look-for-when-dating-a-latina.html /dating/signs-to-look-for-when-dating-a-latina.html
+Redirect 301 /blog/start-online-dating-cartagena-colombia.html /dating/start-online-dating-cartagena-colombia.html
+Redirect 301 /blog/things-to-avoid-when-dating-cartagena-women.html /dating/things-to-avoid-when-dating-cartagena-women.html
+Redirect 301 /blog/tips-for-single-men-traveling-to-cartagena.html /dating/tips-for-single-men-traveling-to-cartagena.html
+Redirect 301 /blog/what-impresses-colombian-girls-on-first-dates.html /dating/what-impresses-colombian-girls-on-first-dates.html
+Redirect 301 /blog/what-type-of-gifts-colombian-women-love-to-receive.html /dating/what-type-of-gifts-colombian-women-love-to-receive.html
+
+
+#Culture
+Redirect 301 /blog/colombian-food-and-drinks.html /culture/colombian-food-and-drinks.html
+Redirect 301 /blog/Fun-Facts-About-Cartagena-Colombia.html /culture/Fun-Facts-About-Cartagena-Colombia.html
+Redirect 301 /blog/how-do-people-of-colombia-celebrate-the-holidays.html /culture/how-do-people-of-colombia-celebrate-the-holidays.html
+Redirect 301 /blog/local-foods-you-need-to-try-in-cartagena-colombia.html /culture/local-foods-you-need-to-try-in-cartagena-colombia.html
+Redirect 301 /blog/must-try-colombian-food.html /culture/must-try-colombian-food.html
+Redirect 301 /blog/What-Makes-Cartagena-Colombia-Such-an-Attractive-City.html /culture/What-Makes-Cartagena-Colombia-Such-an-Attractive-City.html
+
+
+#Travel
+Redirect 301 /blog/cartagena-colombia-travel-tips.html /travel/cartagena-colombia-travel-tips.html
+Redirect 301 /blog/cartagena-tourism-why-visit-cartagena.html /travel/cartagena-tourism-why-visit-cartagena.html
+Redirect 301 /blog/reasons-to-visit-cartagena-colombia.html /travel/reasons-to-visit-cartagena-colombia.html
+Redirect 301 /blog/The-Benefits-of-a-Beach-Vacation.html /travel/The-Benefits-of-a-Beach-Vacation.html
+Redirect 301 /blog/Things-to-do-in-Cartagena-Colombia.html /travel/Things-to-do-in-Cartagena-Colombia.html
+Redirect 301 /blog/unusual-attractions-in-cartagena.html /travel/unusual-attractions-in-cartagena.html
+Redirect 301 /blog/what-to-expect-when-exploring-cartagena.html /travel/what-to-expect-when-exploring-cartagena.html
+
+#Psychology
+Redirect 301 /blog/qualities-of-cartagena-women.html /psychology/qualities-of-cartagena-women.html
+Redirect 301 /blog/women-from-cartagena-prefer-foreign-men.html /psychology/women-from-cartagena-prefer-foreign-men.html
+
+#Our Process
+Redirect 301 /blog/benefits-of-latin-romance-tours.html /our-process/benefits-of-latin-romance-tours.html
+Redirect 301 /blog/join-latin-romance-tours.html /our-process/join-latin-romance-tours.html
+Redirect 301 /blog/matchmaking-services-find-colombian-bride.html /our-process/matchmaking-services-find-colombian-bride.html
+Redirect 301 /blog/Things-to-Remember-Before-Going-on-a-Colombian-Singles-Tour.html /our-process/Things-to-Remember-Before-Going-on-a-Colombian-Singles-Tour.html
+
+#Realities
+Redirect 301 /blog/picking-up-women-in-cartagena-bars.html /realities/picking-up-women-in-cartagena-bars.html

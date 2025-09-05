@@ -1,0 +1,94 @@
+<!-- BOTTOM CTAs -->
+<div id="bottom-cta-nav" class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 mx-0 px-0 d-md-flex d-block justify-content-start">
+                                 
+                <!-- Use any element to open the sidenav -->
+                <ul class="list-group list-group-horizontal shadow-none justify-content-evenly mt-2 ps-5">
+
+                <li class="list-group-item border-0 col-2 col-xl-6 d-flex d-xl-block ps-0 mt-2">
+                <a href="javascript:void(0)" onclick="openNav()" class="rounded-pill border text-dark fw-b2 nav-link border-none text-dark py-3 py-xl-2 my-2 px-4 my-sm-0 d-flex justify-content-center" style="border:none;border-bottom: #ced4da solid 1px;"><i class="fa-solid fa-bars"></i>&nbsp;&nbsp;MENU</a>
+                </li>
+                <a href="/" class="d-block" ><img style="display:block; width:280px; margin-top:20px" src="/img/cartagena-women-logo.png" border="0" alt="Logo" title="" /></a>
+                </ul>
+            
+                 
+            </div>
+            <div class="col-4">&nbsp;</div>
+            <div class="col-4 text-center">
+                <a target="_blank" href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html" style="position: absolute;height: 100px; width: 400px;z-index:10;">&nbsp;</a>
+                <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+                <!--#include virtual="/invar/ssi-common/tourforms/tour-date-timer/latin/colombia-timer.shtml" -->
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-4 mx-0 px-0 d-flex ">
+            
+            <ul class="list-group list-group-horizontal w-100 d-flex flex-wrap flex-xl-nowrap justify-content-evenly gap-2">
+
+                <li class="list-group-item border-0 px-0">
+                    <a  href="/" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-4 my-sm-0"><i class="fa-solid fa-house-user me-2"></i>Home</a>
+                </li>
+           
+            <li class="list-group-item border-0 px-0">
+                <a target="_blank" href="/cartagena-singles-tour-vacations/cartagena-singles-tour-schedule.html" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-4 my-sm-0"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp; Tour
+                Schedule</a>
+            </li>
+            <li class="list-group-item border-0 px-0">
+                <!-- <a href="#" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-3 my-sm-0"><i class="fa-solid fa-people-arrows"></i>&nbsp;&nbsp;Executive Plan</a> -->
+                <a target="_blank" href="/new-cartagena-women.html" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-3 my-sm-0"><i class="fa-brands fa-hotjar"></i>&nbsp;&nbsp;Newest Ladies Profiles</a>
+            </li>
+            </ul>
+
+        </div>
+        <div class="col-4 mx-0 px-0 d-flex justify-content-center">
+            
+            <ul class="list-group list-group-horizontal w-100">
+            <li class="list-group-item border-0 w-100">
+                <div class="rotator-girlss">
+                <!-- MasterSlider -->
+            
+            
+                <div id="P_masterslider" class="master-slider-parent ms-staff-carousel ms-parent-id-49">
+                    <!-- MasterSlider Main -->
+                    <div id="masterslider" class="master-slider ms-skin-default">
+            
+                   <!--#include virtual="/imagemap/cartagenawomen-rotator.php" -->
+            
+                    </div>
+                    <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider Main -->
+                </div>
+                <!-- END MasterSlider -->
+                
+            </li>
+            </ul>
+        </div>
+        <div class="col-4 mx-0 px-0 d-flex ">
+            <ul class="list-group list-group-horizontal w-100 d-flex flex-wrap flex-xl-nowrap justify-content-evenly gap-2">
+
+             <li class="list-group-item border-0 px-0">
+                <a target="_blank" href="/women/cartagena-women/cartagena-women.htm" class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-2 my-sm-0 "><i class="fa-solid fa-address-card"></i>&nbsp;&nbsp;All Ladies
+                    Profiles</a>
+            </li>
+            <li class="list-group-item border-0 px-0">
+                <a href="/members/login"  class="fw-b2 nav-link rounded-pill border text-dark py-2 my-2 px-2 my-sm-0" type="button">  <i class="fa-solid fa-right-to-bracket "></i>
+                &nbsp;&nbsp;Member's&nbsp; Login
+                </a>
+            </li>
+
+            <li class="list-group-item border-0 px-0">
+                <a href="#" id="top-cta" class="fw-b2 nav-link rounded-pill border text-white py-2 my-2 px-2 my-sm-0" type="button" data-toggle="modal" data-target=".cartagenawomen-modal">
+                    <i class="fa-solid fa-user-plus me-2"></i> Signup For Free
+                </a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+

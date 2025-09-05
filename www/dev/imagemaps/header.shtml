@@ -1,0 +1,39 @@
+<!--#include virtual="/imagemap/campaign-tracking.shtml" -->
+<!--#include virtual="/imagemap/top-navi-all-pages.shtml" -->
+
+<div class="container-fluid index-bg-common header-row">
+	<div class="container slide-focal headerimg">
+		<div class="col-lg-12 ">
+
+			<div class="container">
+			 <div class="img-zoom">
+			    <ul class="main-image-rotator cartagena-women-rotator text-center">
+			        <!--#include virtual="/imagemap/cartagenawomen-rotator.php" --> 
+			    </ul>
+			</div>
+			<div class="common-head-slogan">
+				<p>Meet, Date & Marry a Beautiful Cartagena Woman!</p>
+			</div>
+			</div>
+
+    	</div> 
+
+	</div>
+</div>
+
+<div class="col-lg-12">
+
+
+<!--#include virtual="/imagemap/sidebar-navi-all-pages.shtml" -->
+
+<div class="col-lg-9 site-content">
+
+
+	<div class="cartagenawomen-news-background row">
+        <div class="col-lg-12 latin-personals-news-holder">
+            <img src="/img/cartagenawomen-info-icon.png" alt="" class="info-icon pull-left">
+            <div class="pull-left">
+				<!--#include virtual="/imagemap/news-top.shtml" --> 
+			</div>
+        </div>                        
+    </div>

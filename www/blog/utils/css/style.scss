@@ -1,0 +1,148 @@
+$base-color: #414F10;
+div.midcontarea {
+  width: 100% !important;
+  max-width: 1170px !important;;
+}
+
+#readtime {
+  display: none;
+  content-visibility: hidden;
+}
+
+.mobile-inner-rotator {
+  @media (width < 991.98px) {
+    padding-top: unset !important;
+    padding-block: 10px !important;
+  }
+}
+
+[data-id="featured-container"] {
+  [data-id="highlight-featured"] {
+    .card {
+      .card-body {
+        a.card-title {
+          color: #4a0d05;
+        }
+      }
+    }
+  }
+}
+
+.cluster-title {
+  &::after {
+    display: block;
+    content: "";
+    height: 2px;
+    background-color: $base-color;
+    flex: 1;
+  }
+}
+
+.cta-link {
+  color: $base-color !important;
+  border: 0.2rem solid $base-color;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-radius: 50rem;
+  font-weight: 600 !important;
+  transition: all .2s ease;
+  text-wrap: balance;
+
+  &#cta-link-desktop{
+    @media (max-width: 1032px) {
+      display: none;
+    }
+  }
+  &#cta-link-mobile{
+    display: none;
+    @media (max-width: 1032px) {
+      display: block;
+    }
+  }
+
+  &:is(:hover, :focus) {
+    background-color: lighten($color: $base-color, $amount: 5%);
+    color: lighten($color: $base-color, $amount: 70%) !important;
+    border: lighten($color: $base-color, $amount: 70%) 0.2rem solid;
+    text-decoration: none;
+  }
+
+  &:focus {
+    text-decoration: none !important;
+  }
+
+
+}
+
+[data-id="dating-container"] {
+  .card-title {
+    text-wrap: balance;
+  }
+}
+
+:is([data-id="success_stories-container"], [data-id="travel-container"]) {
+  scroll-margin-block-start: 15rem;
+
+  @media (width < 991.98px) {
+    scroll-margin-block-start: 1.5rem;
+  }
+
+  @media (max-width: 1032px) {
+    [data-id="other-posts"] div:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    [data-id="other-posts"] div:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    [data-id="other-posts"] div:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    [data-id="other-posts"] div:nth-child(n + 3) {
+      display: none;
+    }
+  }
+}
+
+:is([data-id="culture-container"], [data-id="psychology-container"], [data-id="dating-container"], [data-id="realities-container"]) {
+  scroll-margin-block-start: 15rem;
+
+  @media (width < 991.98px) {
+    scroll-margin-block-start: 1.5rem;
+  }
+
+  img {
+    object-fit: cover;
+    aspect-ratio: 16/9;
+  }
+
+  .col:nth-child(n + 5) {
+    @media (width < 991.98px) {
+      display: none;
+    }
+  }
+
+  .col:nth-child(n + 4) {
+    @media (width < 767.98px) {
+      display: none;
+    }
+  }
+}
+
+#desktop-blog-nav-container {
+  menu {
+    @media only screen and (max-width: 576px) {
+      display: none;
+    }
+  }
+}

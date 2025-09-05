@@ -1,0 +1,54 @@
+            <link href="/invar/ssi-common/framework.css" rel="stylesheet" type="text/css">
+            <script src="/invar/ssi-common/jscript/jquery.min.js"></script>
+            <script src="/invar/ssi-common/jscript/framework.min.js"></script>        
+            <link rel="stylesheet" type="text/css" href="/dev3/ssi/st_site.css">
+
+            <!-- header -->
+              <div class="container-fluid">
+                  <div class="row header">
+                      <div class="container top-header">
+                          <div class="col-lg-6 col-md-6 col-sm-6 logo">
+                                  <a href="#"><img src="img/cartagena-women-logo.png" alt="sample" /></a>
+                          </div>
+
+                          <div class="col-lg-6 header-btns text-right">
+
+                                <button class="register-btn members-login" type="button" data-toggle="modal" data-target="#">Members Login</span></button>
+
+                                <button class="register-btn" type="button" data-toggle="modal" data-target="#">Register FREE Instantly<br><span>No Obligation - No Credit Card Required</span></button></a>
+                          </div>
+
+                      </div>
+                  </div>
+              </div>
+            <!-- header ends -->
+
+            <!-- Navigation Panel -->
+
+            <div class="row navpoint">
+                <div class="container main-nav">
+                  <div class="row">
+                    <nav class="navbar navbar-default">
+                      <div>
+                        <div class="navbar-header" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <button type="button" class="navbar-toggle collapsed navbar-toggle-center" data-toggle="collapse" aria-expanded="false">
+                        <span class="navmenu">&#xf0c9;</span>
+                        </button>
+                        </div>
+                        <div class="collapse navbar-collapse navbar-nav-justified" id="bs-example-navbar-collapse-1">
+                          <ul class="nav nav-rad nav-justified">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Cartagena Women Profile</a></li>
+                            <li><a href="#">Cartagena Women Singles Tours</a></li>
+                            <li><a href="#">How to Meet Women in Cartagena</a></li>
+                            <li><a href="#">Win a Free Cartagena Tour</a></li>
+                            <li><a href="#">Log In</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+            </div>
+
+  <!-- Navigation Panblackel Ends -->

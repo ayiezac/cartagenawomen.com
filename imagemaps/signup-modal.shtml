@@ -1,0 +1,42 @@
+<style>
+    .cartagenawomen-modal{
+        content-visibility: auto;
+    }
+</style>
+<!-- Button Modal Start -->
+<div class="modal cartagenawomen-modal" tabindex="-1" aria-labelledby="cartagenawomen-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content register-modal pt-3">
+            <div class="modal-header">
+                <a role="button" href="/members/login/" class="btn px-5 text-white fw-bold link-opacity-75-hover mb-0 rounded-pill btn-primary-color" id="btn_sign_up_modal">
+                    <i class="fa-solid fa-user-lock me-2"></i>
+                    Member's Login
+                </a>
+                <button aria-label="Close" data-bs-dismiss="modal" class="btn-close" type="button"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <!--#include virtual="/invar/ssi-common/why-register.shtml" -->
+                    </div>
+    
+                    <div class="col-lg-6">
+                        <!--#include virtual="/invar/ssi-common/form-register.shtml" -->
+                    </div>
+    
+                    <div class="col-lg-12 text-center register-custom">
+                        <h2>
+                            Is there any REAL reason to wait?<br />
+                            It's FREE, instant and without obligation to register NOW!
+                        </h2>
+    
+                        <h5>
+                            It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                        </h5>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

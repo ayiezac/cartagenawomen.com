@@ -1,0 +1,63 @@
+$base-color: #414f10;
+
+#verified-badge {
+    @media (max-width: 1024px) {
+        margin-top: 9rem;
+    }
+}
+
+#ffbg {
+    background-image: linear-gradient(to bottom, rgb(0 0 0 / 20%), rgb(64 79 10)), url(/img/Cartagena-Women-ffbg.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding-block: 1.5rem;
+
+    a {
+        &.btn-signup-free-modal {
+            background-color: #9FC328;
+        }
+    }
+}
+
+.embla {
+    overflow: hidden;
+    padding-inline: 1rem;
+    margin-top: 16rem;
+
+
+
+    @media(max-width: 1032px) {
+        margin-top: 15.4rem;
+    }
+
+    @media (max-width: 1024px) {
+        margin-top: 15rem;
+    }
+
+    .embla__container {
+        display: flex;
+        height: 8rem;
+
+        @media (max-width: 1032px) {
+            justify-content: space-evenly;
+        }
+
+        @media (max-width: 1024px) {
+            justify-content: space-between;
+        }
+
+        .embla__slide {
+            min-width: 0;
+
+            @media (max-width: 991.98px) {
+                flex: 0 0 12%;
+            }
+
+            @media (max-width: 576px) {
+                flex: 0 0 25%;
+            }
+        }
+    }
+}

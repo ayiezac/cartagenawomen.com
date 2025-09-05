@@ -1,0 +1,152 @@
+				<div style="clear:both;">
+					
+				</div>
+				<div class="cartagenawomen-news-background row">
+                    <div class="col-lg-12 latin-personals-news-holder">
+                        <img src="/img/cartagenawomen-info-icon.png" alt="" class="info-icon pull-left">
+                        <div class="pull-left">
+        					<!--#include virtual="/imagemap/news-bottom.shtml" -->  
+        				</div>
+                    </div>                        
+                </div>
+
+			</div>
+    	</div>
+	</div>
+ 
+<!-- sidebar ends --> 
+
+
+<!-- footer -->
+	<div class="row site-footer">
+	  <div class="container">
+	    <div class="col-lg-12 row footer-info-holder">
+	      <div class="col-lg-3 col-md-12 col-sm-12">
+	      	<a href="/"><img class="footer-logo" src="/img/footer-logo.png" alt="cartagena women"></a>
+	      </div>
+	      <div class="col-lg-6 col-md-12 col-sm-12 footer-navigation inside">
+	      	  <p>Cartagena Women</p>
+	          <h2>Navigation</h2>
+	          <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+	              <ul class="list-unstyled">
+	                  <li><a href="/" target="_top"><span>&#187;</span>Home</a></li>
+	                  <li><a href="/women/cartagena-women/cartagena-women.htm" target="_top"><span>&#187;</span>Cartagena Women Profile</a></li>
+	                  <li><a href="/women-tour/" target="_top"><span>&#187;</span>Cartagena Women Singles Tours</a></li>
+	                  <li><a href="/how-to-meet-women-in-cartagena.html"><span>&#187;</span>How to Meet Women in Cartagena</a></li>
+	              </ul>
+	              	<ul class="list-unstyled">
+	                  <li><a href="/new-cartagena-women.html"><span>&#187;</span>Newest Women&#8217;s Profiles</a></li>
+	                  <li><a href="/search-cartagenawomen-seeking-men/"><span>&#187;</span>Advanced Search</a></li>
+	                  <li><a href="/members/privacy"><span>&#187;</span>Privacy Policy</a></li>
+	                  <li><a href="/members/terms"><span>&#187;</span>Terms & Conditions</a></li>
+	             </ul>
+	          </div>
+	      </div>
+	      <div class="col-lg-3 col-md-12 col-sm-12 footer-navigation">
+	      	<p>Contact</p>
+	      	<h2>Information</h2>
+	      		<a href="/invar/sendmess/index.php">
+					<img src="/invar/ssi-common/contact/left-align-contact-dark-background.png" class="img-responsive" alt="contact us">
+				</a>
+	      </div>
+	    </div>
+	  </div> <!-- end of container site-footer -->
+
+	  <div class="container-fluid"> 
+	    <div class="container">
+	      <div class="col-md-6 copyright">
+	            <p>&#169; Copyright - All Rights Reserved&nbsp; &#8226; &nbsp;<a href="/">Cartagena Women</a></p>
+	      </div>
+	      <div class="col-md-6">
+	          <ul class="list-unstyled list-inline text-right icon">
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://www.facebook.com/cartagenawomen/"><img src="/img/facebook.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://twitter.com/CartagenaWomen1/"><img src="/img/twitter.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://www.instagram.com/officialcartagenawomen/"><img src="/img/instagram.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://www.youtube.com/channel/UCYaQ2RkRwB_3hgikuBKHJkA"><img src="/img/yt.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://www.linkedin.com/company/cartagenawomencom"><img src="/img/linkedin.png" alt="social media"></a>
+	              </li>
+	              <li class="list-inline-item">
+	                  <a target="_blank" href="https://www.tiktok.com/@cartagenawomencom?lang=en"><img src="/img/tiktok.png" alt="social media"></a>
+	              </li>
+	              <!-- <li class="list-inline-item">
+	                  <a target="_blank" href="https://co.pinterest.com/CartagenaWomenOfficial/_created/"><img src="/img/pinterest.png" alt="social media"></a>
+	              </li> -->
+	          </ul>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+<!-- footer ends -->
+
+
+<!-- index head ends -->
+
+     <!-- Button Modal Start -->
+     <div class="modal fade cartagenawomen-modal" tabindex="-1" role="dialog">
+           <div class="modal-dialog modal-lg" role="document">
+               <div class="modal-content register-modal">
+                   <div class="row register-body">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><img src="/img/cartagenawomen-modal-close.png" alt="close button"></span></button>
+                       <div class="col-lg-6">
+                           <!--#include virtual="/invar/ssi-common/why-register.shtml" --> 
+                       </div>
+
+                       <div class="col-lg-6">
+                          <!--#include virtual="/invar/ssi-common/form-register.shtml" -->  
+                       </div>
+
+                       <div class="col-lg-12 text-center register-custom">
+                         <h2>
+                           Is there any REAL reason to wait?<br/>
+                           It's FREE, instant and without obligation to register NOW!
+                         </h2>
+
+                         <h5>
+                           It’s the first step in possibly the most rewarding romantic adventure of your lifetime!
+                         </h5>
+                       </div>
+                   
+                   </div>
+               </div>
+           </div>
+       </div>
+   <!-- Button Modal End -->
+
+<script src="/jscripts/lity.js"></script>
+<script src="/jscripts/masterslider.min.js"></script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+  window.__lc = window.__lc || {};
+  window.__lc.license = 11402428;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+</script>
+<noscript>
+<a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->

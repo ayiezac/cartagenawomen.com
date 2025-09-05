@@ -1,0 +1,6 @@
+<!--#include virtual="/imagemap/components__profile-menu/assets-resource.shtml"  -->
+<header>
+  <!--#include virtual="/imagemap/components__profile-menu/desktop-nav.shtml"  -->
+  <!--#include virtual="/imagemap/components__profile-menu/mobile-nav.shtml"  -->
+</header>
+<!--#include virtual="/imagemap/components__profile-menu/show-hide-nav.shtml"  -->

@@ -1,0 +1,53 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-119953499-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-119953499-1');
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGXSCLM');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- START OF append querystring -->
+<script>
+  addEventListener("load", function(){ 
+   var queryString = window.location.search;
+   var justUrl = window.location.href.split('?')[0];
+   var links = document.getElementsByTagName("a");
+    
+   if(window.location.href.includes("welcome")){
+    document.getElementById("main-frame").src = document.getElementById("main-frame").src+queryString;
+    console.log(document.getElementById("main-frame").src+queryString);
+   }
+   
+   for(var i = 0; i < links.length; i++){
+    if(!links[i].href.includes("#")){
+     links[i].setAttribute("href",links[i].href+queryString);
+    }
+   }
+  });
+  </script>
+  <!-- END OF append querystring -->
+
+<!-- Bounce rate accuracy script -->
+<script type="text/javascript">
+
+    setTimeout(function(){  
+
+      setInterval(function(){ gtag('event', 'Open', {'event_category': 'TimeOnPage'}); }, 10000);
+
+      setInterval(function(){ if(!document.hidden) gtag('event', 'Visible', {'event_category': 'TimeOnPage'}); }, 10000);
+
+    }, 60000);
+
+</script>

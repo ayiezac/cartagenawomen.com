@@ -1,0 +1,46 @@
+<!--
+***********************************************
+PROFILE HORIZONTAL MENU
+Uses css from tour-menu. You do not need to style for color or background color.
+IMPORTANT
+Editing is allowed for this menu. Columns can be removed, and/or column text also.
+DO NOT REMOVE ROW OR TABLE ELEMENTS.
+
+***********************************************
+-->
+<table width="100%" height="35" border="0" ALIGN="CENTER" cellpadding="5" cellspacing="3">
+   <tr>
+			
+		<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap class="menu-bg-selected-not">
+         <a href="/" TARGET="_parent" class="menu-font-selected-not">Home</a> 
+      </td>
+			
+		<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap  class="menu-bg-selected-not">
+         <a href="/tour/cartagena/" TARGET="_parent" class="menu-font-selected-not">Cartagena Tours</a> 
+      </td>
+			
+		<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap   class="menu-bg-selected-not" >
+         <a href="/women/cartagena-women/cartagena-women.htm" TARGET="_parent" class="menu-font-selected-not">Cartagena Women Profiles</a> 
+      </td>
+
+      <td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap    class="menu-bg-selected-not">
+         <a href="/tour/photos/cartagena-women/cartagena-women.html" TARGET="_parent" class="menu-font-selected-not">Cartagena Tour Photos</a> 
+      </td>
+
+      
+			
+		<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap    class="menu-bg-selected-not">
+         <a href="/women/search.htm" TARGET="_parent" class="menu-font-selected-not">Search</a> 
+      </td>
+			
+		
+			
+	<!--	<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap    class="menu-bg-selected-not">
+         <a href="/information/winfreetour/" TARGET="_parent" class="menu-font-selected-not">Win</a> 
+      </td> -->
+			
+		<td width="12%" height="100%" align="CENTER" valign="MIDDLE" nowrap    class="menu-bg-selected-not">
+         <a href="/invar/services/auth.php?logout" TARGET="_parent" class="menu-font-selected-not">Member Login</a> 
+      </td>
+		</tr>
+	</table>

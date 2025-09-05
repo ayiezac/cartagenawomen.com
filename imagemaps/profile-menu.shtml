@@ -1,0 +1,151 @@
+<style>
+   .btn-primary-color {
+      background-color: #414f10;
+   }
+
+
+   @media (max-width: 992px) {
+
+      .women-section,
+      .update-profiles {
+         padding-inline: 0 !important;
+      }
+
+      .women-section {
+         display: flex !important;
+         flex-direction: column;
+      }
+
+      .update-profiles {
+         flex: calc(100% / 3) !important;
+      }
+   }
+
+   @media (max-width: 768px) {
+      .update-profiles {
+         flex: calc(100% / 3) !important;
+         order: unset !important;
+      }
+   }
+
+   @media (max-width: 576px) {
+      .update-profiles {
+         flex: calc(100% / 2) !important;
+      }
+   }
+</style>
+<!--#include virtual="/imagemap/header.shtml" -->
+
+<!------------------------floating components----------------------------------------------->
+<!-- Master Slider -->
+<script src="/imagemap/js/slider-js-css/masterslider.min.js"></script>
+<!-------------------------end floating components---------------------------------------------->
+<script>
+
+   $(document).ready(function () {
+      const $mobileDescriptionBtn = $('.mobile-description-btn');
+      const $womenContent = $('.women-content');
+      const $sidebar = $('.sidebar');
+      const $womensProfileEvents2 = $('.womens-profile-events2 center');
+      const $shareButtonDesktop = $('#share-button-desktop');
+
+      $mobileDescriptionBtn.removeAttr('data-toggle').attr('data-bs-toggle', 'collapse');
+      $shareButtonDesktop.removeAttr('data-toggle').attr('data-bs-toggle', 'dropdown');
+      $womenContent.addClass("col-md-8 col-sm-12");
+      $sidebar.addClass("col-md-4 col-sm-12");
+      $womensProfileEvents2.addClass("ratio ratio-16x9");
+   });
+</script>
+
+<script>
+   //////  START OF MASTER SLIDER  /////////
+   var masterslider = new MasterSlider();
+
+   // slider controls
+   masterslider.control('arrows', { autohide: false, overVideo: true });
+   // masterslider.control('slideinfo', { autohide: false, overVideo: true, dir: 'h', align: 'bottom', inset: false, margin: 10 });
+   // slider setup
+   masterslider.setup("masterslider", {
+      width: 80,
+      height: 120,
+      minHeight: 0,
+      space: 4,
+      start: 1,
+      grabCursor: false,
+      swipe: false,
+      mouse: false,
+      keyboard: false,
+      layout: "partialview",
+      wheel: true,
+      autoplay: false,
+      instantStartLayers: false,
+      loop: true,
+      shuffle: false,
+      preload: 5,
+      heightLimit: true,
+      autoHeight: true,
+      smoothHeight: true,
+      endPause: false,
+      overPause: true,
+      fillMode: "center",
+      centerControls: true,
+      startOnAppear: false,
+      layersMode: "center",
+      autofillTarget: "",
+      hideLayers: false,
+      fullscreenMargin: 0,
+      speed: 20,
+      dir: "h",
+      parallaxMode: 'swipe',
+      view: "basic",
+   });
+
+
+</script>
+<!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+   window.__lc = window.__lc || {};
+   window.__lc.license = 11402428;
+   (function () {
+      var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+      lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+   })();
+</script>
+<noscript>
+   <a href="https://www.livechatinc.com/chat-with/11402428/" rel="nofollow">Chat with us</a>,
+   powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a>
+</noscript>
+<!-- End of LiveChat code -->
+<script>
+   const currUrl = window.location.pathname;
+   const head = document.head;
+
+   if (currUrl === "/invar/search.new.php") {
+      const createAndAppendScript = (src) => {
+         const script = document.createElement('script');
+         script.src = src;
+         head.appendChild(script);
+      };
+
+      createAndAppendScript('/invar/ssi-common/jscript/jquery.min.js');
+      createAndAppendScript('/invar/ssi-common/jscript/framework.min.js');
+   }
+</script>
+
+<!--#include virtual="/imagemap/sidebar-navi-all-pages.shtml"  -->
+<!--#include virtual="/imagemap/home-search-modal.shtml"  -->
+<!--#include virtual="/imagemap/signup-modal.shtml"  -->
+<!-- Upcoming Tour Sched -->
+
+<!--#include virtual="/invar/ssi-common/profile-banners/profile-page-upcoming-tour-sched-ssi.shtml" -->
+
+<!-- End upcoming tour sched -->
+<script type="module" src="/imagemap/js/toggle-mega-menu.min.js"></script>
+<script type="module" src="/imagemap/js/togglesidebarmenu.min.js"></script>
+<script type="module" src="/imagemap/js/toggle-mega-menu-for-show-hide-nav.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+   </script>
+<script src="/imagemap/js/instant-page.min.js"></script>
+<script src="/imagemap/js/updateSelectEthnicityRegion.min.js"></script>

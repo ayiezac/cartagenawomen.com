@@ -1,0 +1,81 @@
+<p data-id="page_indicator" class="fs-4 mb-3 text-body-tertiary fw-semibold"></p>
+<section id="card_archive_container" class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 gx-4 gy-5">
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+    <div class="col archive_skeleton_placeholder">
+        <div class="card h-100 border-0">
+            <div class="skeletonPlaceholder">
+                <img src="data:image/svg+xml;base64,PHN2ZyBjbGFzcz0iYmQtcGxhY2Vob2xkZXItaW1nIGNhcmQtaW1nLXRvcCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHJvbGU9ImltZyIgYXJpYS1sYWJlbD0iUGxhY2Vob2xkZXIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIiBmb2N1c2FibGU9ImZhbHNlIj48dGl0bGU+UGxhY2Vob2xkZXI8L3RpdGxlPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiNFOUVDRUYiPjwvcmVjdD48L3N2Zz4="
+                    class="card-img-top rounded-5" alt="" width="375" height="211" decoding="async">
+            </div>
+            <div class="card-body d-grid gap-3 placeholder-glow">
+                <span class="placeholder col-6 rounded-pill"></span>
+                <span class="placeholder w-75 rounded-pill"></span>
+                <span class="placeholder rounded-pill w-25"></span>
+            </div>
+        </div>
+    </div>
+</section>

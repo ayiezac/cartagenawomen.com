@@ -1,0 +1,40 @@
+<!--#include virtual="/dev4/ssi/top-navi-all-pages.shtml" -->
+
+<!-- <div class="row index-bg">
+	<div class="container slide-focal">
+		<div class="col-lg-6 slogan-main">
+	        <div class="slogan left">
+	            <strong>Meet and Date Single Women</strong>
+	        </div>
+	        <div class="actionbut">
+	        	<button class="buttext">REGISTER FOR FREE!<br> <span> No Obligation - No CC Required </span></button>
+	        	<button class="buttext">MEMBERS LOGIN<br><span><br></span></button>
+	        </div>
+
+    	</div>
+
+
+	</div>
+</div> -->
+
+<div class="row index-bg">
+	<div class="container slide-focal headerimg">
+		<div class="col-lg-12 ">
+
+			<div class="container">
+			 <div class="img-zoom">
+			    <ul class="main-image-rotator text-center">
+			        <!--#include virtual="/dev4/ssi/cartagenawomen-rotator.php" --> 
+			    </ul>
+			</div>
+			</div>
+
+    	</div> 
+
+	</div>
+</div>
+
+<div class="col-lg-12">
+
+
+<!--#include virtual="/dev4/ssi/sidebar-navi-all-pages.shtml" -->
