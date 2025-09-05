@@ -9,7 +9,7 @@ export default antfu({
     semi: true,
     quotes: "double",
   },
-  ignore: [".pnpm-store/*"],
+  ignore: [".github/*"],
 }, {
   rules: {
     "ts/no-redeclare": "off",
